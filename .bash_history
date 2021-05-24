@@ -762,3 +762,38 @@ mkdir code
 mv *.cpp *.out *.py code
 ls
 java
+cd
+ls
+java
+hadoop
+clear
+git add .
+git commit -m "NEW"
+git add .
+git commit -m "NEW"
+git push origin master
+git remote https://github.com/AB-IN-lsy/NewUbantu.git
+git remote add origin https://github.com/AB-IN-lsy/NewUbantu.git
+git init
+git remote add origin https://github.com/AB-IN-lsy/NewUbantu.git
+git add .
+ls
+cd
+git init
+git remote add origin https://github.com/AB-IN-lsy/NewUbantu.git
+git add .
+git commit -m "NEW"
+rm .git
+rm -r .git
+ls
+git init
+git add .
+git commit -m "NEW"
+git remote add origin https://github.com/AB-IN-lsy/NewUbantu.git
+git push origin master
+ls
+cd code
+ls
+vim 5.11.cpp
+cd
+clear

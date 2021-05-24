@@ -82,8 +82,8 @@ fi
 alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
-alias runc='./autorunc.sh'
-alias runpy='./autorunpy.sh'
+alias runc='autorunc.sh'
+alias runpy='autorunpy.sh'
 # Alias definitions.
 # You may want to put all your additions into a separate file like
 # ~/.bash_aliases, instead of adding them here directly.
@@ -99,3 +99,5 @@ fi
 #if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
 #    . /etc/bash_completion
 #fi
+
+export PATH=$PATH:~/bin

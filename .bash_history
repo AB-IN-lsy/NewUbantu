@@ -1005,3 +1005,13 @@ apt upgrade
 apt install sysv-rc-conf
 cd
 ls
+cd code
+ls
+vim 5.13.cpp 
+cd
+ls
+git add .
+git commit -m "N"
+git push origin master
+git pull origin master --allow-unrelated-histories
+cd

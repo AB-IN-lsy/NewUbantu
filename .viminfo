@@ -18,7 +18,9 @@ $
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1621912152,,"wq"
+|2,0,1621917423,,"wq"
+:q!
+|2,0,1621917216,,"q!"
 :q
 |2,0,1621911236,,"q"
 :Wq
@@ -170,40 +172,174 @@ $
 |3,0,36,0,1,0,1621168295,"\"\")"
 
 # File marks:
-'0  40  259  ~/code/5.13.cpp
-|4,48,40,259,1621912152,"~/code/5.13.cpp"
-'1  11  24  /etc/apt/sources.list
-|4,49,11,24,1621911300,"/etc/apt/sources.list"
-'2  1  0  /etc/apt/sources.list
-|4,50,1,0,1621911261,"/etc/apt/sources.list"
-'3  1  0  /etc/apt/sources.list
-|4,51,1,0,1621911261,"/etc/apt/sources.list"
-'4  1  0  /etc/apt/.sources.list.swp
-|4,52,1,0,1621911236,"/etc/apt/.sources.list.swp"
+'0  1  0  ~/code/test.cpp
+|4,48,1,0,1621917423,"~/code/test.cpp"
+'1  1  0  ~/code/b.cpp
+|4,49,1,0,1621917411,"~/code/b.cpp"
+'2  51  0  ~/code/LCS.cpp
+|4,50,51,0,1621917216,"~/code/LCS.cpp"
+'3  40  259  ~/code/5.13.cpp
+|4,51,40,259,1621912152,"~/code/5.13.cpp"
+'4  11  24  /etc/apt/sources.list
+|4,52,11,24,1621911300,"/etc/apt/sources.list"
 '5  1  0  /etc/apt/sources.list
-|4,53,1,0,1621911227,"/etc/apt/sources.list"
+|4,53,1,0,1621911261,"/etc/apt/sources.list"
 '6  1  0  /etc/apt/sources.list
-|4,54,1,0,1621911227,"/etc/apt/sources.list"
-'7  13  0  /etc/apt/sources.list
-|4,55,13,0,1621909335,"/etc/apt/sources.list"
-'8  13  0  /etc/apt/sources.list
-|4,56,13,0,1621909335,"/etc/apt/sources.list"
-'9  13  0  /etc/apt/sources.list
-|4,57,13,0,1621909335,"/etc/apt/sources.list"
+|4,54,1,0,1621911261,"/etc/apt/sources.list"
+'7  1  0  /etc/apt/.sources.list.swp
+|4,55,1,0,1621911236,"/etc/apt/.sources.list.swp"
+'8  1  0  /etc/apt/sources.list
+|4,56,1,0,1621911227,"/etc/apt/sources.list"
+'9  1  0  /etc/apt/sources.list
+|4,57,1,0,1621911227,"/etc/apt/sources.list"
 
 # Jumplist (newest first):
+-'  1  0  ~/code/test.cpp
+|4,39,1,0,1621917423,"~/code/test.cpp"
+-'  1  0  ~/code/b.cpp
+|4,39,1,0,1621917411,"~/code/b.cpp"
+-'  1  0  ~/code/b.cpp
+|4,39,1,0,1621917411,"~/code/b.cpp"
+-'  51  0  ~/code/LCS.cpp
+|4,39,51,0,1621917216,"~/code/LCS.cpp"
+-'  51  0  ~/code/LCS.cpp
+|4,39,51,0,1621917216,"~/code/LCS.cpp"
+-'  51  0  ~/code/LCS.cpp
+|4,39,51,0,1621917216,"~/code/LCS.cpp"
+-'  51  0  ~/code/LCS.cpp
+|4,39,51,0,1621917216,"~/code/LCS.cpp"
+-'  1  0  ~/code/LCS.cpp
+|4,39,1,0,1621917052,"~/code/LCS.cpp"
+-'  1  0  ~/code/LCS.cpp
+|4,39,1,0,1621917052,"~/code/LCS.cpp"
+-'  1  0  ~/code/LCS.cpp
+|4,39,1,0,1621917052,"~/code/LCS.cpp"
+-'  1  0  ~/code/LCS.cpp
+|4,39,1,0,1621917052,"~/code/LCS.cpp"
 -'  40  259  ~/code/5.13.cpp
 |4,39,40,259,1621912152,"~/code/5.13.cpp"
+-'  40  259  ~/code/5.13.cpp
+|4,39,40,259,1621912152,"~/code/5.13.cpp"
+-'  40  259  ~/code/5.13.cpp
+|4,39,40,259,1621912152,"~/code/5.13.cpp"
+-'  40  259  ~/code/5.13.cpp
+|4,39,40,259,1621912152,"~/code/5.13.cpp"
+-'  40  259  ~/code/5.13.cpp
+|4,39,40,259,1621912152,"~/code/5.13.cpp"
+-'  40  259  ~/code/5.13.cpp
+|4,39,40,259,1621912152,"~/code/5.13.cpp"
+-'  40  259  ~/code/5.13.cpp
+|4,39,40,259,1621912152,"~/code/5.13.cpp"
+-'  40  259  ~/code/5.13.cpp
+|4,39,40,259,1621912152,"~/code/5.13.cpp"
+-'  1  0  ~/code/5.13.cpp
+|4,39,1,0,1621912081,"~/code/5.13.cpp"
+-'  1  0  ~/code/5.13.cpp
+|4,39,1,0,1621912081,"~/code/5.13.cpp"
+-'  1  0  ~/code/5.13.cpp
+|4,39,1,0,1621912081,"~/code/5.13.cpp"
+-'  1  0  ~/code/5.13.cpp
+|4,39,1,0,1621912081,"~/code/5.13.cpp"
+-'  1  0  ~/code/5.13.cpp
+|4,39,1,0,1621912081,"~/code/5.13.cpp"
+-'  1  0  ~/code/5.13.cpp
+|4,39,1,0,1621912081,"~/code/5.13.cpp"
+-'  1  0  ~/code/5.13.cpp
+|4,39,1,0,1621912081,"~/code/5.13.cpp"
 -'  1  0  ~/code/5.13.cpp
 |4,39,1,0,1621912081,"~/code/5.13.cpp"
 -'  11  24  /etc/apt/sources.list
 |4,39,11,24,1621911300,"/etc/apt/sources.list"
 -'  11  24  /etc/apt/sources.list
 |4,39,11,24,1621911300,"/etc/apt/sources.list"
+-'  11  24  /etc/apt/sources.list
+|4,39,11,24,1621911300,"/etc/apt/sources.list"
+-'  11  24  /etc/apt/sources.list
+|4,39,11,24,1621911300,"/etc/apt/sources.list"
+-'  11  24  /etc/apt/sources.list
+|4,39,11,24,1621911300,"/etc/apt/sources.list"
+-'  11  24  /etc/apt/sources.list
+|4,39,11,24,1621911300,"/etc/apt/sources.list"
+-'  11  24  /etc/apt/sources.list
+|4,39,11,24,1621911300,"/etc/apt/sources.list"
+-'  11  24  /etc/apt/sources.list
+|4,39,11,24,1621911300,"/etc/apt/sources.list"
+-'  11  24  /etc/apt/sources.list
+|4,39,11,24,1621911300,"/etc/apt/sources.list"
+-'  11  24  /etc/apt/sources.list
+|4,39,11,24,1621911300,"/etc/apt/sources.list"
+-'  11  24  /etc/apt/sources.list
+|4,39,11,24,1621911300,"/etc/apt/sources.list"
+-'  11  24  /etc/apt/sources.list
+|4,39,11,24,1621911300,"/etc/apt/sources.list"
+-'  11  24  /etc/apt/sources.list
+|4,39,11,24,1621911300,"/etc/apt/sources.list"
+-'  11  24  /etc/apt/sources.list
+|4,39,11,24,1621911300,"/etc/apt/sources.list"
+-'  11  24  /etc/apt/sources.list
+|4,39,11,24,1621911300,"/etc/apt/sources.list"
+-'  11  24  /etc/apt/sources.list
+|4,39,11,24,1621911300,"/etc/apt/sources.list"
 -'  1  0  /etc/apt/sources.list
 |4,39,1,0,1621911276,"/etc/apt/sources.list"
 -'  1  0  /etc/apt/sources.list
 |4,39,1,0,1621911276,"/etc/apt/sources.list"
+-'  1  0  /etc/apt/sources.list
+|4,39,1,0,1621911276,"/etc/apt/sources.list"
+-'  1  0  /etc/apt/sources.list
+|4,39,1,0,1621911276,"/etc/apt/sources.list"
+-'  1  0  /etc/apt/sources.list
+|4,39,1,0,1621911276,"/etc/apt/sources.list"
+-'  1  0  /etc/apt/sources.list
+|4,39,1,0,1621911276,"/etc/apt/sources.list"
+-'  1  0  /etc/apt/sources.list
+|4,39,1,0,1621911276,"/etc/apt/sources.list"
+-'  1  0  /etc/apt/sources.list
+|4,39,1,0,1621911276,"/etc/apt/sources.list"
+-'  1  0  /etc/apt/sources.list
+|4,39,1,0,1621911276,"/etc/apt/sources.list"
+-'  1  0  /etc/apt/sources.list
+|4,39,1,0,1621911276,"/etc/apt/sources.list"
+-'  1  0  /etc/apt/sources.list
+|4,39,1,0,1621911276,"/etc/apt/sources.list"
+-'  1  0  /etc/apt/sources.list
+|4,39,1,0,1621911276,"/etc/apt/sources.list"
+-'  1  0  /etc/apt/sources.list
+|4,39,1,0,1621911276,"/etc/apt/sources.list"
+-'  1  0  /etc/apt/sources.list
+|4,39,1,0,1621911276,"/etc/apt/sources.list"
+-'  1  0  /etc/apt/sources.list
+|4,39,1,0,1621911276,"/etc/apt/sources.list"
+-'  1  0  /etc/apt/sources.list
+|4,39,1,0,1621911276,"/etc/apt/sources.list"
+-'  1  0  /etc/apt/sources.list
+|4,39,1,0,1621911261,"/etc/apt/sources.list"
+-'  1  0  /etc/apt/sources.list
+|4,39,1,0,1621911261,"/etc/apt/sources.list"
+-'  1  0  /etc/apt/sources.list
+|4,39,1,0,1621911261,"/etc/apt/sources.list"
+-'  1  0  /etc/apt/sources.list
+|4,39,1,0,1621911261,"/etc/apt/sources.list"
+-'  1  0  /etc/apt/sources.list
+|4,39,1,0,1621911261,"/etc/apt/sources.list"
+-'  1  0  /etc/apt/sources.list
+|4,39,1,0,1621911261,"/etc/apt/sources.list"
+-'  1  0  /etc/apt/sources.list
+|4,39,1,0,1621911261,"/etc/apt/sources.list"
+-'  1  0  /etc/apt/sources.list
+|4,39,1,0,1621911261,"/etc/apt/sources.list"
+-'  1  0  /etc/apt/sources.list
+|4,39,1,0,1621911261,"/etc/apt/sources.list"
+-'  1  0  /etc/apt/sources.list
+|4,39,1,0,1621911261,"/etc/apt/sources.list"
+-'  1  0  /etc/apt/sources.list
+|4,39,1,0,1621911261,"/etc/apt/sources.list"
+-'  1  0  /etc/apt/sources.list
+|4,39,1,0,1621911261,"/etc/apt/sources.list"
+-'  1  0  /etc/apt/sources.list
+|4,39,1,0,1621911261,"/etc/apt/sources.list"
+-'  1  0  /etc/apt/sources.list
+|4,39,1,0,1621911261,"/etc/apt/sources.list"
 -'  1  0  /etc/apt/sources.list
 |4,39,1,0,1621911261,"/etc/apt/sources.list"
 -'  1  0  /etc/apt/sources.list
@@ -224,176 +360,54 @@ $
 |4,39,1,0,1621911236,"/etc/apt/.sources.list.swp"
 -'  1  0  /etc/apt/.sources.list.swp
 |4,39,1,0,1621911236,"/etc/apt/.sources.list.swp"
--'  1  0  /etc/apt/sources.list
-|4,39,1,0,1621911227,"/etc/apt/sources.list"
--'  1  0  /etc/apt/sources.list
-|4,39,1,0,1621911227,"/etc/apt/sources.list"
--'  1  0  /etc/apt/sources.list
-|4,39,1,0,1621911227,"/etc/apt/sources.list"
--'  1  0  /etc/apt/sources.list
-|4,39,1,0,1621911227,"/etc/apt/sources.list"
--'  13  0  /etc/apt/sources.list
-|4,39,13,0,1621909335,"/etc/apt/sources.list"
--'  13  0  /etc/apt/sources.list
-|4,39,13,0,1621909335,"/etc/apt/sources.list"
--'  13  0  /etc/apt/sources.list
-|4,39,13,0,1621909335,"/etc/apt/sources.list"
--'  13  0  /etc/apt/sources.list
-|4,39,13,0,1621909335,"/etc/apt/sources.list"
--'  13  0  /etc/apt/sources.list
-|4,39,13,0,1621909335,"/etc/apt/sources.list"
--'  13  0  /etc/apt/sources.list
-|4,39,13,0,1621909335,"/etc/apt/sources.list"
--'  13  0  /etc/apt/sources.list
-|4,39,13,0,1621909335,"/etc/apt/sources.list"
--'  13  0  /etc/apt/sources.list
-|4,39,13,0,1621909335,"/etc/apt/sources.list"
--'  13  0  /etc/apt/sources.list
-|4,39,13,0,1621909335,"/etc/apt/sources.list"
--'  13  0  /etc/apt/sources.list
-|4,39,13,0,1621909335,"/etc/apt/sources.list"
--'  13  0  /etc/apt/sources.list
-|4,39,13,0,1621909335,"/etc/apt/sources.list"
--'  13  0  /etc/apt/sources.list
-|4,39,13,0,1621909335,"/etc/apt/sources.list"
--'  1  0  /etc/apt/sources.list
-|4,39,1,0,1621909312,"/etc/apt/sources.list"
--'  1  0  /etc/apt/sources.list
-|4,39,1,0,1621909312,"/etc/apt/sources.list"
--'  1  0  /etc/apt/sources.list
-|4,39,1,0,1621909312,"/etc/apt/sources.list"
--'  1  0  /etc/apt/sources.list
-|4,39,1,0,1621909312,"/etc/apt/sources.list"
--'  3  24  /etc/profile.d/rds_start.sh
-|4,39,3,24,1621909117,"/etc/profile.d/rds_start.sh"
--'  3  24  /etc/profile.d/rds_start.sh
-|4,39,3,24,1621909117,"/etc/profile.d/rds_start.sh"
--'  3  24  /etc/profile.d/rds_start.sh
-|4,39,3,24,1621909117,"/etc/profile.d/rds_start.sh"
--'  3  24  /etc/profile.d/rds_start.sh
-|4,39,3,24,1621909117,"/etc/profile.d/rds_start.sh"
--'  3  24  /etc/profile.d/rds_start.sh
-|4,39,3,24,1621909117,"/etc/profile.d/rds_start.sh"
--'  3  24  /etc/profile.d/rds_start.sh
-|4,39,3,24,1621909117,"/etc/profile.d/rds_start.sh"
--'  3  24  /etc/profile.d/rds_start.sh
-|4,39,3,24,1621909117,"/etc/profile.d/rds_start.sh"
--'  3  24  /etc/profile.d/rds_start.sh
-|4,39,3,24,1621909117,"/etc/profile.d/rds_start.sh"
--'  3  24  /etc/profile.d/rds_start.sh
-|4,39,3,24,1621909117,"/etc/profile.d/rds_start.sh"
--'  3  24  /etc/profile.d/rds_start.sh
-|4,39,3,24,1621909117,"/etc/profile.d/rds_start.sh"
--'  3  24  /etc/profile.d/rds_start.sh
-|4,39,3,24,1621909117,"/etc/profile.d/rds_start.sh"
--'  3  24  /etc/profile.d/rds_start.sh
-|4,39,3,24,1621909117,"/etc/profile.d/rds_start.sh"
--'  3  24  /etc/profile.d/rds_start.sh
-|4,39,3,24,1621909117,"/etc/profile.d/rds_start.sh"
--'  3  24  /etc/profile.d/rds_start.sh
-|4,39,3,24,1621909117,"/etc/profile.d/rds_start.sh"
--'  3  24  /etc/profile.d/rds_start.sh
-|4,39,3,24,1621909117,"/etc/profile.d/rds_start.sh"
--'  3  24  /etc/profile.d/rds_start.sh
-|4,39,3,24,1621909117,"/etc/profile.d/rds_start.sh"
--'  3  24  /etc/profile.d/rds_start.sh
-|4,39,3,24,1621909117,"/etc/profile.d/rds_start.sh"
--'  3  24  /etc/profile.d/rds_start.sh
-|4,39,3,24,1621909117,"/etc/profile.d/rds_start.sh"
--'  3  24  /etc/profile.d/rds_start.sh
-|4,39,3,24,1621909117,"/etc/profile.d/rds_start.sh"
--'  3  24  /etc/profile.d/rds_start.sh
-|4,39,3,24,1621909117,"/etc/profile.d/rds_start.sh"
--'  3  24  /etc/profile.d/rds_start.sh
-|4,39,3,24,1621909117,"/etc/profile.d/rds_start.sh"
--'  3  24  /etc/profile.d/rds_start.sh
-|4,39,3,24,1621909117,"/etc/profile.d/rds_start.sh"
--'  3  24  /etc/profile.d/rds_start.sh
-|4,39,3,24,1621909117,"/etc/profile.d/rds_start.sh"
--'  3  24  /etc/profile.d/rds_start.sh
-|4,39,3,24,1621909117,"/etc/profile.d/rds_start.sh"
--'  3  24  /etc/profile.d/rds_start.sh
-|4,39,3,24,1621909117,"/etc/profile.d/rds_start.sh"
--'  3  24  /etc/profile.d/rds_start.sh
-|4,39,3,24,1621909117,"/etc/profile.d/rds_start.sh"
--'  3  24  /etc/profile.d/rds_start.sh
-|4,39,3,24,1621909117,"/etc/profile.d/rds_start.sh"
--'  3  24  /etc/profile.d/rds_start.sh
-|4,39,3,24,1621909117,"/etc/profile.d/rds_start.sh"
--'  3  24  /etc/profile.d/rds_start.sh
-|4,39,3,24,1621909117,"/etc/profile.d/rds_start.sh"
--'  3  24  /etc/profile.d/rds_start.sh
-|4,39,3,24,1621909117,"/etc/profile.d/rds_start.sh"
--'  3  24  /etc/profile.d/rds_start.sh
-|4,39,3,24,1621909117,"/etc/profile.d/rds_start.sh"
--'  3  24  /etc/profile.d/rds_start.sh
-|4,39,3,24,1621909117,"/etc/profile.d/rds_start.sh"
--'  3  24  /etc/profile.d/rds_start.sh
-|4,39,3,24,1621909117,"/etc/profile.d/rds_start.sh"
--'  3  24  /etc/profile.d/rds_start.sh
-|4,39,3,24,1621909117,"/etc/profile.d/rds_start.sh"
--'  3  24  /etc/profile.d/rds_start.sh
-|4,39,3,24,1621909117,"/etc/profile.d/rds_start.sh"
--'  3  24  /etc/profile.d/rds_start.sh
-|4,39,3,24,1621909117,"/etc/profile.d/rds_start.sh"
--'  3  24  /etc/profile.d/rds_start.sh
-|4,39,3,24,1621909117,"/etc/profile.d/rds_start.sh"
--'  3  24  /etc/profile.d/rds_start.sh
-|4,39,3,24,1621909117,"/etc/profile.d/rds_start.sh"
--'  3  24  /etc/profile.d/rds_start.sh
-|4,39,3,24,1621909117,"/etc/profile.d/rds_start.sh"
--'  3  24  /etc/profile.d/rds_start.sh
-|4,39,3,24,1621909117,"/etc/profile.d/rds_start.sh"
--'  3  24  /etc/profile.d/rds_start.sh
-|4,39,3,24,1621909117,"/etc/profile.d/rds_start.sh"
--'  3  24  /etc/profile.d/rds_start.sh
-|4,39,3,24,1621909117,"/etc/profile.d/rds_start.sh"
--'  3  24  /etc/profile.d/rds_start.sh
-|4,39,3,24,1621909117,"/etc/profile.d/rds_start.sh"
--'  3  24  /etc/profile.d/rds_start.sh
-|4,39,3,24,1621909117,"/etc/profile.d/rds_start.sh"
--'  3  24  /etc/profile.d/rds_start.sh
-|4,39,3,24,1621909117,"/etc/profile.d/rds_start.sh"
--'  3  24  /etc/profile.d/rds_start.sh
-|4,39,3,24,1621909117,"/etc/profile.d/rds_start.sh"
--'  3  24  /etc/profile.d/rds_start.sh
-|4,39,3,24,1621909117,"/etc/profile.d/rds_start.sh"
--'  3  24  /etc/profile.d/rds_start.sh
-|4,39,3,24,1621909117,"/etc/profile.d/rds_start.sh"
--'  3  24  /etc/profile.d/rds_start.sh
-|4,39,3,24,1621909117,"/etc/profile.d/rds_start.sh"
--'  3  24  /etc/profile.d/rds_start.sh
-|4,39,3,24,1621909117,"/etc/profile.d/rds_start.sh"
--'  3  24  /etc/profile.d/rds_start.sh
-|4,39,3,24,1621909117,"/etc/profile.d/rds_start.sh"
--'  3  24  /etc/profile.d/rds_start.sh
-|4,39,3,24,1621909117,"/etc/profile.d/rds_start.sh"
--'  3  24  /etc/profile.d/rds_start.sh
-|4,39,3,24,1621909117,"/etc/profile.d/rds_start.sh"
--'  3  24  /etc/profile.d/rds_start.sh
-|4,39,3,24,1621909117,"/etc/profile.d/rds_start.sh"
--'  3  24  /etc/profile.d/rds_start.sh
-|4,39,3,24,1621909117,"/etc/profile.d/rds_start.sh"
--'  3  24  /etc/profile.d/rds_start.sh
-|4,39,3,24,1621909117,"/etc/profile.d/rds_start.sh"
--'  3  24  /etc/profile.d/rds_start.sh
-|4,39,3,24,1621909117,"/etc/profile.d/rds_start.sh"
--'  3  24  /etc/profile.d/rds_start.sh
-|4,39,3,24,1621909117,"/etc/profile.d/rds_start.sh"
--'  3  24  /etc/profile.d/rds_start.sh
-|4,39,3,24,1621909117,"/etc/profile.d/rds_start.sh"
--'  3  24  /etc/profile.d/rds_start.sh
-|4,39,3,24,1621909117,"/etc/profile.d/rds_start.sh"
--'  3  24  /etc/profile.d/rds_start.sh
-|4,39,3,24,1621909117,"/etc/profile.d/rds_start.sh"
--'  3  24  /etc/profile.d/rds_start.sh
-|4,39,3,24,1621909117,"/etc/profile.d/rds_start.sh"
--'  3  24  /etc/profile.d/rds_start.sh
-|4,39,3,24,1621909117,"/etc/profile.d/rds_start.sh"
--'  3  24  /etc/profile.d/rds_start.sh
-|4,39,3,24,1621909117,"/etc/profile.d/rds_start.sh"
+-'  1  0  /etc/apt/.sources.list.swp
+|4,39,1,0,1621911236,"/etc/apt/.sources.list.swp"
+-'  1  0  /etc/apt/.sources.list.swp
+|4,39,1,0,1621911236,"/etc/apt/.sources.list.swp"
+-'  1  0  /etc/apt/.sources.list.swp
+|4,39,1,0,1621911236,"/etc/apt/.sources.list.swp"
+-'  1  0  /etc/apt/.sources.list.swp
+|4,39,1,0,1621911236,"/etc/apt/.sources.list.swp"
+-'  1  0  /etc/apt/.sources.list.swp
+|4,39,1,0,1621911236,"/etc/apt/.sources.list.swp"
+-'  1  0  /etc/apt/.sources.list.swp
+|4,39,1,0,1621911236,"/etc/apt/.sources.list.swp"
+-'  1  0  /etc/apt/.sources.list.swp
+|4,39,1,0,1621911236,"/etc/apt/.sources.list.swp"
+-'  1  0  /etc/apt/.sources.list.swp
+|4,39,1,0,1621911236,"/etc/apt/.sources.list.swp"
+-'  1  0  /etc/apt/.sources.list.swp
+|4,39,1,0,1621911236,"/etc/apt/.sources.list.swp"
+-'  1  0  /etc/apt/.sources.list.swp
+|4,39,1,0,1621911236,"/etc/apt/.sources.list.swp"
+-'  1  0  /etc/apt/.sources.list.swp
+|4,39,1,0,1621911236,"/etc/apt/.sources.list.swp"
+-'  1  0  /etc/apt/.sources.list.swp
+|4,39,1,0,1621911236,"/etc/apt/.sources.list.swp"
+-'  1  0  /etc/apt/.sources.list.swp
+|4,39,1,0,1621911236,"/etc/apt/.sources.list.swp"
+-'  1  0  /etc/apt/.sources.list.swp
+|4,39,1,0,1621911236,"/etc/apt/.sources.list.swp"
+-'  1  0  /etc/apt/.sources.list.swp
+|4,39,1,0,1621911236,"/etc/apt/.sources.list.swp"
+-'  1  0  /etc/apt/.sources.list.swp
+|4,39,1,0,1621911236,"/etc/apt/.sources.list.swp"
+-'  1  0  /etc/apt/.sources.list.swp
+|4,39,1,0,1621911236,"/etc/apt/.sources.list.swp"
 
 # History of marks within files (newest to oldest):
+
+> ~/code/test.cpp
+	*	1621917422	0
+	"	1	0
+
+> ~/code/b.cpp
+	*	1621917410	0
+	"	1	0
+
+> ~/code/LCS.cpp
+	*	1621917215	0
+	"	51	0
 
 > ~/code/5.13.cpp
 	*	1621912152	0

@@ -971,3 +971,37 @@ pwd
 ls
 cd
 cd
+git add .
+cd
+git add .
+git commit -m "1"
+git push origin master 
+cd /etc/profile.d
+vim rds_start.sh
+chmod +x rds_start.sh
+cp rds_start.sh /etc/init.d/
+chkconfig --add rds_start.sh
+chkconfig
+apt install chkconfig
+apt-get install sysv-rc-conf
+cd /etc/apt/sources.list
+vim /etc/apt/sources.list
+apt-get update
+apt-get upgrade
+apt-get install sysv-rc-conf
+sysv-rc-conf --add rds_start.sh
+sysv-rc-conf add rds_start.sh
+sysv-rc-conf rds_start.sh on
+shutdown -r now
+cd /etc/profile.d
+ls
+vim /etc/apt/sources.list
+vim /etc/apt/.sources.list.swp
+vim /etc/apt/sources.list
+rm /etc/apt/.sources.list.swp
+vim /etc/apt/sources.list
+apt update
+apt upgrade
+apt install sysv-rc-conf
+cd
+ls

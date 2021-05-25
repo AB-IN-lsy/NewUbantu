@@ -37,7 +37,7 @@ int main(){
             char* token;
             token = strsep(&pos, delimiters);
             while(token != NULL){
-                if(strstr(token, "this") == token){
+                if(strstr(token, "this") == token){ //  strstr(str1,str2) 函数用于判断字符串str2是否是str1的子串。如果是，则该函数返回 str1字符串从 str2第一次出现的位置开始到 str1结尾的字符串；否则，返回NULL
                     thisCount ++;
                 }
                 else if (strstr(token, "that") == token){

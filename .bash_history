@@ -797,3 +797,177 @@ ls
 vim 5.11.cpp
 cd
 clear
+cd
+ls
+cd code
+ls
+vim 5.11.cpp
+vim file2.txt
+cd
+ls
+vim 5.13.cpp
+runc 5.13.cpp 
+ls
+mv 5.13.* code
+cd code/
+ls
+runc 5.13.cpp 
+ls
+cd
+vim .bashrc
+cd /bin
+ls
+vim ls
+cd
+ls'
+ls
+mkdir bin
+mv *.sh bin
+ls
+vim .bashrc 
+source ~/.bashrc
+cd code
+runc 5.13.cpp 
+cd bin
+cd
+cd bin
+pwd
+echo PATH
+echo "PATH"
+echo $PATH
+ls
+cd
+autorunc.sh
+cd code
+autorunc.sh 5.13.cpp
+vim 5.13.cpp 
+cd
+vim .bashrc 
+cd code
+runc 5.13.cpp 
+source ~/.bashrc
+runc 5.13.cpp 
+cd
+ls
+mv *.gz /opt
+ls
+cd /opt
+ls
+tar -zxvf *.gz
+tar -zxvf apache-ant-1.9.9-bin.tar.gz 
+ls
+tar -zxvf apache-maven-3.0.5-bin.tar.gz 
+ls
+tar -zxvf protobuf-2.5.0.tar.gz 
+ls
+tar -zxvf zookeeper-3.4.10.tar.gz 
+ls
+rm *.gz
+ls
+cd
+clear
+git add .
+git commit -m "2"
+git config --global user.name "AB-IN-lsy"
+git config --global user.email liusy200708@163.com
+git status
+git push origin master
+git add .
+git commit -m "NEW"
+git push origin master
+git push origin :main
+cd
+clear
+ssh-add /mnt/c/Users/qpliu/.ssh/id_rsa
+git push origin :main
+git push origin master
+rm .git
+rm -r .git
+git init
+git add .
+git commit -m "java final data"
+git remote add origin https://github.com/AB-IN-lsy/Java_study.git
+git push origin master
+git push -u origin master
+git pull origin master --allow-unrelated-histories
+git push origin master
+git init
+git add .
+git commit -m "NEW"
+git push -u origin master
+git pull origin master --allow-unrelated-histories
+clear
+git pull origin master --allow-unrelated-histories
+ls
+git branch NEW
+git checkout NEW
+git add .
+git commit -m "java final data"
+git push origin NEW
+cd
+ls
+cd /
+ls
+cd
+cd code
+ls
+vim 5.13.1.cpp
+run 5.13.1.cpp 
+runc 5.13.1.cpp 
+vim 5.13.1.cpp
+runc 5.13.1.cpp 
+vim 5.13.1.cpp
+runc 5.13.1.cpp 
+cd
+cd .vim
+cd .git
+ls
+vim config 
+git add .
+cd ..
+git add .
+git commit -m "Java final study data"
+git push origin master 
+git config --global --list 
+ssh -T git@github.com
+ssh-agent -s
+ssh-add ~/.ssh/id_rsa
+cd /mnt/c
+ls
+cd Users/
+ls
+cd qpliu/
+cd .ssh/
+ls
+ssh-add id_rsa
+pwd
+cd /mnt/f/COED/java
+cd /mnt/f/CODE/java
+ssh-add /mnt/c/Users/qpliu/.ssh/id_rsa
+ssh-agent bash
+mkdir /root/.hushlogin
+apt-get update=~9~~~~9=~
+[Dapt-get grade~
+9~~9~~[Capt-get upgrade~=~~~~9=~~[D9~[D~[B
+~~~~~~~~~~~~9~~~~~~~~~~~~~~~~~~~~~~~~9~~~9~~[A[D~~~~~~9~~~9[H=~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+clear
+pwd
+cd
+pwd
+vim /boot/grub/menu.lst
+cd /boot/grub/
+cd /
+ls
+cd boot
+ls
+cd ..
+cd mnt
+ls
+cd d
+ls
+cd ..
+cd root/
+pwd
+ls
+cd
+cd

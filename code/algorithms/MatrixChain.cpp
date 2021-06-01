@@ -1,6 +1,7 @@
-#include "stdio.h"
-#include "math.h"
-#include <conio.h>
+#include<bits/stdc++.h>
+using namespace std;
+
+
 void MatrixChain( long int *p, long int n,long int m[100][100],long int s[100][100])
 {   long int i,j,r,k,t;
     for (i=1; i<=n; i++) m[i][i]=0;
@@ -37,7 +38,6 @@ int main()
     printf("zuiyouzhi=%ld",m[1][6]);
     printf("\ns[1][6]=%ld\n",s[1][6]);
     Traceback(1,n,s);
-    getch();
 }
 
 

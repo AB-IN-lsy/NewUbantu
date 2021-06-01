@@ -1,0 +1,5 @@
+#NOTE: This is an internal implementation file, its format can be changed without prior notice.
+#Tue Jun 01 14:18:57 CST 2021
+default-http\://repo.maven.apache.org/maven2/.lastUpdated=1622528177920
+http\://repo.maven.apache.org/maven2/.error=Could not transfer artifact org.apache.maven.plugins\:maven-clean-plugin\:pom\:2.4.1 from/to central (http\://repo.maven.apache.org/maven2)\: Failed to transfer file\: http\://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-clean-plugin/2.4.1/maven-clean-plugin-2.4.1.pom. Return code is\: 501 , ReasonPhrase\:HTTPS Required.
+http\://maven.aliyun.com/nexus/content/groups/public/.lastUpdated=1622528337447

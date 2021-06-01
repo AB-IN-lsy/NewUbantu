@@ -11,36 +11,52 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/ClangCompleteInit
+~MSle0~/mirror
 
 # Last Substitute String:
 $
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1621917423,,"wq"
+|2,0,1622530849,,"wq"
+:set nopaste
+|2,0,1622529557,,"set nopaste"
+:set paste
+|2,0,1622529518,,"set paste"
+:paste
+|2,0,1622529507,,"paste"
 :q!
-|2,0,1621917216,,"q!"
+|2,0,1622529288,,"q!"
 :q
-|2,0,1621911236,,"q"
+|2,0,1622529287,,"q"
+:Q
+|2,0,1622529285,,"Q"
+:/mirror
+|2,0,1622527209,,"/mirror"
+:x
+|2,0,1622270314,,"x"
+:c
+|2,0,1622270312,,"c"
 :Wq
-|2,0,1621851783,,"Wq"
+|2,0,1622260931,,"Wq"
+:set nonu
+|2,0,1622259060,,"set nonu"
 :wq!
-|2,0,1621678279,,"wq!"
+|2,0,1622117068,,"wq!"
 :WQ
-|2,0,1621669538,,"WQ"
+|2,0,1622107117,,"WQ"
+:/ge
+|2,0,1622075810,,"/ge"
+:/PermitRootLogin
+|2,0,1621946213,,"/PermitRootLogin"
 :/ClangCompleteInit
 |2,0,1621319480,,"/ClangCompleteInit"
 :PluginInstal
 |2,0,1621318708,,"PluginInstal"
 :set nu
 |2,0,1621317751,,"set nu"
-:set nonu
-|2,0,1621317746,,"set nonu"
 :/run
 |2,0,1621255403,,"/run"
-:set paste
-|2,0,1621173088,,"set paste"
 :\Ubuntu_2004.2020.424.0_x64\rootfs\root
 |2,0,1621156813,,"\\Ubuntu_2004.2020.424.0_x64\\rootfs\\root"
 :/alias
@@ -55,8 +71,14 @@ $
 |2,0,1621152775,,"num"
 
 # Search String History (newest to oldest):
+? mirror
+|2,1,1622527209,,"mirror"
 ? @$
-|2,1,1621839973,,"@$"
+|2,1,1622261444,,"@$"
+? ge
+|2,1,1622075810,,"ge"
+? PermitRootLogin
+|2,1,1621946213,,"PermitRootLogin"
 ? ClangCompleteInit
 |2,1,1621319480,,"ClangCompleteInit"
 ? ^\s*$
@@ -83,319 +105,654 @@ $
 # Debug Line History (newest to oldest):
 
 # Registers:
-""0	LINE	0
-	    printf("after: %02x\n", a);
-|3,1,0,1,1,0,1621863674,"    printf(\"after: %02x\\n\", a);"
-"1	LINE	0
-	    printf("before: %02x\n, a");
-|3,0,1,1,1,0,1621863660,"    printf(\"before: %02x\\n, a\");"
+"0	LINE	0
+	<property> 
+		<name>yarn.log-aggregation.retain-seconds</name>
+		<value>604800</value> 
+	</property>
+|3,0,0,1,4,0,1622270225,"<property> ","	<name>yarn.log-aggregation.retain-seconds</name>","	<value>604800</value> ","</property>"
+""1	LINE	0
+	    </dependency>
+|3,1,1,1,1,0,1622529715,"    </dependency>"
 "2	LINE	0
-	        printf("line: %s\n", line);
-|3,0,2,1,1,0,1621850558,"        printf(\"line: %s\\n\", line);"
+	      <scope>test</scope>
+|3,0,2,1,1,0,1622529715,"      <scope>test</scope>"
 "3	LINE	0
-	filetype off                  " 这是必需的 
-	 
-	" 在此设置运行时路径 
-	set rtp+=~/.vim/bundle/Vundle.vim
-	" vundle初始化 
-	call vundle#begin()
-	
-	
-	Plugin 'VundleVim/Vundle.vim'
-	Plugin 'Valloric/YouCompleteMe'
-	Plugin 'vim-airline/vim-airline'
-	
-	call vundle#end()            " 这是必需的 
-	filetype plugin indent on    " 这是必需的
-	
-	hi MatchParen ctermbg=Red guibg=lightblue
-	
-	set cmdheight=2
-	set nu
-	set tabstop=4
-	set softtabstop=4
-	set shiftwidth=4
-	set cursorline
-	set autoindent
-	set smartindent
-	syntax on
-	inoremap ' ''<ESC>i
-	inoremap " ""<ESC>i
-	inoremap ( ()<ESC>i
-	inoremap [ []<ESC>i
-	inoremap { {<CR>}<ESC>O
-	
-	" 当新建 .cpp文件时自动调用SetComment 函数
-	autocmd BufNewFile *.cpp exec ":call SetComment()" 
-	" 加入注释 
-	func SetComment()
-		call setline(1,"/*================================================================") 
-		call append(line("."),   "*   Copyright (C) ".strftime("%Y")." Sangfor Ltd. All rights reserved.")
-		call append(line(".")+1, "*   ") 
-		call append(line(".")+2, "*   文件名称：".expand("%:t")) 
-		call append(line(".")+3, "*   创 建 者：NEFU AB_IN")
-		call append(line(".")+4, "*   创建日期：".strftime("%Y年%m月%d日")) 
-		call append(line(".")+5, "*   描    述：https://blog.csdn.net/qq_45859188") 
-		call append(line(".")+6, "*")
-		call append(line(".")+7, "================================================================*/") 
-		call append(line(".")+8, "")
-		call append(line(".")+9,  "#include <bits/stdc++.h>")
-		call append(line(".")+10, "using namespace std;")
-		call append(line(".")+11, "#define LL                    long long")
-		call append(line(".")+12, "#define ULL                   unsigned long long")
-|3,0,3,1,50,0,1621839601,"filetype off                  \" 这是必需的 "," ","\" 在此设置运行时路径 ","set rtp+=~/.vim/bundle/Vundle.vim","\" vundle初始化 ","call vundle#begin()","","","Plugin 'VundleVim/Vundle.vim'","Plugin 'Valloric/YouCompleteMe'","Plugin 'vim-airline/vim-airline'","","call vundle#end()            \" 这是必需的 ","filetype plugin indent on    \" 这是必需的","","hi MatchParen ctermbg=Red guibg=lightblue","",>17
-|<"set cmdheight=2","set nu","set tabstop=4","set softtabstop=4","set shiftwidth=4","set cursorline","set autoindent","set smartindent","syntax on","inoremap ' ''<ESC>i","inoremap \" \"\"<ESC>i","inoremap ( ()<ESC>i","inoremap [ []<ESC>i","inoremap { {<CR>}<ESC>O","","\" 当新建 .cpp文件时自动调用SetComment 函数","autocmd BufNewFile *.cpp exec \":call SetComment()\" ","\" 加入注释 ","func SetComment()",>90
-|<"	call setline(1,\"/*================================================================\") ","	call append(line(\".\"),   \"*   Copyright (C) \".strftime(\"%Y\").\" Sangfor Ltd. All rights reserved.\")","	call append(line(\".\")+1, \"*   \") ","	call append(line(\".\")+2, \"*   文件名称：\".expand(\"%:t\")) ","	call append(line(\".\")+3, \"*   创 建 者：NEFU AB_IN\")","	call append(line(\".\")+4, \"*   创建日期：\".strftime(\"%Y年%m月%d日\")) ",>86
-|<"	call append(line(\".\")+5, \"*   描    述：https://blog.csdn.net/qq_45859188\") ","	call append(line(\".\")+6, \"*\")","	call append(line(\".\")+7, \"================================================================*/\") ","	call append(line(\".\")+8, \"\")","	call append(line(\".\")+9,  \"#include <bits/stdc++.h>\")","	call append(line(\".\")+10, \"using namespace std;\")","	call append(line(\".\")+11, \"#define LL                    long long\")",>84
-|<"	call append(line(\".\")+12, \"#define ULL                   unsigned long long\")"
+	      <version>3.8.1</version>
+|3,0,3,1,1,0,1622529714,"      <version>3.8.1</version>"
 "4	LINE	0
-	
-	set nocompatible              " 这是必需的 
-|3,0,4,1,2,0,1621839593,"","set nocompatible              \" 这是必需的 "
+	      <artifactId>junit</artifactId>
+|3,0,4,1,1,0,1622529714,"      <artifactId>junit</artifactId>"
 "5	LINE	0
-	    
-|3,0,5,1,1,0,1621678150,"    "
+	      <groupId>junit</groupId>
+|3,0,5,1,1,0,1622529713,"      <groupId>junit</groupId>"
 "6	LINE	0
-	
-|3,0,6,1,1,0,1621678147,""
+	    <dependency>
+|3,0,6,1,1,0,1622529713,"    <dependency>"
 "7	LINE	0
-	    
-|3,0,7,1,1,0,1621678146,"    "
+	        System.out.println( "Hello World!" );
+|3,0,7,1,1,0,1622529608,"        System.out.println( \"Hello World!\" );"
 "8	LINE	0
-	b.append(1)
-|3,0,8,1,1,0,1621321469,"b.append(1)"
+	java outname
+|3,0,8,1,1,0,1622528795,"java outname"
 "9	LINE	0
-	b.clear()
-|3,0,9,1,1,0,1621321469,"b.clear()"
+	echo $outname
+|3,0,9,1,1,0,1622528792,"echo $outname"
 "-	CHAR	0
-	"")
-|3,0,36,0,1,0,1621168295,"\"\")"
+	8
+|3,0,36,0,1,0,1622270298,"8"
 
 # File marks:
-'0  1  0  ~/code/test.cpp
-|4,48,1,0,1621917423,"~/code/test.cpp"
-'1  1  0  ~/code/b.cpp
-|4,49,1,0,1621917411,"~/code/b.cpp"
-'2  51  0  ~/code/LCS.cpp
-|4,50,51,0,1621917216,"~/code/LCS.cpp"
-'3  40  259  ~/code/5.13.cpp
-|4,51,40,259,1621912152,"~/code/5.13.cpp"
-'4  11  24  /etc/apt/sources.list
-|4,52,11,24,1621911300,"/etc/apt/sources.list"
-'5  1  0  /etc/apt/sources.list
-|4,53,1,0,1621911261,"/etc/apt/sources.list"
-'6  1  0  /etc/apt/sources.list
-|4,54,1,0,1621911261,"/etc/apt/sources.list"
-'7  1  0  /etc/apt/.sources.list.swp
-|4,55,1,0,1621911236,"/etc/apt/.sources.list.swp"
-'8  1  0  /etc/apt/sources.list
-|4,56,1,0,1621911227,"/etc/apt/sources.list"
-'9  1  0  /etc/apt/sources.list
-|4,57,1,0,1621911227,"/etc/apt/sources.list"
+'0  13  4  ~/code/mavenTest/src/main/java/edu/nefu/hadoop/App.java
+|4,48,13,4,1622530850,"~/code/mavenTest/src/main/java/edu/nefu/hadoop/App.java"
+'1  16  0  ~/code/mavenTest/pom.xml
+|4,49,16,0,1622529724,"~/code/mavenTest/pom.xml"
+'2  26  5  ~/code/mavenTest/src/main/java/edu/nefu/hadoop/App.java
+|4,50,26,5,1622529611,"~/code/mavenTest/src/main/java/edu/nefu/hadoop/App.java"
+'3  26  5  ~/code/mavenTest/src/main/java/edu/nefu/hadoop/App.java
+|4,51,26,5,1622529611,"~/code/mavenTest/src/main/java/edu/nefu/hadoop/App.java"
+'4  5  4  ~/bin/autorunjava.sh
+|4,52,5,4,1622529288,"~/bin/autorunjava.sh"
+'5  5  4  ~/bin/autorunjava.sh
+|4,53,5,4,1622529288,"~/bin/autorunjava.sh"
+'6  6  5  ~/bin/autorunjava.sh
+|4,54,6,5,1622528634,"~/bin/autorunjava.sh"
+'7  6  5  ~/bin/autorunjava.sh
+|4,55,6,5,1622528634,"~/bin/autorunjava.sh"
+'8  6  5  ~/bin/autorunjava.sh
+|4,56,6,5,1622528634,"~/bin/autorunjava.sh"
+'9  6  5  ~/bin/autorunjava.sh
+|4,57,6,5,1622528634,"~/bin/autorunjava.sh"
 
 # Jumplist (newest first):
--'  1  0  ~/code/test.cpp
-|4,39,1,0,1621917423,"~/code/test.cpp"
--'  1  0  ~/code/b.cpp
-|4,39,1,0,1621917411,"~/code/b.cpp"
--'  1  0  ~/code/b.cpp
-|4,39,1,0,1621917411,"~/code/b.cpp"
--'  51  0  ~/code/LCS.cpp
-|4,39,51,0,1621917216,"~/code/LCS.cpp"
--'  51  0  ~/code/LCS.cpp
-|4,39,51,0,1621917216,"~/code/LCS.cpp"
--'  51  0  ~/code/LCS.cpp
-|4,39,51,0,1621917216,"~/code/LCS.cpp"
--'  51  0  ~/code/LCS.cpp
-|4,39,51,0,1621917216,"~/code/LCS.cpp"
--'  1  0  ~/code/LCS.cpp
-|4,39,1,0,1621917052,"~/code/LCS.cpp"
--'  1  0  ~/code/LCS.cpp
-|4,39,1,0,1621917052,"~/code/LCS.cpp"
--'  1  0  ~/code/LCS.cpp
-|4,39,1,0,1621917052,"~/code/LCS.cpp"
--'  1  0  ~/code/LCS.cpp
-|4,39,1,0,1621917052,"~/code/LCS.cpp"
--'  40  259  ~/code/5.13.cpp
-|4,39,40,259,1621912152,"~/code/5.13.cpp"
--'  40  259  ~/code/5.13.cpp
-|4,39,40,259,1621912152,"~/code/5.13.cpp"
--'  40  259  ~/code/5.13.cpp
-|4,39,40,259,1621912152,"~/code/5.13.cpp"
--'  40  259  ~/code/5.13.cpp
-|4,39,40,259,1621912152,"~/code/5.13.cpp"
--'  40  259  ~/code/5.13.cpp
-|4,39,40,259,1621912152,"~/code/5.13.cpp"
--'  40  259  ~/code/5.13.cpp
-|4,39,40,259,1621912152,"~/code/5.13.cpp"
--'  40  259  ~/code/5.13.cpp
-|4,39,40,259,1621912152,"~/code/5.13.cpp"
--'  40  259  ~/code/5.13.cpp
-|4,39,40,259,1621912152,"~/code/5.13.cpp"
--'  1  0  ~/code/5.13.cpp
-|4,39,1,0,1621912081,"~/code/5.13.cpp"
--'  1  0  ~/code/5.13.cpp
-|4,39,1,0,1621912081,"~/code/5.13.cpp"
--'  1  0  ~/code/5.13.cpp
-|4,39,1,0,1621912081,"~/code/5.13.cpp"
--'  1  0  ~/code/5.13.cpp
-|4,39,1,0,1621912081,"~/code/5.13.cpp"
--'  1  0  ~/code/5.13.cpp
-|4,39,1,0,1621912081,"~/code/5.13.cpp"
--'  1  0  ~/code/5.13.cpp
-|4,39,1,0,1621912081,"~/code/5.13.cpp"
--'  1  0  ~/code/5.13.cpp
-|4,39,1,0,1621912081,"~/code/5.13.cpp"
--'  1  0  ~/code/5.13.cpp
-|4,39,1,0,1621912081,"~/code/5.13.cpp"
--'  11  24  /etc/apt/sources.list
-|4,39,11,24,1621911300,"/etc/apt/sources.list"
--'  11  24  /etc/apt/sources.list
-|4,39,11,24,1621911300,"/etc/apt/sources.list"
--'  11  24  /etc/apt/sources.list
-|4,39,11,24,1621911300,"/etc/apt/sources.list"
--'  11  24  /etc/apt/sources.list
-|4,39,11,24,1621911300,"/etc/apt/sources.list"
--'  11  24  /etc/apt/sources.list
-|4,39,11,24,1621911300,"/etc/apt/sources.list"
--'  11  24  /etc/apt/sources.list
-|4,39,11,24,1621911300,"/etc/apt/sources.list"
--'  11  24  /etc/apt/sources.list
-|4,39,11,24,1621911300,"/etc/apt/sources.list"
--'  11  24  /etc/apt/sources.list
-|4,39,11,24,1621911300,"/etc/apt/sources.list"
--'  11  24  /etc/apt/sources.list
-|4,39,11,24,1621911300,"/etc/apt/sources.list"
--'  11  24  /etc/apt/sources.list
-|4,39,11,24,1621911300,"/etc/apt/sources.list"
--'  11  24  /etc/apt/sources.list
-|4,39,11,24,1621911300,"/etc/apt/sources.list"
--'  11  24  /etc/apt/sources.list
-|4,39,11,24,1621911300,"/etc/apt/sources.list"
--'  11  24  /etc/apt/sources.list
-|4,39,11,24,1621911300,"/etc/apt/sources.list"
--'  11  24  /etc/apt/sources.list
-|4,39,11,24,1621911300,"/etc/apt/sources.list"
--'  11  24  /etc/apt/sources.list
-|4,39,11,24,1621911300,"/etc/apt/sources.list"
--'  11  24  /etc/apt/sources.list
-|4,39,11,24,1621911300,"/etc/apt/sources.list"
--'  1  0  /etc/apt/sources.list
-|4,39,1,0,1621911276,"/etc/apt/sources.list"
--'  1  0  /etc/apt/sources.list
-|4,39,1,0,1621911276,"/etc/apt/sources.list"
--'  1  0  /etc/apt/sources.list
-|4,39,1,0,1621911276,"/etc/apt/sources.list"
--'  1  0  /etc/apt/sources.list
-|4,39,1,0,1621911276,"/etc/apt/sources.list"
--'  1  0  /etc/apt/sources.list
-|4,39,1,0,1621911276,"/etc/apt/sources.list"
--'  1  0  /etc/apt/sources.list
-|4,39,1,0,1621911276,"/etc/apt/sources.list"
--'  1  0  /etc/apt/sources.list
-|4,39,1,0,1621911276,"/etc/apt/sources.list"
--'  1  0  /etc/apt/sources.list
-|4,39,1,0,1621911276,"/etc/apt/sources.list"
--'  1  0  /etc/apt/sources.list
-|4,39,1,0,1621911276,"/etc/apt/sources.list"
--'  1  0  /etc/apt/sources.list
-|4,39,1,0,1621911276,"/etc/apt/sources.list"
--'  1  0  /etc/apt/sources.list
-|4,39,1,0,1621911276,"/etc/apt/sources.list"
--'  1  0  /etc/apt/sources.list
-|4,39,1,0,1621911276,"/etc/apt/sources.list"
--'  1  0  /etc/apt/sources.list
-|4,39,1,0,1621911276,"/etc/apt/sources.list"
--'  1  0  /etc/apt/sources.list
-|4,39,1,0,1621911276,"/etc/apt/sources.list"
--'  1  0  /etc/apt/sources.list
-|4,39,1,0,1621911276,"/etc/apt/sources.list"
--'  1  0  /etc/apt/sources.list
-|4,39,1,0,1621911276,"/etc/apt/sources.list"
--'  1  0  /etc/apt/sources.list
-|4,39,1,0,1621911261,"/etc/apt/sources.list"
--'  1  0  /etc/apt/sources.list
-|4,39,1,0,1621911261,"/etc/apt/sources.list"
--'  1  0  /etc/apt/sources.list
-|4,39,1,0,1621911261,"/etc/apt/sources.list"
--'  1  0  /etc/apt/sources.list
-|4,39,1,0,1621911261,"/etc/apt/sources.list"
--'  1  0  /etc/apt/sources.list
-|4,39,1,0,1621911261,"/etc/apt/sources.list"
--'  1  0  /etc/apt/sources.list
-|4,39,1,0,1621911261,"/etc/apt/sources.list"
--'  1  0  /etc/apt/sources.list
-|4,39,1,0,1621911261,"/etc/apt/sources.list"
--'  1  0  /etc/apt/sources.list
-|4,39,1,0,1621911261,"/etc/apt/sources.list"
--'  1  0  /etc/apt/sources.list
-|4,39,1,0,1621911261,"/etc/apt/sources.list"
--'  1  0  /etc/apt/sources.list
-|4,39,1,0,1621911261,"/etc/apt/sources.list"
--'  1  0  /etc/apt/sources.list
-|4,39,1,0,1621911261,"/etc/apt/sources.list"
--'  1  0  /etc/apt/sources.list
-|4,39,1,0,1621911261,"/etc/apt/sources.list"
--'  1  0  /etc/apt/sources.list
-|4,39,1,0,1621911261,"/etc/apt/sources.list"
--'  1  0  /etc/apt/sources.list
-|4,39,1,0,1621911261,"/etc/apt/sources.list"
--'  1  0  /etc/apt/sources.list
-|4,39,1,0,1621911261,"/etc/apt/sources.list"
--'  1  0  /etc/apt/sources.list
-|4,39,1,0,1621911261,"/etc/apt/sources.list"
--'  1  0  /etc/apt/.sources.list.swp
-|4,39,1,0,1621911236,"/etc/apt/.sources.list.swp"
--'  1  0  /etc/apt/.sources.list.swp
-|4,39,1,0,1621911236,"/etc/apt/.sources.list.swp"
--'  1  0  /etc/apt/.sources.list.swp
-|4,39,1,0,1621911236,"/etc/apt/.sources.list.swp"
--'  1  0  /etc/apt/.sources.list.swp
-|4,39,1,0,1621911236,"/etc/apt/.sources.list.swp"
--'  1  0  /etc/apt/.sources.list.swp
-|4,39,1,0,1621911236,"/etc/apt/.sources.list.swp"
--'  1  0  /etc/apt/.sources.list.swp
-|4,39,1,0,1621911236,"/etc/apt/.sources.list.swp"
--'  1  0  /etc/apt/.sources.list.swp
-|4,39,1,0,1621911236,"/etc/apt/.sources.list.swp"
--'  1  0  /etc/apt/.sources.list.swp
-|4,39,1,0,1621911236,"/etc/apt/.sources.list.swp"
--'  1  0  /etc/apt/.sources.list.swp
-|4,39,1,0,1621911236,"/etc/apt/.sources.list.swp"
--'  1  0  /etc/apt/.sources.list.swp
-|4,39,1,0,1621911236,"/etc/apt/.sources.list.swp"
--'  1  0  /etc/apt/.sources.list.swp
-|4,39,1,0,1621911236,"/etc/apt/.sources.list.swp"
--'  1  0  /etc/apt/.sources.list.swp
-|4,39,1,0,1621911236,"/etc/apt/.sources.list.swp"
--'  1  0  /etc/apt/.sources.list.swp
-|4,39,1,0,1621911236,"/etc/apt/.sources.list.swp"
--'  1  0  /etc/apt/.sources.list.swp
-|4,39,1,0,1621911236,"/etc/apt/.sources.list.swp"
--'  1  0  /etc/apt/.sources.list.swp
-|4,39,1,0,1621911236,"/etc/apt/.sources.list.swp"
--'  1  0  /etc/apt/.sources.list.swp
-|4,39,1,0,1621911236,"/etc/apt/.sources.list.swp"
--'  1  0  /etc/apt/.sources.list.swp
-|4,39,1,0,1621911236,"/etc/apt/.sources.list.swp"
--'  1  0  /etc/apt/.sources.list.swp
-|4,39,1,0,1621911236,"/etc/apt/.sources.list.swp"
--'  1  0  /etc/apt/.sources.list.swp
-|4,39,1,0,1621911236,"/etc/apt/.sources.list.swp"
--'  1  0  /etc/apt/.sources.list.swp
-|4,39,1,0,1621911236,"/etc/apt/.sources.list.swp"
--'  1  0  /etc/apt/.sources.list.swp
-|4,39,1,0,1621911236,"/etc/apt/.sources.list.swp"
--'  1  0  /etc/apt/.sources.list.swp
-|4,39,1,0,1621911236,"/etc/apt/.sources.list.swp"
--'  1  0  /etc/apt/.sources.list.swp
-|4,39,1,0,1621911236,"/etc/apt/.sources.list.swp"
--'  1  0  /etc/apt/.sources.list.swp
-|4,39,1,0,1621911236,"/etc/apt/.sources.list.swp"
--'  1  0  /etc/apt/.sources.list.swp
-|4,39,1,0,1621911236,"/etc/apt/.sources.list.swp"
+-'  13  4  ~/code/mavenTest/src/main/java/edu/nefu/hadoop/App.java
+|4,39,13,4,1622530850,"~/code/mavenTest/src/main/java/edu/nefu/hadoop/App.java"
+-'  1  0  ~/code/mavenTest/src/main/java/edu/nefu/hadoop/App.java
+|4,39,1,0,1622530780,"~/code/mavenTest/src/main/java/edu/nefu/hadoop/App.java"
+-'  16  0  ~/code/mavenTest/pom.xml
+|4,39,16,0,1622529724,"~/code/mavenTest/pom.xml"
+-'  16  0  ~/code/mavenTest/pom.xml
+|4,39,16,0,1622529724,"~/code/mavenTest/pom.xml"
+-'  1  0  ~/code/mavenTest/pom.xml
+|4,39,1,0,1622529695,"~/code/mavenTest/pom.xml"
+-'  1  0  ~/code/mavenTest/pom.xml
+|4,39,1,0,1622529695,"~/code/mavenTest/pom.xml"
+-'  26  5  ~/code/mavenTest/src/main/java/edu/nefu/hadoop/App.java
+|4,39,26,5,1622529611,"~/code/mavenTest/src/main/java/edu/nefu/hadoop/App.java"
+-'  26  5  ~/code/mavenTest/src/main/java/edu/nefu/hadoop/App.java
+|4,39,26,5,1622529611,"~/code/mavenTest/src/main/java/edu/nefu/hadoop/App.java"
+-'  26  5  ~/code/mavenTest/src/main/java/edu/nefu/hadoop/App.java
+|4,39,26,5,1622529611,"~/code/mavenTest/src/main/java/edu/nefu/hadoop/App.java"
+-'  40  0  ~/code/mavenTest/src/main/java/edu/nefu/hadoop/App.java
+|4,39,40,0,1622529546,"~/code/mavenTest/src/main/java/edu/nefu/hadoop/App.java"
+-'  41  0  ~/code/mavenTest/src/main/java/edu/nefu/hadoop/App.java
+|4,39,41,0,1622529546,"~/code/mavenTest/src/main/java/edu/nefu/hadoop/App.java"
+-'  41  0  ~/code/mavenTest/src/main/java/edu/nefu/hadoop/App.java
+|4,39,41,0,1622529546,"~/code/mavenTest/src/main/java/edu/nefu/hadoop/App.java"
+-'  1  0  ~/code/mavenTest/src/main/java/edu/nefu/hadoop/App.java
+|4,39,1,0,1622529333,"~/code/mavenTest/src/main/java/edu/nefu/hadoop/App.java"
+-'  1  0  ~/code/mavenTest/src/main/java/edu/nefu/hadoop/App.java
+|4,39,1,0,1622529333,"~/code/mavenTest/src/main/java/edu/nefu/hadoop/App.java"
+-'  5  4  ~/bin/autorunjava.sh
+|4,39,5,4,1622529288,"~/bin/autorunjava.sh"
+-'  5  4  ~/bin/autorunjava.sh
+|4,39,5,4,1622529288,"~/bin/autorunjava.sh"
+-'  5  4  ~/bin/autorunjava.sh
+|4,39,5,4,1622529288,"~/bin/autorunjava.sh"
+-'  5  4  ~/bin/autorunjava.sh
+|4,39,5,4,1622529288,"~/bin/autorunjava.sh"
+-'  5  4  ~/bin/autorunjava.sh
+|4,39,5,4,1622529288,"~/bin/autorunjava.sh"
+-'  5  4  ~/bin/autorunjava.sh
+|4,39,5,4,1622529288,"~/bin/autorunjava.sh"
+-'  5  4  ~/bin/autorunjava.sh
+|4,39,5,4,1622529288,"~/bin/autorunjava.sh"
+-'  5  4  ~/bin/autorunjava.sh
+|4,39,5,4,1622529288,"~/bin/autorunjava.sh"
+-'  1  0  ~/bin/autorunjava.sh
+|4,39,1,0,1622528769,"~/bin/autorunjava.sh"
+-'  1  0  ~/bin/autorunjava.sh
+|4,39,1,0,1622528769,"~/bin/autorunjava.sh"
+-'  1  0  ~/bin/autorunjava.sh
+|4,39,1,0,1622528769,"~/bin/autorunjava.sh"
+-'  1  0  ~/bin/autorunjava.sh
+|4,39,1,0,1622528769,"~/bin/autorunjava.sh"
+-'  1  0  ~/bin/autorunjava.sh
+|4,39,1,0,1622528769,"~/bin/autorunjava.sh"
+-'  1  0  ~/bin/autorunjava.sh
+|4,39,1,0,1622528769,"~/bin/autorunjava.sh"
+-'  1  0  ~/bin/autorunjava.sh
+|4,39,1,0,1622528769,"~/bin/autorunjava.sh"
+-'  1  0  ~/bin/autorunjava.sh
+|4,39,1,0,1622528769,"~/bin/autorunjava.sh"
+-'  6  5  ~/bin/autorunjava.sh
+|4,39,6,5,1622528634,"~/bin/autorunjava.sh"
+-'  6  5  ~/bin/autorunjava.sh
+|4,39,6,5,1622528634,"~/bin/autorunjava.sh"
+-'  6  5  ~/bin/autorunjava.sh
+|4,39,6,5,1622528634,"~/bin/autorunjava.sh"
+-'  6  5  ~/bin/autorunjava.sh
+|4,39,6,5,1622528634,"~/bin/autorunjava.sh"
+-'  6  5  ~/bin/autorunjava.sh
+|4,39,6,5,1622528634,"~/bin/autorunjava.sh"
+-'  6  5  ~/bin/autorunjava.sh
+|4,39,6,5,1622528634,"~/bin/autorunjava.sh"
+-'  6  5  ~/bin/autorunjava.sh
+|4,39,6,5,1622528634,"~/bin/autorunjava.sh"
+-'  6  5  ~/bin/autorunjava.sh
+|4,39,6,5,1622528634,"~/bin/autorunjava.sh"
+-'  6  5  ~/bin/autorunjava.sh
+|4,39,6,5,1622528634,"~/bin/autorunjava.sh"
+-'  6  5  ~/bin/autorunjava.sh
+|4,39,6,5,1622528634,"~/bin/autorunjava.sh"
+-'  6  5  ~/bin/autorunjava.sh
+|4,39,6,5,1622528634,"~/bin/autorunjava.sh"
+-'  6  5  ~/bin/autorunjava.sh
+|4,39,6,5,1622528634,"~/bin/autorunjava.sh"
+-'  1  0  ~/bin/autorunjava.sh
+|4,39,1,0,1622528622,"~/bin/autorunjava.sh"
+-'  1  0  ~/bin/autorunjava.sh
+|4,39,1,0,1622528622,"~/bin/autorunjava.sh"
+-'  1  0  ~/bin/autorunjava.sh
+|4,39,1,0,1622528622,"~/bin/autorunjava.sh"
+-'  1  0  ~/bin/autorunjava.sh
+|4,39,1,0,1622528622,"~/bin/autorunjava.sh"
+-'  165  9  /opt/apache-maven-3.0.5/conf/settings.xml
+|4,39,165,9,1622528320,"/opt/apache-maven-3.0.5/conf/settings.xml"
+-'  165  9  /opt/apache-maven-3.0.5/conf/settings.xml
+|4,39,165,9,1622528320,"/opt/apache-maven-3.0.5/conf/settings.xml"
+-'  165  9  /opt/apache-maven-3.0.5/conf/settings.xml
+|4,39,165,9,1622528320,"/opt/apache-maven-3.0.5/conf/settings.xml"
+-'  165  9  /opt/apache-maven-3.0.5/conf/settings.xml
+|4,39,165,9,1622528320,"/opt/apache-maven-3.0.5/conf/settings.xml"
+-'  165  9  /opt/apache-maven-3.0.5/conf/settings.xml
+|4,39,165,9,1622528320,"/opt/apache-maven-3.0.5/conf/settings.xml"
+-'  165  9  /opt/apache-maven-3.0.5/conf/settings.xml
+|4,39,165,9,1622528320,"/opt/apache-maven-3.0.5/conf/settings.xml"
+-'  165  9  /opt/apache-maven-3.0.5/conf/settings.xml
+|4,39,165,9,1622528320,"/opt/apache-maven-3.0.5/conf/settings.xml"
+-'  165  9  /opt/apache-maven-3.0.5/conf/settings.xml
+|4,39,165,9,1622528320,"/opt/apache-maven-3.0.5/conf/settings.xml"
+-'  165  9  /opt/apache-maven-3.0.5/conf/settings.xml
+|4,39,165,9,1622528320,"/opt/apache-maven-3.0.5/conf/settings.xml"
+-'  165  9  /opt/apache-maven-3.0.5/conf/settings.xml
+|4,39,165,9,1622528320,"/opt/apache-maven-3.0.5/conf/settings.xml"
+-'  165  9  /opt/apache-maven-3.0.5/conf/settings.xml
+|4,39,165,9,1622528320,"/opt/apache-maven-3.0.5/conf/settings.xml"
+-'  165  9  /opt/apache-maven-3.0.5/conf/settings.xml
+|4,39,165,9,1622528320,"/opt/apache-maven-3.0.5/conf/settings.xml"
+-'  165  9  /opt/apache-maven-3.0.5/conf/settings.xml
+|4,39,165,9,1622528320,"/opt/apache-maven-3.0.5/conf/settings.xml"
+-'  165  9  /opt/apache-maven-3.0.5/conf/settings.xml
+|4,39,165,9,1622528320,"/opt/apache-maven-3.0.5/conf/settings.xml"
+-'  165  9  /opt/apache-maven-3.0.5/conf/settings.xml
+|4,39,165,9,1622528320,"/opt/apache-maven-3.0.5/conf/settings.xml"
+-'  165  9  /opt/apache-maven-3.0.5/conf/settings.xml
+|4,39,165,9,1622528320,"/opt/apache-maven-3.0.5/conf/settings.xml"
+-'  165  9  /opt/apache-maven-3.0.5/conf/settings.xml
+|4,39,165,9,1622528320,"/opt/apache-maven-3.0.5/conf/settings.xml"
+-'  165  9  /opt/apache-maven-3.0.5/conf/settings.xml
+|4,39,165,9,1622528320,"/opt/apache-maven-3.0.5/conf/settings.xml"
+-'  165  9  /opt/apache-maven-3.0.5/conf/settings.xml
+|4,39,165,9,1622528320,"/opt/apache-maven-3.0.5/conf/settings.xml"
+-'  165  9  /opt/apache-maven-3.0.5/conf/settings.xml
+|4,39,165,9,1622528320,"/opt/apache-maven-3.0.5/conf/settings.xml"
+-'  1  0  /opt/apache-maven-3.0.5/conf/settings.xml
+|4,39,1,0,1622528212,"/opt/apache-maven-3.0.5/conf/settings.xml"
+-'  1  0  /opt/apache-maven-3.0.5/conf/settings.xml
+|4,39,1,0,1622528212,"/opt/apache-maven-3.0.5/conf/settings.xml"
+-'  1  0  /opt/apache-maven-3.0.5/conf/settings.xml
+|4,39,1,0,1622528212,"/opt/apache-maven-3.0.5/conf/settings.xml"
+-'  1  0  /opt/apache-maven-3.0.5/conf/settings.xml
+|4,39,1,0,1622528212,"/opt/apache-maven-3.0.5/conf/settings.xml"
+-'  1  0  /opt/apache-maven-3.0.5/conf/settings.xml
+|4,39,1,0,1622528212,"/opt/apache-maven-3.0.5/conf/settings.xml"
+-'  1  0  /opt/apache-maven-3.0.5/conf/settings.xml
+|4,39,1,0,1622528212,"/opt/apache-maven-3.0.5/conf/settings.xml"
+-'  1  0  /opt/apache-maven-3.0.5/conf/settings.xml
+|4,39,1,0,1622528212,"/opt/apache-maven-3.0.5/conf/settings.xml"
+-'  1  0  /opt/apache-maven-3.0.5/conf/settings.xml
+|4,39,1,0,1622528212,"/opt/apache-maven-3.0.5/conf/settings.xml"
+-'  1  0  /opt/apache-maven-3.0.5/conf/settings.xml
+|4,39,1,0,1622528212,"/opt/apache-maven-3.0.5/conf/settings.xml"
+-'  1  0  /opt/apache-maven-3.0.5/conf/settings.xml
+|4,39,1,0,1622528212,"/opt/apache-maven-3.0.5/conf/settings.xml"
+-'  1  0  /opt/apache-maven-3.0.5/conf/settings.xml
+|4,39,1,0,1622528212,"/opt/apache-maven-3.0.5/conf/settings.xml"
+-'  1  0  /opt/apache-maven-3.0.5/conf/settings.xml
+|4,39,1,0,1622528212,"/opt/apache-maven-3.0.5/conf/settings.xml"
+-'  1  0  /opt/apache-maven-3.0.5/conf/settings.xml
+|4,39,1,0,1622528212,"/opt/apache-maven-3.0.5/conf/settings.xml"
+-'  1  0  /opt/apache-maven-3.0.5/conf/settings.xml
+|4,39,1,0,1622528212,"/opt/apache-maven-3.0.5/conf/settings.xml"
+-'  1  0  /opt/apache-maven-3.0.5/conf/settings.xml
+|4,39,1,0,1622528212,"/opt/apache-maven-3.0.5/conf/settings.xml"
+-'  1  0  /opt/apache-maven-3.0.5/conf/settings.xml
+|4,39,1,0,1622528212,"/opt/apache-maven-3.0.5/conf/settings.xml"
+-'  1  0  /opt/apache-maven-3.0.5/conf/settings.xml
+|4,39,1,0,1622528212,"/opt/apache-maven-3.0.5/conf/settings.xml"
+-'  1  0  /opt/apache-maven-3.0.5/conf/settings.xml
+|4,39,1,0,1622528212,"/opt/apache-maven-3.0.5/conf/settings.xml"
+-'  1  0  /opt/apache-maven-3.0.5/conf/settings.xml
+|4,39,1,0,1622528212,"/opt/apache-maven-3.0.5/conf/settings.xml"
+-'  1  0  /opt/apache-maven-3.0.5/conf/settings.xml
+|4,39,1,0,1622528212,"/opt/apache-maven-3.0.5/conf/settings.xml"
+-'  148  4  /opt/apache-maven-3.0.5/conf/settings.xml
+|4,39,148,4,1622528162,"/opt/apache-maven-3.0.5/conf/settings.xml"
+-'  148  4  /opt/apache-maven-3.0.5/conf/settings.xml
+|4,39,148,4,1622528162,"/opt/apache-maven-3.0.5/conf/settings.xml"
+-'  148  4  /opt/apache-maven-3.0.5/conf/settings.xml
+|4,39,148,4,1622528162,"/opt/apache-maven-3.0.5/conf/settings.xml"
+-'  148  4  /opt/apache-maven-3.0.5/conf/settings.xml
+|4,39,148,4,1622528162,"/opt/apache-maven-3.0.5/conf/settings.xml"
+-'  148  4  /opt/apache-maven-3.0.5/conf/settings.xml
+|4,39,148,4,1622528162,"/opt/apache-maven-3.0.5/conf/settings.xml"
+-'  148  4  /opt/apache-maven-3.0.5/conf/settings.xml
+|4,39,148,4,1622528162,"/opt/apache-maven-3.0.5/conf/settings.xml"
+-'  148  4  /opt/apache-maven-3.0.5/conf/settings.xml
+|4,39,148,4,1622528162,"/opt/apache-maven-3.0.5/conf/settings.xml"
+-'  148  4  /opt/apache-maven-3.0.5/conf/settings.xml
+|4,39,148,4,1622528162,"/opt/apache-maven-3.0.5/conf/settings.xml"
+-'  148  4  /opt/apache-maven-3.0.5/conf/settings.xml
+|4,39,148,4,1622528162,"/opt/apache-maven-3.0.5/conf/settings.xml"
+-'  148  4  /opt/apache-maven-3.0.5/conf/settings.xml
+|4,39,148,4,1622528162,"/opt/apache-maven-3.0.5/conf/settings.xml"
+-'  148  4  /opt/apache-maven-3.0.5/conf/settings.xml
+|4,39,148,4,1622528162,"/opt/apache-maven-3.0.5/conf/settings.xml"
+-'  148  4  /opt/apache-maven-3.0.5/conf/settings.xml
+|4,39,148,4,1622528162,"/opt/apache-maven-3.0.5/conf/settings.xml"
+-'  148  4  /opt/apache-maven-3.0.5/conf/settings.xml
+|4,39,148,4,1622528162,"/opt/apache-maven-3.0.5/conf/settings.xml"
+-'  148  4  /opt/apache-maven-3.0.5/conf/settings.xml
+|4,39,148,4,1622528162,"/opt/apache-maven-3.0.5/conf/settings.xml"
 
 # History of marks within files (newest to oldest):
+
+> ~/code/mavenTest/src/main/java/edu/nefu/hadoop/App.java
+	*	1622530848	0
+	"	13	4
+	^	12	1
+	.	40	0
+	+	5	43
+	+	13	60
+	+	25	7
+	+	24	7
+	+	23	7
+	+	22	7
+	+	21	7
+	+	20	7
+	+	19	7
+	+	18	7
+	+	17	7
+	+	16	7
+	+	26	45
+	+	26	53
+	+	39	1
+	+	26	36
+	+	26	38
+	+	26	41
+	+	35	6
+	+	38	3
+	+	36	3
+	+	26	0
+	+	40	0
+
+> ~/code/mavenTest/pom.xml
+	*	1622529722	0
+	"	16	0
+	^	16	0
+	.	15	17
+	+	17	0
+	+	15	17
+
+> ~/bin/autorunjava.sh
+	*	1622529287	0
+	"	5	4
+	^	5	5
+	.	5	5
+	+	2	12
+	+	6	5
+	+	6	0
+	+	4	13
+	+	6	11
+	+	6	0
+	+	5	5
+
+> /opt/apache-maven-3.0.5/conf/settings.xml
+	*	1622528319	0
+	"	165	9
+	^	165	10
+	.	165	9
+	+	164	11
+	+	159	1
+	+	159	0
+	+	164	0
+	+	159	0
+	+	146	0
+	+	158	8
+	+	165	9
+
+> ~/.bashrc
+	*	1622527671	0
+	"	92	28
+	^	92	29
+	.	92	28
+	+	52	0
+	+	60	0
+	+	56	2
+	+	52	0
+	+	54	0
+	+	55	1
+	+	56	0
+	+	56	2
+	+	57	0
+	+	52	0
+	+	58	0
+	+	85	25
+	+	86	21
+	+	85	21
+	+	86	26
+	+	109	22
+	+	85	12
+	+	86	13
+	+	87	13
+	+	87	32
+	+	88	31
+	+	94	0
+	+	89	31
+	+	90	38
+	+	92	28
+
+> ~/code/java/HelloWorld.java
+	*	1622527489	0
+	"	6	0
+	^	6	0
+	.	5	1
+	+	1	0
+	+	5	1
+
+> ~/code/java/HelloWorld
+	*	1622527443	0
+	"	1	0
+
+> /etc/profile.d/maven.sh
+	*	1622526519	0
+	"	3	0
+	.	4	0
+	+	3	30
+	+	4	0
+
+> /etc/ssh/ssh_config
+	*	1622300108	0
+	"	12	0
+
+> /etc/ssh/sshd_config
+	*	1622299947	0
+	"	23	0
+	^	34	16
+	.	34	15
+	+	58	25
+	+	34	15
+
+> /opt/hadoop-2.7.2/etc/hadoop/mapred-site.xml
+	*	1622275133	0
+	"	34	31
+	^	34	32
+	.	34	31
+	+	24	11
+	+	35	11
+	+	35	8
+	+	28	22
+	+	35	8
+	+	35	11
+	+	35	26
+	+	36	0
+	+	35	8
+	+	35	25
+	+	35	22
+	+	35	11
+	+	35	0
+	+	34	31
+
+> /opt/hadoop-2.7.2/etc/hadoop/yarn-site.xml
+	*	1622270272	0
+	"	55	19
+	^	55	20
+	.	55	19
+	+	28	11
+	+	27	22
+	+	36	0
+	+	35	0
+	+	34	1
+	+	33	1
+	+	30	0
+	+	31	22
+	+	40	12
+	+	41	5
+	+	52	11
+	+	52	0
+	+	53	0
+	+	54	41
+	+	55	19
+
+> /opt/hadoop-2.7.2/etc/hadoop/hadoop-env.sh
+	*	1622269764	0
+	"	99	33
+	^	99	34
+	.	99	33
+	+	25	33
+	+	99	33
+
+> /opt/hadoop-2.7.2/etc/hadoop/hdfs-site.xml
+	*	1622269720	0
+	"	26	27
+	^	26	28
+	.	26	27
+	+	20	0
+	+	28	15
+	+	17	59
+	+	19	0
+	+	17	5
+	+	18	2
+	+	17	57
+	+	24	0
+	+	25	29
+	+	26	27
+
+> /opt/hadoop-2.7.2/etc/hadoop/core-site.xml
+	*	1622269599	0
+	"	21	27
+	^	21	37
+	.	21	36
+	+	19	0
+	+	23	16
+	+	28	11
+	+	21	36
+	+	23	0
+	+	30	15
+	+	29	0
+	+	21	36
+
+> /etc/hosts
+	*	1622269553	0
+	"	5	12
+	^	5	13
+	.	5	13
+	+	5	0
+	+	7	0
+	+	5	1
+	+	7	11
+	+	5	13
+
+> /etc/profile.d/rds_start.sh
+	*	1622267894	0
+	"	8	6
+	^	8	7
+	.	8	6
+	+	1	11
+	+	5	1
+	+	3	25
+	+	5	5
+	+	5	12
+	+	7	15
+	+	10	19
+	+	11	0
+	+	10	27
+	+	9	21
+	+	8	6
+
+> /etc/wsl.conf
+	*	1622266320	0
+	"	2	19
+	^	2	20
+	.	2	19
+	+	2	41
+	+	2	31
+	+	2	20
+	+	3	25
+	+	2	19
+
+> ~/bin/autoStopHadoop.sh
+	*	1622261659	0
+	"	2	19
+	^	2	20
+	.	2	19
+	+	1	11
+	+	3	18
+	+	5	2
+	+	3	3
+	+	3	2
+	+	4	48
+	+	3	0
+	+	2	19
+
+> ~/bin/autoStartHadoop.sh
+	*	1622261634	0
+	"	2	0
+	^	2	0
+	.	1	11
+	+	1	11
+	+	4	19
+	+	6	3
+	+	4	0
+	+	3	19
+	+	1	11
+
+> ~/bin/autorunc.sh
+	*	1622260945	0
+	"	1	0
+
+> ~/wsl.conf
+	*	1622259711	0
+	"	1	0
+
+> /opt/hadoop-2.7.2/.ssh
+	*	1622258114	0
+	"	1	0
+
+> /etc/sysconfig/iptables
+	*	1622117069	0
+	"	1	0
+
+> /etc/hostname
+	*	1622114895	0
+	"	1	14
+	^	1	15
+	.	1	14
+	+	1	14
+
+> /etc/init.d/mysqld
+	*	1622114024	0
+	"	1	0
+
+> /etc/sysconfig/network
+	*	1622113817	0
+	"	1	35
+	^	1	36
+	.	1	35
+	+	1	35
+
+> /etc/hadoop/yarn-site.xml
+	*	1622110908	0
+	"	1	0
+
+> ~/IP.txt
+	*	1622108307	0
+	"	1	20
+	^	1	21
+	.	1	21
+	+	1	21
+
+> /opt/hadoop-2.7.2/etc/hadoop/mapred-env.sh
+	*	1622107252	0
+	"	16	33
+	^	16	34
+	.	16	33
+	+	16	33
+
+> /opt/hadoop-2.7.2/etc/hadoop/yarn-env.sh
+	*	1622107137	0
+	"	1	0
+	^	24	0
+	.	23	34
+	+	23	34
+
+> /opt/hadoop-2.7.2/wcinput/wc.input
+	*	1622101214	0
+	"	6	0
+	^	6	0
+	.	5	4
+	+	5	4
+
+> ~/code/algorithms/MatrixChain.cpp
+	*	1622076219	0
+	"	1	0
+	.	41	0
+	+	1	0
+	+	4	0
+	+	2	20
+	+	41	0
+
+> ~/code/algorithms/recMatrixChain.cpp
+	*	1622076097	0
+	"	12	0
+	^	31	24
+	.	31	24
+	+	1	24
+	+	3	0
+	+	31	24
+
+> ~/code/algorithms/recMatrixChain.
+	*	1622075972	0
+	"	1	0
+
+> /opt/hadoop-2.7.2/input/core-site.xml
+	*	1621951842	0
+	"	1	0
+
+> ~/.ssh/known_hosts
+	*	1621948396	0
+	"	7	0
+
+> ~/.ssh/authorized_keys
+	*	1621947213	0
+	"	1	0
+	.	2	0
+	+	2	0
+
+> ~/.ssh/id_dsa.pub
+	*	1621947184	0
+	"	1	0
+
+> /opt/hadoop-2.7.2/etc/hadoop/hadoop-env.
+	*	1621942942	0
+	"	1	0
+
+> ~/code/organisation/sum.cpp
+	*	1621935998	0
+	"	1	0
+	.	1	0
+	+	1	0
 
 > ~/code/test.cpp
 	*	1621917422	0
@@ -441,15 +798,6 @@ $
 	*	1621911236	0
 	"	1	0
 
-> /etc/profile.d/rds_start.sh
-	*	1621909116	0
-	"	3	24
-	^	3	25
-	.	3	24
-	+	1	11
-	+	4	1
-	+	3	24
-
 > /boot/grub/menu.lst
 	*	1621908391	0
 	"	1	0
@@ -474,30 +822,6 @@ $
 > /mnt/f/CODE/java/.git/config
 	*	1621857148	0
 	"	1	0
-
-> ~/.bashrc
-	*	1621851783	0
-	"	86	12
-	^	86	13
-	.	86	13
-	+	52	0
-	+	60	0
-	+	56	2
-	+	52	0
-	+	54	0
-	+	55	1
-	+	56	0
-	+	56	2
-	+	57	0
-	+	52	0
-	+	58	0
-	+	85	25
-	+	86	21
-	+	85	21
-	+	86	26
-	+	103	22
-	+	85	12
-	+	86	13
 
 > /usr/bin/ls
 	*	1621851335	0

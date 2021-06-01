@@ -1,3 +1,5 @@
+# include<bits/stdc++.h>
+using namespace std;
 
 long int RecurMatrixChain( long int *p, long int i, long int j, long int s[100][100])
 {   if(i==j)
@@ -27,6 +29,5 @@ int main()
     printf("zuiyouzhi=%ld",sum);
     printf("\ns[1][6]=%ld\n",s[1][6]);
     Traceback( 1, n, s);
-    getch();
 }
 

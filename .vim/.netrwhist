@@ -1,3 +1,5 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =1
+let g:netrw_dirhistcnt =3
+let g:netrw_dirhist_3='/root/bin'
+let g:netrw_dirhist_2='/root/.ssh'
 let g:netrw_dirhist_1='/root/.vim/vim-colors-solarized'

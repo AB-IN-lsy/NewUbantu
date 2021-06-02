@@ -18,7 +18,9 @@ $
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1622530849,,"wq"
+|2,0,1622636472,,"wq"
+:q
+|2,0,1622635393,,"q"
 :set nopaste
 |2,0,1622529557,,"set nopaste"
 :set paste
@@ -27,8 +29,6 @@ $
 |2,0,1622529507,,"paste"
 :q!
 |2,0,1622529288,,"q!"
-:q
-|2,0,1622529287,,"q"
 :Q
 |2,0,1622529285,,"Q"
 :/mirror
@@ -112,261 +112,317 @@ $
 	</property>
 |3,0,0,1,4,0,1622270225,"<property> ","	<name>yarn.log-aggregation.retain-seconds</name>","	<value>604800</value> ","</property>"
 ""1	LINE	0
-	    </dependency>
-|3,1,1,1,1,0,1622529715,"    </dependency>"
+	        System.out.println("file: " + file);
+|3,1,1,1,1,0,1622636469,"        System.out.println(\"file: \" + file);"
 "2	LINE	0
-	      <scope>test</scope>
-|3,0,2,1,1,0,1622529715,"      <scope>test</scope>"
+	        System.out.println("verbose: " + verbose);
+|3,0,2,1,1,0,1622636469,"        System.out.println(\"verbose: \" + verbose);"
 "3	LINE	0
-	      <version>3.8.1</version>
-|3,0,3,1,1,0,1622529714,"      <version>3.8.1</version>"
+	        }
+|3,0,3,1,1,0,1622636468,"        }"
 "4	LINE	0
-	      <artifactId>junit</artifactId>
-|3,0,4,1,1,0,1622529714,"      <artifactId>junit</artifactId>"
+	            file = commandLine.getOptionValue('f');
+|3,0,4,1,1,0,1622636468,"            file = commandLine.getOptionValue('f');"
 "5	LINE	0
-	      <groupId>junit</groupId>
-|3,0,5,1,1,0,1622529713,"      <groupId>junit</groupId>"
+	        if( commandLine.hasOption('f') ) {
+|3,0,5,1,1,0,1622636467,"        if( commandLine.hasOption('f') ) {"
 "6	LINE	0
-	    <dependency>
-|3,0,6,1,1,0,1622529713,"    <dependency>"
+	        }
+|3,0,6,1,1,0,1622636467,"        }"
 "7	LINE	0
-	        System.out.println( "Hello World!" );
-|3,0,7,1,1,0,1622529608,"        System.out.println( \"Hello World!\" );"
+	            verbose = true;
+|3,0,7,1,1,0,1622636467,"            verbose = true;"
 "8	LINE	0
-	java outname
-|3,0,8,1,1,0,1622528795,"java outname"
+	        if( commandLine.hasOption('v') ) {
+|3,0,8,1,1,0,1622636467,"        if( commandLine.hasOption('v') ) {"
 "9	LINE	0
-	echo $outname
-|3,0,9,1,1,0,1622528792,"echo $outname"
+	        }
+|3,0,9,1,1,0,1622636467,"        }"
 "-	CHAR	0
 	8
 |3,0,36,0,1,0,1622270298,"8"
 
 # File marks:
-'0  13  4  ~/code/mavenTest/src/main/java/edu/nefu/hadoop/App.java
-|4,48,13,4,1622530850,"~/code/mavenTest/src/main/java/edu/nefu/hadoop/App.java"
-'1  16  0  ~/code/mavenTest/pom.xml
-|4,49,16,0,1622529724,"~/code/mavenTest/pom.xml"
-'2  26  5  ~/code/mavenTest/src/main/java/edu/nefu/hadoop/App.java
-|4,50,26,5,1622529611,"~/code/mavenTest/src/main/java/edu/nefu/hadoop/App.java"
-'3  26  5  ~/code/mavenTest/src/main/java/edu/nefu/hadoop/App.java
-|4,51,26,5,1622529611,"~/code/mavenTest/src/main/java/edu/nefu/hadoop/App.java"
-'4  5  4  ~/bin/autorunjava.sh
-|4,52,5,4,1622529288,"~/bin/autorunjava.sh"
-'5  5  4  ~/bin/autorunjava.sh
-|4,53,5,4,1622529288,"~/bin/autorunjava.sh"
-'6  6  5  ~/bin/autorunjava.sh
-|4,54,6,5,1622528634,"~/bin/autorunjava.sh"
-'7  6  5  ~/bin/autorunjava.sh
-|4,55,6,5,1622528634,"~/bin/autorunjava.sh"
-'8  6  5  ~/bin/autorunjava.sh
-|4,56,6,5,1622528634,"~/bin/autorunjava.sh"
-'9  6  5  ~/bin/autorunjava.sh
-|4,57,6,5,1622528634,"~/bin/autorunjava.sh"
+'0  15  8  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
+|4,48,15,8,1622636472,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
+'1  37  43  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
+|4,49,37,43,1622636196,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
+'2  1  0  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
+|4,50,1,0,1622635393,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
+'3  1  0  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
+|4,51,1,0,1622635393,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
+'4  1  0  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
+|4,52,1,0,1622635393,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
+'5  1  0  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
+|4,53,1,0,1622635393,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
+'6  15  47  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
+|4,54,15,47,1622635348,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
+'7  15  47  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
+|4,55,15,47,1622635348,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
+'8  11  47  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
+|4,56,11,47,1622635348,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
+'9  11  47  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
+|4,57,11,47,1622635348,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
 
 # Jumplist (newest first):
--'  13  4  ~/code/mavenTest/src/main/java/edu/nefu/hadoop/App.java
-|4,39,13,4,1622530850,"~/code/mavenTest/src/main/java/edu/nefu/hadoop/App.java"
--'  1  0  ~/code/mavenTest/src/main/java/edu/nefu/hadoop/App.java
-|4,39,1,0,1622530780,"~/code/mavenTest/src/main/java/edu/nefu/hadoop/App.java"
--'  16  0  ~/code/mavenTest/pom.xml
-|4,39,16,0,1622529724,"~/code/mavenTest/pom.xml"
--'  16  0  ~/code/mavenTest/pom.xml
-|4,39,16,0,1622529724,"~/code/mavenTest/pom.xml"
--'  1  0  ~/code/mavenTest/pom.xml
-|4,39,1,0,1622529695,"~/code/mavenTest/pom.xml"
--'  1  0  ~/code/mavenTest/pom.xml
-|4,39,1,0,1622529695,"~/code/mavenTest/pom.xml"
--'  26  5  ~/code/mavenTest/src/main/java/edu/nefu/hadoop/App.java
-|4,39,26,5,1622529611,"~/code/mavenTest/src/main/java/edu/nefu/hadoop/App.java"
--'  26  5  ~/code/mavenTest/src/main/java/edu/nefu/hadoop/App.java
-|4,39,26,5,1622529611,"~/code/mavenTest/src/main/java/edu/nefu/hadoop/App.java"
--'  26  5  ~/code/mavenTest/src/main/java/edu/nefu/hadoop/App.java
-|4,39,26,5,1622529611,"~/code/mavenTest/src/main/java/edu/nefu/hadoop/App.java"
--'  40  0  ~/code/mavenTest/src/main/java/edu/nefu/hadoop/App.java
-|4,39,40,0,1622529546,"~/code/mavenTest/src/main/java/edu/nefu/hadoop/App.java"
--'  41  0  ~/code/mavenTest/src/main/java/edu/nefu/hadoop/App.java
-|4,39,41,0,1622529546,"~/code/mavenTest/src/main/java/edu/nefu/hadoop/App.java"
--'  41  0  ~/code/mavenTest/src/main/java/edu/nefu/hadoop/App.java
-|4,39,41,0,1622529546,"~/code/mavenTest/src/main/java/edu/nefu/hadoop/App.java"
--'  1  0  ~/code/mavenTest/src/main/java/edu/nefu/hadoop/App.java
-|4,39,1,0,1622529333,"~/code/mavenTest/src/main/java/edu/nefu/hadoop/App.java"
--'  1  0  ~/code/mavenTest/src/main/java/edu/nefu/hadoop/App.java
-|4,39,1,0,1622529333,"~/code/mavenTest/src/main/java/edu/nefu/hadoop/App.java"
--'  5  4  ~/bin/autorunjava.sh
-|4,39,5,4,1622529288,"~/bin/autorunjava.sh"
--'  5  4  ~/bin/autorunjava.sh
-|4,39,5,4,1622529288,"~/bin/autorunjava.sh"
--'  5  4  ~/bin/autorunjava.sh
-|4,39,5,4,1622529288,"~/bin/autorunjava.sh"
--'  5  4  ~/bin/autorunjava.sh
-|4,39,5,4,1622529288,"~/bin/autorunjava.sh"
--'  5  4  ~/bin/autorunjava.sh
-|4,39,5,4,1622529288,"~/bin/autorunjava.sh"
--'  5  4  ~/bin/autorunjava.sh
-|4,39,5,4,1622529288,"~/bin/autorunjava.sh"
--'  5  4  ~/bin/autorunjava.sh
-|4,39,5,4,1622529288,"~/bin/autorunjava.sh"
--'  5  4  ~/bin/autorunjava.sh
-|4,39,5,4,1622529288,"~/bin/autorunjava.sh"
--'  1  0  ~/bin/autorunjava.sh
-|4,39,1,0,1622528769,"~/bin/autorunjava.sh"
--'  1  0  ~/bin/autorunjava.sh
-|4,39,1,0,1622528769,"~/bin/autorunjava.sh"
--'  1  0  ~/bin/autorunjava.sh
-|4,39,1,0,1622528769,"~/bin/autorunjava.sh"
--'  1  0  ~/bin/autorunjava.sh
-|4,39,1,0,1622528769,"~/bin/autorunjava.sh"
--'  1  0  ~/bin/autorunjava.sh
-|4,39,1,0,1622528769,"~/bin/autorunjava.sh"
--'  1  0  ~/bin/autorunjava.sh
-|4,39,1,0,1622528769,"~/bin/autorunjava.sh"
--'  1  0  ~/bin/autorunjava.sh
-|4,39,1,0,1622528769,"~/bin/autorunjava.sh"
--'  1  0  ~/bin/autorunjava.sh
-|4,39,1,0,1622528769,"~/bin/autorunjava.sh"
--'  6  5  ~/bin/autorunjava.sh
-|4,39,6,5,1622528634,"~/bin/autorunjava.sh"
--'  6  5  ~/bin/autorunjava.sh
-|4,39,6,5,1622528634,"~/bin/autorunjava.sh"
--'  6  5  ~/bin/autorunjava.sh
-|4,39,6,5,1622528634,"~/bin/autorunjava.sh"
--'  6  5  ~/bin/autorunjava.sh
-|4,39,6,5,1622528634,"~/bin/autorunjava.sh"
--'  6  5  ~/bin/autorunjava.sh
-|4,39,6,5,1622528634,"~/bin/autorunjava.sh"
--'  6  5  ~/bin/autorunjava.sh
-|4,39,6,5,1622528634,"~/bin/autorunjava.sh"
--'  6  5  ~/bin/autorunjava.sh
-|4,39,6,5,1622528634,"~/bin/autorunjava.sh"
--'  6  5  ~/bin/autorunjava.sh
-|4,39,6,5,1622528634,"~/bin/autorunjava.sh"
--'  6  5  ~/bin/autorunjava.sh
-|4,39,6,5,1622528634,"~/bin/autorunjava.sh"
--'  6  5  ~/bin/autorunjava.sh
-|4,39,6,5,1622528634,"~/bin/autorunjava.sh"
--'  6  5  ~/bin/autorunjava.sh
-|4,39,6,5,1622528634,"~/bin/autorunjava.sh"
--'  6  5  ~/bin/autorunjava.sh
-|4,39,6,5,1622528634,"~/bin/autorunjava.sh"
--'  1  0  ~/bin/autorunjava.sh
-|4,39,1,0,1622528622,"~/bin/autorunjava.sh"
--'  1  0  ~/bin/autorunjava.sh
-|4,39,1,0,1622528622,"~/bin/autorunjava.sh"
--'  1  0  ~/bin/autorunjava.sh
-|4,39,1,0,1622528622,"~/bin/autorunjava.sh"
--'  1  0  ~/bin/autorunjava.sh
-|4,39,1,0,1622528622,"~/bin/autorunjava.sh"
--'  165  9  /opt/apache-maven-3.0.5/conf/settings.xml
-|4,39,165,9,1622528320,"/opt/apache-maven-3.0.5/conf/settings.xml"
--'  165  9  /opt/apache-maven-3.0.5/conf/settings.xml
-|4,39,165,9,1622528320,"/opt/apache-maven-3.0.5/conf/settings.xml"
--'  165  9  /opt/apache-maven-3.0.5/conf/settings.xml
-|4,39,165,9,1622528320,"/opt/apache-maven-3.0.5/conf/settings.xml"
--'  165  9  /opt/apache-maven-3.0.5/conf/settings.xml
-|4,39,165,9,1622528320,"/opt/apache-maven-3.0.5/conf/settings.xml"
--'  165  9  /opt/apache-maven-3.0.5/conf/settings.xml
-|4,39,165,9,1622528320,"/opt/apache-maven-3.0.5/conf/settings.xml"
--'  165  9  /opt/apache-maven-3.0.5/conf/settings.xml
-|4,39,165,9,1622528320,"/opt/apache-maven-3.0.5/conf/settings.xml"
--'  165  9  /opt/apache-maven-3.0.5/conf/settings.xml
-|4,39,165,9,1622528320,"/opt/apache-maven-3.0.5/conf/settings.xml"
--'  165  9  /opt/apache-maven-3.0.5/conf/settings.xml
-|4,39,165,9,1622528320,"/opt/apache-maven-3.0.5/conf/settings.xml"
--'  165  9  /opt/apache-maven-3.0.5/conf/settings.xml
-|4,39,165,9,1622528320,"/opt/apache-maven-3.0.5/conf/settings.xml"
--'  165  9  /opt/apache-maven-3.0.5/conf/settings.xml
-|4,39,165,9,1622528320,"/opt/apache-maven-3.0.5/conf/settings.xml"
--'  165  9  /opt/apache-maven-3.0.5/conf/settings.xml
-|4,39,165,9,1622528320,"/opt/apache-maven-3.0.5/conf/settings.xml"
--'  165  9  /opt/apache-maven-3.0.5/conf/settings.xml
-|4,39,165,9,1622528320,"/opt/apache-maven-3.0.5/conf/settings.xml"
--'  165  9  /opt/apache-maven-3.0.5/conf/settings.xml
-|4,39,165,9,1622528320,"/opt/apache-maven-3.0.5/conf/settings.xml"
--'  165  9  /opt/apache-maven-3.0.5/conf/settings.xml
-|4,39,165,9,1622528320,"/opt/apache-maven-3.0.5/conf/settings.xml"
--'  165  9  /opt/apache-maven-3.0.5/conf/settings.xml
-|4,39,165,9,1622528320,"/opt/apache-maven-3.0.5/conf/settings.xml"
--'  165  9  /opt/apache-maven-3.0.5/conf/settings.xml
-|4,39,165,9,1622528320,"/opt/apache-maven-3.0.5/conf/settings.xml"
--'  165  9  /opt/apache-maven-3.0.5/conf/settings.xml
-|4,39,165,9,1622528320,"/opt/apache-maven-3.0.5/conf/settings.xml"
--'  165  9  /opt/apache-maven-3.0.5/conf/settings.xml
-|4,39,165,9,1622528320,"/opt/apache-maven-3.0.5/conf/settings.xml"
--'  165  9  /opt/apache-maven-3.0.5/conf/settings.xml
-|4,39,165,9,1622528320,"/opt/apache-maven-3.0.5/conf/settings.xml"
--'  165  9  /opt/apache-maven-3.0.5/conf/settings.xml
-|4,39,165,9,1622528320,"/opt/apache-maven-3.0.5/conf/settings.xml"
--'  1  0  /opt/apache-maven-3.0.5/conf/settings.xml
-|4,39,1,0,1622528212,"/opt/apache-maven-3.0.5/conf/settings.xml"
--'  1  0  /opt/apache-maven-3.0.5/conf/settings.xml
-|4,39,1,0,1622528212,"/opt/apache-maven-3.0.5/conf/settings.xml"
--'  1  0  /opt/apache-maven-3.0.5/conf/settings.xml
-|4,39,1,0,1622528212,"/opt/apache-maven-3.0.5/conf/settings.xml"
--'  1  0  /opt/apache-maven-3.0.5/conf/settings.xml
-|4,39,1,0,1622528212,"/opt/apache-maven-3.0.5/conf/settings.xml"
--'  1  0  /opt/apache-maven-3.0.5/conf/settings.xml
-|4,39,1,0,1622528212,"/opt/apache-maven-3.0.5/conf/settings.xml"
--'  1  0  /opt/apache-maven-3.0.5/conf/settings.xml
-|4,39,1,0,1622528212,"/opt/apache-maven-3.0.5/conf/settings.xml"
--'  1  0  /opt/apache-maven-3.0.5/conf/settings.xml
-|4,39,1,0,1622528212,"/opt/apache-maven-3.0.5/conf/settings.xml"
--'  1  0  /opt/apache-maven-3.0.5/conf/settings.xml
-|4,39,1,0,1622528212,"/opt/apache-maven-3.0.5/conf/settings.xml"
--'  1  0  /opt/apache-maven-3.0.5/conf/settings.xml
-|4,39,1,0,1622528212,"/opt/apache-maven-3.0.5/conf/settings.xml"
--'  1  0  /opt/apache-maven-3.0.5/conf/settings.xml
-|4,39,1,0,1622528212,"/opt/apache-maven-3.0.5/conf/settings.xml"
--'  1  0  /opt/apache-maven-3.0.5/conf/settings.xml
-|4,39,1,0,1622528212,"/opt/apache-maven-3.0.5/conf/settings.xml"
--'  1  0  /opt/apache-maven-3.0.5/conf/settings.xml
-|4,39,1,0,1622528212,"/opt/apache-maven-3.0.5/conf/settings.xml"
--'  1  0  /opt/apache-maven-3.0.5/conf/settings.xml
-|4,39,1,0,1622528212,"/opt/apache-maven-3.0.5/conf/settings.xml"
--'  1  0  /opt/apache-maven-3.0.5/conf/settings.xml
-|4,39,1,0,1622528212,"/opt/apache-maven-3.0.5/conf/settings.xml"
--'  1  0  /opt/apache-maven-3.0.5/conf/settings.xml
-|4,39,1,0,1622528212,"/opt/apache-maven-3.0.5/conf/settings.xml"
--'  1  0  /opt/apache-maven-3.0.5/conf/settings.xml
-|4,39,1,0,1622528212,"/opt/apache-maven-3.0.5/conf/settings.xml"
--'  1  0  /opt/apache-maven-3.0.5/conf/settings.xml
-|4,39,1,0,1622528212,"/opt/apache-maven-3.0.5/conf/settings.xml"
--'  1  0  /opt/apache-maven-3.0.5/conf/settings.xml
-|4,39,1,0,1622528212,"/opt/apache-maven-3.0.5/conf/settings.xml"
--'  1  0  /opt/apache-maven-3.0.5/conf/settings.xml
-|4,39,1,0,1622528212,"/opt/apache-maven-3.0.5/conf/settings.xml"
--'  1  0  /opt/apache-maven-3.0.5/conf/settings.xml
-|4,39,1,0,1622528212,"/opt/apache-maven-3.0.5/conf/settings.xml"
--'  148  4  /opt/apache-maven-3.0.5/conf/settings.xml
-|4,39,148,4,1622528162,"/opt/apache-maven-3.0.5/conf/settings.xml"
--'  148  4  /opt/apache-maven-3.0.5/conf/settings.xml
-|4,39,148,4,1622528162,"/opt/apache-maven-3.0.5/conf/settings.xml"
--'  148  4  /opt/apache-maven-3.0.5/conf/settings.xml
-|4,39,148,4,1622528162,"/opt/apache-maven-3.0.5/conf/settings.xml"
--'  148  4  /opt/apache-maven-3.0.5/conf/settings.xml
-|4,39,148,4,1622528162,"/opt/apache-maven-3.0.5/conf/settings.xml"
--'  148  4  /opt/apache-maven-3.0.5/conf/settings.xml
-|4,39,148,4,1622528162,"/opt/apache-maven-3.0.5/conf/settings.xml"
--'  148  4  /opt/apache-maven-3.0.5/conf/settings.xml
-|4,39,148,4,1622528162,"/opt/apache-maven-3.0.5/conf/settings.xml"
--'  148  4  /opt/apache-maven-3.0.5/conf/settings.xml
-|4,39,148,4,1622528162,"/opt/apache-maven-3.0.5/conf/settings.xml"
--'  148  4  /opt/apache-maven-3.0.5/conf/settings.xml
-|4,39,148,4,1622528162,"/opt/apache-maven-3.0.5/conf/settings.xml"
--'  148  4  /opt/apache-maven-3.0.5/conf/settings.xml
-|4,39,148,4,1622528162,"/opt/apache-maven-3.0.5/conf/settings.xml"
--'  148  4  /opt/apache-maven-3.0.5/conf/settings.xml
-|4,39,148,4,1622528162,"/opt/apache-maven-3.0.5/conf/settings.xml"
--'  148  4  /opt/apache-maven-3.0.5/conf/settings.xml
-|4,39,148,4,1622528162,"/opt/apache-maven-3.0.5/conf/settings.xml"
--'  148  4  /opt/apache-maven-3.0.5/conf/settings.xml
-|4,39,148,4,1622528162,"/opt/apache-maven-3.0.5/conf/settings.xml"
--'  148  4  /opt/apache-maven-3.0.5/conf/settings.xml
-|4,39,148,4,1622528162,"/opt/apache-maven-3.0.5/conf/settings.xml"
--'  148  4  /opt/apache-maven-3.0.5/conf/settings.xml
-|4,39,148,4,1622528162,"/opt/apache-maven-3.0.5/conf/settings.xml"
+-'  15  8  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
+|4,39,15,8,1622636472,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
+-'  1  0  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
+|4,39,1,0,1622636456,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
+-'  37  43  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
+|4,39,37,43,1622636196,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
+-'  1  0  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
+|4,39,1,0,1622635998,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
+-'  1  0  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
+|4,39,1,0,1622635393,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
+-'  11  47  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
+|4,39,11,47,1622635348,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
+-'  38  47  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
+|4,39,38,47,1622635348,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
+-'  11  47  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
+|4,39,11,47,1622635348,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
+-'  11  47  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
+|4,39,11,47,1622635348,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
+-'  1  0  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
+|4,39,1,0,1622635280,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
+-'  1  0  ~/code/java/test/src/main/java/com/hadoop/class/App.java
+|4,39,1,0,1622548353,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
+-'  1  0  ~/code/java/test/src/main/java/com/hadoop/class/App.java
+|4,39,1,0,1622548353,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
+-'  1  0  ~/code/java/test/src/main/java/com/hadoop/class/App.java
+|4,39,1,0,1622548353,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
+-'  1  0  ~/code/java/test/src/main/java/com/hadoop/class/App.java
+|4,39,1,0,1622548353,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
+-'  1  0  ~/code/java/test/src/main/java/com/hadoop/class/App.java
+|4,39,1,0,1622548353,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
+-'  1  0  ~/code/java/test/src/main/java/com/hadoop/class/App.java
+|4,39,1,0,1622548353,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
+-'  1  0  ~/code/java/test/src/main/java/com/hadoop/class/App.java
+|4,39,1,0,1622548353,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
+-'  1  0  ~/code/java/test/src/main/java/com/hadoop/class/App.java
+|4,39,1,0,1622548353,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
+-'  1  0  ~/code/java/test/src/main/java/com/hadoop/class/App.java
+|4,39,1,0,1622548353,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
+-'  1  0  ~/code/java/test/src/main/java/com/hadoop/class/App.java
+|4,39,1,0,1622548353,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
+-'  1  0  ~/code/java/test/src/main/java/com/hadoop/class/App.java
+|4,39,1,0,1622548353,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
+-'  1  0  ~/code/java/test/src/main/java/com/hadoop/class/App.java
+|4,39,1,0,1622548353,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
+-'  1  0  ~/code/java/test/src/main/java/com/hadoop/class/App.java
+|4,39,1,0,1622548353,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
+-'  1  0  ~/code/java/test/src/main/java/com/hadoop/class/App.java
+|4,39,1,0,1622548353,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
+-'  1  0  ~/code/java/test/src/main/java/com/hadoop/class/App.java
+|4,39,1,0,1622548353,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
+-'  1  0  ~/code/java/test/src/main/java/com/hadoop/class/App.java
+|4,39,1,0,1622548353,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
+-'  1  0  ~/code/java/test/src/main/java/com/hadoop/class/App.java
+|4,39,1,0,1622548331,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
+-'  1  0  ~/code/java/test/src/main/java/com/hadoop/class/App.java
+|4,39,1,0,1622548331,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
+-'  1  0  ~/code/java/test/src/main/java/com/hadoop/class/App.java
+|4,39,1,0,1622548331,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
+-'  1  0  ~/code/java/test/src/main/java/com/hadoop/class/App.java
+|4,39,1,0,1622548331,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
+-'  1  0  ~/code/java/test/src/main/java/com/hadoop/class/App.java
+|4,39,1,0,1622548331,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
+-'  1  0  ~/code/java/test/src/main/java/com/hadoop/class/App.java
+|4,39,1,0,1622548331,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
+-'  1  0  ~/code/java/test/src/main/java/com/hadoop/class/App.java
+|4,39,1,0,1622548331,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
+-'  1  0  ~/code/java/test/src/main/java/com/hadoop/class/App.java
+|4,39,1,0,1622548331,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
+-'  1  0  ~/code/java/test/src/main/java/com/hadoop/class/App.java
+|4,39,1,0,1622548331,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
+-'  1  0  ~/code/java/test/src/main/java/com/hadoop/class/App.java
+|4,39,1,0,1622548331,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
+-'  1  0  ~/code/java/test/src/main/java/com/hadoop/class/App.java
+|4,39,1,0,1622548331,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
+-'  1  0  ~/code/java/test/src/main/java/com/hadoop/class/App.java
+|4,39,1,0,1622548331,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
+-'  1  0  ~/code/java/test/src/main/java/com/hadoop/class/App.java
+|4,39,1,0,1622548331,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
+-'  1  0  ~/code/java/test/src/main/java/com/hadoop/class/App.java
+|4,39,1,0,1622548331,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
+-'  1  0  ~/code/java/test/src/main/java/com/hadoop/class/App.java
+|4,39,1,0,1622548331,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
+-'  1  0  ~/code/java/test/src/main/java/com/hadoop/class/App.java
+|4,39,1,0,1622548331,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
+-'  10  29  ~/code/java/test/src/main/java/com/hadoop/class/App.java
+|4,39,10,29,1622548276,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
+-'  10  29  ~/code/java/test/src/main/java/com/hadoop/class/App.java
+|4,39,10,29,1622548276,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
+-'  10  29  ~/code/java/test/src/main/java/com/hadoop/class/App.java
+|4,39,10,29,1622548276,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
+-'  10  29  ~/code/java/test/src/main/java/com/hadoop/class/App.java
+|4,39,10,29,1622548276,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
+-'  10  29  ~/code/java/test/src/main/java/com/hadoop/class/App.java
+|4,39,10,29,1622548276,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
+-'  10  29  ~/code/java/test/src/main/java/com/hadoop/class/App.java
+|4,39,10,29,1622548276,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
+-'  10  29  ~/code/java/test/src/main/java/com/hadoop/class/App.java
+|4,39,10,29,1622548276,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
+-'  10  29  ~/code/java/test/src/main/java/com/hadoop/class/App.java
+|4,39,10,29,1622548276,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
+-'  10  29  ~/code/java/test/src/main/java/com/hadoop/class/App.java
+|4,39,10,29,1622548276,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
+-'  10  29  ~/code/java/test/src/main/java/com/hadoop/class/App.java
+|4,39,10,29,1622548276,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
+-'  10  29  ~/code/java/test/src/main/java/com/hadoop/class/App.java
+|4,39,10,29,1622548276,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
+-'  10  29  ~/code/java/test/src/main/java/com/hadoop/class/App.java
+|4,39,10,29,1622548276,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
+-'  10  29  ~/code/java/test/src/main/java/com/hadoop/class/App.java
+|4,39,10,29,1622548276,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
+-'  10  29  ~/code/java/test/src/main/java/com/hadoop/class/App.java
+|4,39,10,29,1622548276,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
+-'  10  29  ~/code/java/test/src/main/java/com/hadoop/class/App.java
+|4,39,10,29,1622548276,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
+-'  10  29  ~/code/java/test/src/main/java/com/hadoop/class/App.java
+|4,39,10,29,1622548276,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
+-'  10  29  ~/code/java/test/src/main/java/com/hadoop/class/App.java
+|4,39,10,29,1622548276,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
+-'  10  29  ~/code/java/test/src/main/java/com/hadoop/class/App.java
+|4,39,10,29,1622548276,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
+-'  10  29  ~/code/java/test/src/main/java/com/hadoop/class/App.java
+|4,39,10,29,1622548276,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
+-'  10  29  ~/code/java/test/src/main/java/com/hadoop/class/App.java
+|4,39,10,29,1622548276,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
+-'  10  29  ~/code/java/test/src/main/java/com/hadoop/class/App.java
+|4,39,10,29,1622548276,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
+-'  10  29  ~/code/java/test/src/main/java/com/hadoop/class/App.java
+|4,39,10,29,1622548276,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
+-'  10  29  ~/code/java/test/src/main/java/com/hadoop/class/App.java
+|4,39,10,29,1622548276,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
+-'  10  29  ~/code/java/test/src/main/java/com/hadoop/class/App.java
+|4,39,10,29,1622548276,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
+-'  10  29  ~/code/java/test/src/main/java/com/hadoop/class/App.java
+|4,39,10,29,1622548276,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
+-'  10  29  ~/code/java/test/src/main/java/com/hadoop/class/App.java
+|4,39,10,29,1622548276,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
+-'  10  29  ~/code/java/test/src/main/java/com/hadoop/class/App.java
+|4,39,10,29,1622548276,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
+-'  10  29  ~/code/java/test/src/main/java/com/hadoop/class/App.java
+|4,39,10,29,1622548276,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
+-'  10  29  ~/code/java/test/src/main/java/com/hadoop/class/App.java
+|4,39,10,29,1622548276,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
+-'  10  29  ~/code/java/test/src/main/java/com/hadoop/class/App.java
+|4,39,10,29,1622548276,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
+-'  10  29  ~/code/java/test/src/main/java/com/hadoop/class/App.java
+|4,39,10,29,1622548276,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
+-'  10  29  ~/code/java/test/src/main/java/com/hadoop/class/App.java
+|4,39,10,29,1622548276,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
+-'  11  28  ~/code/java/test/src/main/java/com/hadoop/class/App.java
+|4,39,11,28,1622548042,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
+-'  11  28  ~/code/java/test/src/main/java/com/hadoop/class/App.java
+|4,39,11,28,1622548042,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
+-'  11  28  ~/code/java/test/src/main/java/com/hadoop/class/App.java
+|4,39,11,28,1622548042,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
+-'  11  28  ~/code/java/test/src/main/java/com/hadoop/class/App.java
+|4,39,11,28,1622548042,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
+-'  11  28  ~/code/java/test/src/main/java/com/hadoop/class/App.java
+|4,39,11,28,1622548042,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
+-'  11  28  ~/code/java/test/src/main/java/com/hadoop/class/App.java
+|4,39,11,28,1622548042,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
+-'  11  28  ~/code/java/test/src/main/java/com/hadoop/class/App.java
+|4,39,11,28,1622548042,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
+-'  11  28  ~/code/java/test/src/main/java/com/hadoop/class/App.java
+|4,39,11,28,1622548042,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
+-'  11  28  ~/code/java/test/src/main/java/com/hadoop/class/App.java
+|4,39,11,28,1622548042,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
+-'  11  28  ~/code/java/test/src/main/java/com/hadoop/class/App.java
+|4,39,11,28,1622548042,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
+-'  11  28  ~/code/java/test/src/main/java/com/hadoop/class/App.java
+|4,39,11,28,1622548042,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
+-'  11  28  ~/code/java/test/src/main/java/com/hadoop/class/App.java
+|4,39,11,28,1622548042,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
+-'  11  28  ~/code/java/test/src/main/java/com/hadoop/class/App.java
+|4,39,11,28,1622548042,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
+-'  11  28  ~/code/java/test/src/main/java/com/hadoop/class/App.java
+|4,39,11,28,1622548042,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
+-'  11  28  ~/code/java/test/src/main/java/com/hadoop/class/App.java
+|4,39,11,28,1622548042,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
+-'  11  28  ~/code/java/test/src/main/java/com/hadoop/class/App.java
+|4,39,11,28,1622548042,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
+-'  11  28  ~/code/java/test/src/main/java/com/hadoop/class/App.java
+|4,39,11,28,1622548042,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
+-'  11  28  ~/code/java/test/src/main/java/com/hadoop/class/App.java
+|4,39,11,28,1622548042,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
+-'  11  28  ~/code/java/test/src/main/java/com/hadoop/class/App.java
+|4,39,11,28,1622548042,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
+-'  11  28  ~/code/java/test/src/main/java/com/hadoop/class/App.java
+|4,39,11,28,1622548042,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
+-'  11  28  ~/code/java/test/src/main/java/com/hadoop/class/App.java
+|4,39,11,28,1622548042,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
+-'  11  28  ~/code/java/test/src/main/java/com/hadoop/class/App.java
+|4,39,11,28,1622548042,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
+-'  11  28  ~/code/java/test/src/main/java/com/hadoop/class/App.java
+|4,39,11,28,1622548042,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
+-'  11  28  ~/code/java/test/src/main/java/com/hadoop/class/App.java
+|4,39,11,28,1622548042,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
+-'  11  28  ~/code/java/test/src/main/java/com/hadoop/class/App.java
+|4,39,11,28,1622548042,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
+-'  11  28  ~/code/java/test/src/main/java/com/hadoop/class/App.java
+|4,39,11,28,1622548042,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
 
 # History of marks within files (newest to oldest):
+
+> ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
+	*	1622636471	0
+	"	15	8
+	.	15	0
+	+	15	47
+	+	5	43
+	+	13	60
+	+	15	3
+	+	15	7
+	+	15	3
+	+	15	7
+	+	15	0
+	+	15	3
+	+	15	7
+	+	15	11
+	+	15	8
+	+	15	0
+	+	15	44
+	+	15	0
+
+> ~/code/java/test/src/main/java/com/hadoop/class/App.java
+	*	1622548352	0
+	"	1	0
+	.	1	0
+	+	10	48
+	+	1	0
+
+> ~/bin/autorunjava.sh
+	*	1622540415	0
+	"	5	5
+	^	5	6
+	.	5	5
+	+	2	12
+	+	5	5
+	+	5	0
+	+	4	13
+	+	5	11
+	+	5	0
+	+	5	5
+	+	5	0
+	+	5	15
+	+	5	29
+	+	5	5
+
+> ~/code/java/HelloWorld.class
+	*	1622539467	0
+	"	1	0
+
+> ~/code/java/HelloWorld.java
+	*	1622539346	0
+	"	1	0
+	^	6	0
+	.	5	1
+	+	1	0
+	+	5	1
 
 > ~/code/mavenTest/src/main/java/edu/nefu/hadoop/App.java
 	*	1622530848	0
@@ -404,19 +460,6 @@ $
 	.	15	17
 	+	17	0
 	+	15	17
-
-> ~/bin/autorunjava.sh
-	*	1622529287	0
-	"	5	4
-	^	5	5
-	.	5	5
-	+	2	12
-	+	6	5
-	+	6	0
-	+	4	13
-	+	6	11
-	+	6	0
-	+	5	5
 
 > /opt/apache-maven-3.0.5/conf/settings.xml
 	*	1622528319	0
@@ -462,14 +505,6 @@ $
 	+	89	31
 	+	90	38
 	+	92	28
-
-> ~/code/java/HelloWorld.java
-	*	1622527489	0
-	"	6	0
-	^	6	0
-	.	5	1
-	+	1	0
-	+	5	1
 
 > ~/code/java/HelloWorld
 	*	1622527443	0

@@ -954,3 +954,274 @@ cd ..
 ls
 . profile
 clear
+mvn -h
+mvn -v
+clear
+mvn -v
+cd /opt/apache-maven-3.0.5/
+ls
+cd conf
+ls
+vim settings.xml 
+vim ~/.bashrc 
+source ~/.bashrc 
+cd
+cda
+cdm
+clear
+cd
+ls
+cd code/
+ls
+mkdir java
+cd java/
+ls
+vim HelloWorld
+vim HelloWorld.java
+javac HelloWorld.java
+java HelloWorld
+cd
+ls
+cd bin
+ls
+vim autorunjava.sh
+cd
+vim .bashrc 
+source .bashrc 
+cd code/
+ls
+cd java/
+ls
+rm *.class
+ls
+runjava HelloWorld.java 
+cd
+cd bin/
+ls
+chmod +x autorunjava.sh 
+cd 
+cd code/
+ls
+cd java/
+runjava HelloWorld.java 
+ls
+runjava HelloWorld.java 
+java HelloWorld 
+cd 
+cd bin/
+vim autorunjava.sh 
+cd /code
+cd ~/code/
+ls
+cd java/
+ls
+runjava HelloWorld.
+runjava HelloWorld.java 
+ls
+cd ..
+mvn archetype:generate "-DgroupId=edu.nefu.hadoop" "-DartifactId=mavenTest" "-DarchetypeArtifactId=maven-archetype-quickstart" "-DinteractiveMode=false"
+ls
+cd java/
+ls
+mvn archetype:generate "-DgroupId=edu.nefu.hadoop" "-DartifactId=mavenTest" "-DarchetypeArtifactId=maven-archetype-quickstart" "-DinteractiveMode=false"
+ls
+cda
+cdm
+cd conf/
+ls
+vim settings.xml 
+cd ~/code/
+mvn archetype:generate "-DgroupId=edu.nefu.hadoop" "-DartifactId=mavenTest" "-DarchetypeArtifactId=maven-archetype-quickstart" "-DinteractiveMode=false"
+ls
+cda
+cdm
+cd conf/
+ls
+vim settings.xml 
+cd 
+cd code/
+ls
+mvn archetype:generate "-DgroupId=edu.nefu.hadoop" "-DartifactId=mavenTest" "-DarchetypeArtifactId=maven-archetype-quickstart" "-DinteractiveMode=false"
+ls
+cd mavenTest/
+trww
+tree
+cd src/main/java/edu/nefu/hadoop/
+cat App.java 
+cd 
+cd code/
+ls
+mvn archetype:generate "-DgroupId=liusy" "-DartifactId=Test" "-DarchetypeArtifactId=maven-archetype-quickstart" "-DinteractiveMode=false"
+ls
+cd T
+cd Test/
+tree
+cd src/main/java/liusy/
+cat App.java 
+cd
+cd code
+ls
+cd Test/
+ls
+tree
+cd src/test/java/liusy/
+cat AppTest.java 
+cd
+cd code/
+ls
+rm -r Test/
+ls
+cd 
+cd bin/
+vim autorunjava.sh 
+cd code
+cd ~/code
+ls
+cd java/
+ls
+runjava HelloWorld.java 
+cd 
+cd bin/
+ls
+vim autorunjava.sh 
+ls
+cd
+clear
+cd code/
+ls
+cd mavenTest/
+cd src/main/java/edu/nefu/hadoop/
+vim App.java 
+cd ../../..
+cd ../..
+cd ..
+ls
+vim pom.xml 
+ls
+mvn clean package
+cd
+ls -al
+cd
+cd code/
+ls
+cd mavenTest/
+ls
+tree
+ls
+neofetch
+apt install neofetch
+neofetch
+mvn clean package
+ls
+tree
+java -cp target/mavenTest-1.0-SNAPSHOT-jar-with-dependencies.jar edu.nefu.hadoop.App
+cd src/main/java/edu/nefu/hadoop/
+vim App.java 
+cd ~/code/mavenTest
+mvn clean package
+tree
+java -cp target/mavenTest-1.0-SNAPSHOT-jar-with-dependencies.jar edu.nefu.hadoop.App
+java -cp target/mavenTest-1.0-SNAPSHOT-jar-with-dependencies.jar edu.nefu.hadoop.App -h
+java -cp target/mavenTest-1.0-SNAPSHOT-jar-with-dependencies.jar edu.nefu.hadoop.App -f
+java -cp target/mavenTest-1.0-SNAPSHOT-jar-with-dependencies.jar edu.nefu.hadoop.App -f /user/ -v
+ls
+cd
+git add .
+git commit -m "New file, some about java"
+git branch
+git push origin master
+git status
+git log
+ls
+clear
+ls
+cd code/
+ls
+tree
+clear
+ls
+cd /opt
+ls
+clear
+ls
+mvn -veision
+clear
+cd 
+cd code/
+ls
+cd java/
+ls
+vim HelloWorld.java 
+./HelloWorld.class
+ll
+vim HelloWorld.class
+java HelloWorld.class
+runjava HelloWorld.java 
+java HelloWorld.class
+java HelloWorld
+javac HelloWorld.java 
+java HelloWorld 
+ls
+java HelloWorld HelloWorld.class
+cd
+cd bin/
+ls
+vim autorunjava.sh 
+cd ~/code/java
+runjava HelloWorld.java 
+cd ~/bin
+ls
+vim autorunjava.sh 
+cd ~/code/java
+clear
+runjava HelloWorld.java 
+ckear
+clear
+history
+clear
+neofetch
+cd
+ls
+cd bin/
+ls
+cat autorunjava.sh 
+clear
+cd
+ls
+cd c
+cd code/
+ls
+cp mavenTest/ java/
+mv mavenTest/ java/
+ls
+cd java/
+ls
+mvn archetype:generate "-DgroupId=com.hadoop.class" "-DartifactId=mavenTest" "-DarchetypeArtifactId=maven-archetype-quickstart" "-DinteractiveMode=false
+"
+mvn archetype:generate "-DgroupId=com.hadoop.class" "-DartifactId=mavenTest" "-DarchetypeAr
+mvn archetype:generate "-DgroupId=com.hadoop.class" "-DartifactId=test" "-DarchetypeArtifactId=maven-archetype-quickstart" "-DinteractiveMode=false"
+ls
+cd test/
+tree
+cd src/main/java/com/hadoop/class/
+vim App.java 
+mvn clean package
+cd ~/code/java/test/
+ls
+mvn clean package
+tree
+mvn clean package
+vim ~/code/java/test/src/main/java/com/hadoop/class/App.java 
+mvn clean package
+vim ~/code/java/test/src/main/java/com/hadoop/class/App.java 
+mvn clean package
+vim ~/code/java/test/src/main/java/com/hadoop/class/App.java 
+clear
+ls
+cat pom.xml 
+clear
+cat pom.xml 
+apt-get update
+apt-get upgrade
+apt-get update
+clear

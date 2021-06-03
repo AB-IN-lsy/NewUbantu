@@ -1225,3 +1225,118 @@ apt-get update
 apt-get upgrade
 apt-get update
 clear
+ls
+cd code/
+ls
+cd java/
+ls
+rm -r mavenTest/
+LS
+ls
+clear
+ls
+history
+mvn archetype:generate "-DgroupId=com.hadoop.lesson" "-DartifactId=maverTest" "-DarchetypeArtifactId=maven-archetype-quickstart" "-DinteractiveMode=false"
+cd maverTest/
+tree
+cd src/main/java/com/hadoop/lesson/
+vim App.java 
+cd ~/code/java/maverTest
+ls
+vim ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java 
+mvn clean package
+ls
+tree
+java -cp target/maverTest-1.0-SNAPSHOT.jar com.hadoop.lesson.App 
+clear
+ls
+cat pom.xml 
+cd src/main/java/com/hadoop/lesson/
+vim App.java 
+cat App.java 
+cd ~/code/java/maverTest
+ls
+clear
+mvn clean package
+tree
+clean
+clear
+java -cp target/mavenTest-1.0-SNAPSHOT-jar-with-dependencies.jar com.hadoop.lesson.App 
+vim src/main/java/com/hadoop/lesson/App.java 
+mvn clean package
+java -cp target/mavenTest-1.0-SNAPSHOT-jar-with-dependencies.jar com.hadoop.lesson.App 
+cd
+ls
+cd fonts.dir
+ls
+mkdir file
+mv WindowsPath.txt IP.txt pom.xml file/
+ls
+clear
+git add .
+git commit -m "mavenTest"
+git push origin master
+git status
+git push origin master 
+git log
+clean
+clear
+ls
+cd clang_complete/
+ls
+clear
+cd
+ls
+ll
+ls
+cd file/
+ls
+cat pom.xml 
+cd
+cd code/
+ls]
+ll
+cd java/
+ls
+cd maverTest/
+vim pom.xml 
+ll
+chmod +rw pom.xml 
+ll
+vim pom.xml 
+mvn clean package
+tree
+cat pom.xml 
+mvn archetype:generate "-DgroupId=com.hadoop.clazz" "-DartifactId=mavenTest" "-DarchetypeArtifactId=maven-archetype-quickstart" "-DinteractiveMode=false"
+ls
+cd ..
+mvn archetype:generate "-DgroupId=com.hadoop.clazz" "-DartifactId=mavenTest" "-DarchetypeArtifactId=maven-archetype-quickstart" "-DinteractiveMode=false"
+ls
+cd mavenTest/
+ls
+cat pom.xml 
+cat ../maverTest/pom.xml 
+ls
+cd ..
+rm -r mavenTest/
+clean
+clear
+cd /opt
+ls
+git init
+ll
+git add .
+git commit -m "First try"
+git remote add origin https://github.com/AB-IN-lsy/UbantuOpt.git
+ll
+git lfs hadoop-2.7.2/
+git lfs --hel[
+git lfs --help
+git lfs track hadoop-2.7.2/
+ll
+git lfs track jdk1.8.0_144/
+git lfs track sublime_text/
+git push origin master 
+ll
+cd
+clear

@@ -18,17 +18,17 @@ $
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1622636472,,"wq"
+|2,0,1622638152,,"wq"
 :q
-|2,0,1622635393,,"q"
+|2,0,1622638096,,"q"
+:q!
+|2,0,1622638088,,"q!"
 :set nopaste
 |2,0,1622529557,,"set nopaste"
 :set paste
 |2,0,1622529518,,"set paste"
 :paste
 |2,0,1622529507,,"paste"
-:q!
-|2,0,1622529288,,"q!"
 :Q
 |2,0,1622529285,,"Q"
 :/mirror
@@ -143,36 +143,118 @@ $
 |3,0,36,0,1,0,1622270298,"8"
 
 # File marks:
-'0  15  8  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
-|4,48,15,8,1622636472,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
-'1  37  43  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
-|4,49,37,43,1622636196,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
-'2  1  0  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
-|4,50,1,0,1622635393,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
-'3  1  0  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
-|4,51,1,0,1622635393,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
-'4  1  0  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
-|4,52,1,0,1622635393,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
-'5  1  0  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
-|4,53,1,0,1622635393,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
-'6  15  47  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
-|4,54,15,47,1622635348,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
-'7  15  47  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
-|4,55,15,47,1622635348,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
-'8  11  47  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
-|4,56,11,47,1622635348,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
-'9  11  47  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
-|4,57,11,47,1622635348,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
+'0  54  9  ~/code/java/maverTest/pom.xml
+|4,48,54,9,1622638152,"~/code/java/maverTest/pom.xml"
+'1  1  0  ~/code/java/maverTest/pom.xml
+|4,49,1,0,1622638096,"~/code/java/maverTest/pom.xml"
+'2  1  0  ~/code/java/maverTest/pom.xml
+|4,50,1,0,1622638096,"~/code/java/maverTest/pom.xml"
+'3  54  9  ~/code/java/maverTest/pom.xml
+|4,51,54,9,1622638088,"~/code/java/maverTest/pom.xml"
+'4  54  9  ~/code/java/maverTest/pom.xml
+|4,52,54,9,1622638088,"~/code/java/maverTest/pom.xml"
+'5  54  9  ~/code/java/maverTest/pom.xml
+|4,53,54,9,1622638088,"~/code/java/maverTest/pom.xml"
+'6  15  8  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
+|4,54,15,8,1622636472,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
+'7  37  43  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
+|4,55,37,43,1622636196,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
+'8  1  0  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
+|4,56,1,0,1622635393,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
+'9  1  0  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
+|4,57,1,0,1622635393,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
 
 # Jumplist (newest first):
+-'  54  9  ~/code/java/maverTest/pom.xml
+|4,39,54,9,1622638152,"~/code/java/maverTest/pom.xml"
+-'  1  0  ~/code/java/maverTest/pom.xml
+|4,39,1,0,1622638123,"~/code/java/maverTest/pom.xml"
+-'  1  0  ~/code/java/maverTest/pom.xml
+|4,39,1,0,1622638096,"~/code/java/maverTest/pom.xml"
+-'  54  9  ~/code/java/maverTest/pom.xml
+|4,39,54,9,1622638088,"~/code/java/maverTest/pom.xml"
+-'  54  9  ~/code/java/maverTest/pom.xml
+|4,39,54,9,1622638088,"~/code/java/maverTest/pom.xml"
+-'  1  0  ~/code/java/maverTest/pom.xml
+|4,39,1,0,1622638027,"~/code/java/maverTest/pom.xml"
+-'  15  8  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
+|4,39,15,8,1622636472,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
+-'  15  8  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
+|4,39,15,8,1622636472,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
+-'  15  8  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
+|4,39,15,8,1622636472,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
+-'  15  8  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
+|4,39,15,8,1622636472,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
+-'  15  8  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
+|4,39,15,8,1622636472,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
+-'  15  8  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
+|4,39,15,8,1622636472,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
+-'  15  8  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
+|4,39,15,8,1622636472,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
 -'  15  8  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
 |4,39,15,8,1622636472,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
 -'  1  0  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
 |4,39,1,0,1622636456,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
+-'  1  0  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
+|4,39,1,0,1622636456,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
+-'  1  0  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
+|4,39,1,0,1622636456,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
+-'  1  0  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
+|4,39,1,0,1622636456,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
+-'  1  0  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
+|4,39,1,0,1622636456,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
+-'  1  0  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
+|4,39,1,0,1622636456,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
+-'  1  0  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
+|4,39,1,0,1622636456,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
+-'  1  0  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
+|4,39,1,0,1622636456,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
+-'  37  43  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
+|4,39,37,43,1622636196,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
+-'  37  43  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
+|4,39,37,43,1622636196,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
+-'  37  43  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
+|4,39,37,43,1622636196,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
+-'  37  43  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
+|4,39,37,43,1622636196,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
+-'  37  43  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
+|4,39,37,43,1622636196,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
+-'  37  43  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
+|4,39,37,43,1622636196,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
+-'  37  43  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
+|4,39,37,43,1622636196,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
 -'  37  43  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
 |4,39,37,43,1622636196,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
 -'  1  0  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
 |4,39,1,0,1622635998,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
+-'  1  0  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
+|4,39,1,0,1622635998,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
+-'  1  0  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
+|4,39,1,0,1622635998,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
+-'  1  0  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
+|4,39,1,0,1622635998,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
+-'  1  0  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
+|4,39,1,0,1622635998,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
+-'  1  0  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
+|4,39,1,0,1622635998,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
+-'  1  0  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
+|4,39,1,0,1622635998,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
+-'  1  0  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
+|4,39,1,0,1622635998,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
+-'  1  0  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
+|4,39,1,0,1622635393,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
+-'  1  0  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
+|4,39,1,0,1622635393,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
+-'  1  0  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
+|4,39,1,0,1622635393,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
+-'  1  0  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
+|4,39,1,0,1622635393,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
+-'  1  0  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
+|4,39,1,0,1622635393,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
+-'  1  0  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
+|4,39,1,0,1622635393,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
+-'  1  0  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
+|4,39,1,0,1622635393,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
 -'  1  0  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
 |4,39,1,0,1622635393,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
 -'  11  47  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
@@ -183,6 +265,76 @@ $
 |4,39,11,47,1622635348,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
 -'  11  47  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
 |4,39,11,47,1622635348,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
+-'  11  47  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
+|4,39,11,47,1622635348,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
+-'  38  47  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
+|4,39,38,47,1622635348,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
+-'  11  47  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
+|4,39,11,47,1622635348,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
+-'  11  47  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
+|4,39,11,47,1622635348,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
+-'  11  47  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
+|4,39,11,47,1622635348,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
+-'  38  47  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
+|4,39,38,47,1622635348,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
+-'  11  47  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
+|4,39,11,47,1622635348,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
+-'  11  47  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
+|4,39,11,47,1622635348,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
+-'  11  47  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
+|4,39,11,47,1622635348,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
+-'  38  47  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
+|4,39,38,47,1622635348,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
+-'  11  47  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
+|4,39,11,47,1622635348,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
+-'  11  47  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
+|4,39,11,47,1622635348,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
+-'  11  47  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
+|4,39,11,47,1622635348,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
+-'  38  47  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
+|4,39,38,47,1622635348,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
+-'  11  47  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
+|4,39,11,47,1622635348,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
+-'  11  47  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
+|4,39,11,47,1622635348,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
+-'  11  47  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
+|4,39,11,47,1622635348,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
+-'  38  47  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
+|4,39,38,47,1622635348,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
+-'  11  47  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
+|4,39,11,47,1622635348,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
+-'  11  47  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
+|4,39,11,47,1622635348,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
+-'  11  47  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
+|4,39,11,47,1622635348,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
+-'  38  47  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
+|4,39,38,47,1622635348,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
+-'  11  47  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
+|4,39,11,47,1622635348,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
+-'  11  47  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
+|4,39,11,47,1622635348,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
+-'  11  47  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
+|4,39,11,47,1622635348,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
+-'  38  47  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
+|4,39,38,47,1622635348,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
+-'  11  47  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
+|4,39,11,47,1622635348,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
+-'  11  47  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
+|4,39,11,47,1622635348,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
+-'  1  0  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
+|4,39,1,0,1622635280,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
+-'  1  0  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
+|4,39,1,0,1622635280,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
+-'  1  0  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
+|4,39,1,0,1622635280,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
+-'  1  0  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
+|4,39,1,0,1622635280,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
+-'  1  0  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
+|4,39,1,0,1622635280,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
+-'  1  0  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
+|4,39,1,0,1622635280,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
+-'  1  0  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
+|4,39,1,0,1622635280,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
 -'  1  0  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
 |4,39,1,0,1622635280,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
 -'  1  0  ~/code/java/test/src/main/java/com/hadoop/class/App.java
@@ -213,160 +365,20 @@ $
 |4,39,1,0,1622548353,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
 -'  1  0  ~/code/java/test/src/main/java/com/hadoop/class/App.java
 |4,39,1,0,1622548353,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
--'  1  0  ~/code/java/test/src/main/java/com/hadoop/class/App.java
-|4,39,1,0,1622548353,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
--'  1  0  ~/code/java/test/src/main/java/com/hadoop/class/App.java
-|4,39,1,0,1622548353,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
--'  1  0  ~/code/java/test/src/main/java/com/hadoop/class/App.java
-|4,39,1,0,1622548331,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
--'  1  0  ~/code/java/test/src/main/java/com/hadoop/class/App.java
-|4,39,1,0,1622548331,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
--'  1  0  ~/code/java/test/src/main/java/com/hadoop/class/App.java
-|4,39,1,0,1622548331,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
--'  1  0  ~/code/java/test/src/main/java/com/hadoop/class/App.java
-|4,39,1,0,1622548331,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
--'  1  0  ~/code/java/test/src/main/java/com/hadoop/class/App.java
-|4,39,1,0,1622548331,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
--'  1  0  ~/code/java/test/src/main/java/com/hadoop/class/App.java
-|4,39,1,0,1622548331,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
--'  1  0  ~/code/java/test/src/main/java/com/hadoop/class/App.java
-|4,39,1,0,1622548331,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
--'  1  0  ~/code/java/test/src/main/java/com/hadoop/class/App.java
-|4,39,1,0,1622548331,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
--'  1  0  ~/code/java/test/src/main/java/com/hadoop/class/App.java
-|4,39,1,0,1622548331,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
--'  1  0  ~/code/java/test/src/main/java/com/hadoop/class/App.java
-|4,39,1,0,1622548331,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
--'  1  0  ~/code/java/test/src/main/java/com/hadoop/class/App.java
-|4,39,1,0,1622548331,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
--'  1  0  ~/code/java/test/src/main/java/com/hadoop/class/App.java
-|4,39,1,0,1622548331,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
--'  1  0  ~/code/java/test/src/main/java/com/hadoop/class/App.java
-|4,39,1,0,1622548331,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
--'  1  0  ~/code/java/test/src/main/java/com/hadoop/class/App.java
-|4,39,1,0,1622548331,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
--'  1  0  ~/code/java/test/src/main/java/com/hadoop/class/App.java
-|4,39,1,0,1622548331,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
--'  1  0  ~/code/java/test/src/main/java/com/hadoop/class/App.java
-|4,39,1,0,1622548331,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
--'  10  29  ~/code/java/test/src/main/java/com/hadoop/class/App.java
-|4,39,10,29,1622548276,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
--'  10  29  ~/code/java/test/src/main/java/com/hadoop/class/App.java
-|4,39,10,29,1622548276,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
--'  10  29  ~/code/java/test/src/main/java/com/hadoop/class/App.java
-|4,39,10,29,1622548276,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
--'  10  29  ~/code/java/test/src/main/java/com/hadoop/class/App.java
-|4,39,10,29,1622548276,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
--'  10  29  ~/code/java/test/src/main/java/com/hadoop/class/App.java
-|4,39,10,29,1622548276,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
--'  10  29  ~/code/java/test/src/main/java/com/hadoop/class/App.java
-|4,39,10,29,1622548276,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
--'  10  29  ~/code/java/test/src/main/java/com/hadoop/class/App.java
-|4,39,10,29,1622548276,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
--'  10  29  ~/code/java/test/src/main/java/com/hadoop/class/App.java
-|4,39,10,29,1622548276,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
--'  10  29  ~/code/java/test/src/main/java/com/hadoop/class/App.java
-|4,39,10,29,1622548276,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
--'  10  29  ~/code/java/test/src/main/java/com/hadoop/class/App.java
-|4,39,10,29,1622548276,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
--'  10  29  ~/code/java/test/src/main/java/com/hadoop/class/App.java
-|4,39,10,29,1622548276,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
--'  10  29  ~/code/java/test/src/main/java/com/hadoop/class/App.java
-|4,39,10,29,1622548276,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
--'  10  29  ~/code/java/test/src/main/java/com/hadoop/class/App.java
-|4,39,10,29,1622548276,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
--'  10  29  ~/code/java/test/src/main/java/com/hadoop/class/App.java
-|4,39,10,29,1622548276,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
--'  10  29  ~/code/java/test/src/main/java/com/hadoop/class/App.java
-|4,39,10,29,1622548276,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
--'  10  29  ~/code/java/test/src/main/java/com/hadoop/class/App.java
-|4,39,10,29,1622548276,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
--'  10  29  ~/code/java/test/src/main/java/com/hadoop/class/App.java
-|4,39,10,29,1622548276,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
--'  10  29  ~/code/java/test/src/main/java/com/hadoop/class/App.java
-|4,39,10,29,1622548276,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
--'  10  29  ~/code/java/test/src/main/java/com/hadoop/class/App.java
-|4,39,10,29,1622548276,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
--'  10  29  ~/code/java/test/src/main/java/com/hadoop/class/App.java
-|4,39,10,29,1622548276,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
--'  10  29  ~/code/java/test/src/main/java/com/hadoop/class/App.java
-|4,39,10,29,1622548276,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
--'  10  29  ~/code/java/test/src/main/java/com/hadoop/class/App.java
-|4,39,10,29,1622548276,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
--'  10  29  ~/code/java/test/src/main/java/com/hadoop/class/App.java
-|4,39,10,29,1622548276,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
--'  10  29  ~/code/java/test/src/main/java/com/hadoop/class/App.java
-|4,39,10,29,1622548276,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
--'  10  29  ~/code/java/test/src/main/java/com/hadoop/class/App.java
-|4,39,10,29,1622548276,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
--'  10  29  ~/code/java/test/src/main/java/com/hadoop/class/App.java
-|4,39,10,29,1622548276,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
--'  10  29  ~/code/java/test/src/main/java/com/hadoop/class/App.java
-|4,39,10,29,1622548276,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
--'  10  29  ~/code/java/test/src/main/java/com/hadoop/class/App.java
-|4,39,10,29,1622548276,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
--'  10  29  ~/code/java/test/src/main/java/com/hadoop/class/App.java
-|4,39,10,29,1622548276,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
--'  10  29  ~/code/java/test/src/main/java/com/hadoop/class/App.java
-|4,39,10,29,1622548276,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
--'  10  29  ~/code/java/test/src/main/java/com/hadoop/class/App.java
-|4,39,10,29,1622548276,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
--'  10  29  ~/code/java/test/src/main/java/com/hadoop/class/App.java
-|4,39,10,29,1622548276,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
--'  11  28  ~/code/java/test/src/main/java/com/hadoop/class/App.java
-|4,39,11,28,1622548042,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
--'  11  28  ~/code/java/test/src/main/java/com/hadoop/class/App.java
-|4,39,11,28,1622548042,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
--'  11  28  ~/code/java/test/src/main/java/com/hadoop/class/App.java
-|4,39,11,28,1622548042,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
--'  11  28  ~/code/java/test/src/main/java/com/hadoop/class/App.java
-|4,39,11,28,1622548042,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
--'  11  28  ~/code/java/test/src/main/java/com/hadoop/class/App.java
-|4,39,11,28,1622548042,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
--'  11  28  ~/code/java/test/src/main/java/com/hadoop/class/App.java
-|4,39,11,28,1622548042,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
--'  11  28  ~/code/java/test/src/main/java/com/hadoop/class/App.java
-|4,39,11,28,1622548042,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
--'  11  28  ~/code/java/test/src/main/java/com/hadoop/class/App.java
-|4,39,11,28,1622548042,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
--'  11  28  ~/code/java/test/src/main/java/com/hadoop/class/App.java
-|4,39,11,28,1622548042,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
--'  11  28  ~/code/java/test/src/main/java/com/hadoop/class/App.java
-|4,39,11,28,1622548042,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
--'  11  28  ~/code/java/test/src/main/java/com/hadoop/class/App.java
-|4,39,11,28,1622548042,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
--'  11  28  ~/code/java/test/src/main/java/com/hadoop/class/App.java
-|4,39,11,28,1622548042,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
--'  11  28  ~/code/java/test/src/main/java/com/hadoop/class/App.java
-|4,39,11,28,1622548042,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
--'  11  28  ~/code/java/test/src/main/java/com/hadoop/class/App.java
-|4,39,11,28,1622548042,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
--'  11  28  ~/code/java/test/src/main/java/com/hadoop/class/App.java
-|4,39,11,28,1622548042,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
--'  11  28  ~/code/java/test/src/main/java/com/hadoop/class/App.java
-|4,39,11,28,1622548042,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
--'  11  28  ~/code/java/test/src/main/java/com/hadoop/class/App.java
-|4,39,11,28,1622548042,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
--'  11  28  ~/code/java/test/src/main/java/com/hadoop/class/App.java
-|4,39,11,28,1622548042,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
--'  11  28  ~/code/java/test/src/main/java/com/hadoop/class/App.java
-|4,39,11,28,1622548042,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
--'  11  28  ~/code/java/test/src/main/java/com/hadoop/class/App.java
-|4,39,11,28,1622548042,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
--'  11  28  ~/code/java/test/src/main/java/com/hadoop/class/App.java
-|4,39,11,28,1622548042,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
--'  11  28  ~/code/java/test/src/main/java/com/hadoop/class/App.java
-|4,39,11,28,1622548042,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
--'  11  28  ~/code/java/test/src/main/java/com/hadoop/class/App.java
-|4,39,11,28,1622548042,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
--'  11  28  ~/code/java/test/src/main/java/com/hadoop/class/App.java
-|4,39,11,28,1622548042,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
--'  11  28  ~/code/java/test/src/main/java/com/hadoop/class/App.java
-|4,39,11,28,1622548042,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
--'  11  28  ~/code/java/test/src/main/java/com/hadoop/class/App.java
-|4,39,11,28,1622548042,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
 
 # History of marks within files (newest to oldest):
+
+> ~/code/java/maverTest/pom.xml
+	*	1622638152	0
+	"	54	9
+	^	54	10
+	.	8	12
+	+	4	27
+	+	5	18
+	+	8	12
+	+	4	27
+	+	5	18
+	+	8	12
 
 > ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
 	*	1622636471	0

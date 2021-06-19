@@ -49,7 +49,11 @@ syntax on
 
 " 当新建 .cpp文件时自动调用SetComment 函数
 autocmd BufNewFile *.cpp exec ":call SetComment()"
-" 加入注释
+
+autocmd BufNewFile *.c exec ":call SetComment1()"
+" 加入注释"
+
+
 func SetComment()
     call setline(1,"/*")
     call append(line("."),   "*  @Copyright (C) ".strftime("%Y")." NEFU AB_IN. All rights reserved.")
@@ -74,5 +78,24 @@ func SetComment()
     call append(line(".")+19, "}")
 endfunc
 
+func SetComment1()
+    call setline(1,"/*")
+    call append(line("."),   "*  @Copyright (C) ".strftime("%Y")." NEFU AB_IN. All rights reserved.")
+    call append(line(".")+1, "*  @FileName:".expand("%:t"))
+    call append(line(".")+2, "*  @Author:NEFU AB_IN")
+    call append(line(".")+3, "*  @Date:".strftime("%Y.%m.%d"))
+    call append(line(".")+4, "*  @Description:https://blog.csdn.net/qq_45859188")
+    call append(line(".")+5, "*/")
+    call append(line(".")+6, "")
+    call append(line(".")+7,  "#include <stdio.h>")
+    call append(line(".")+8, "#include <string.h>")
+    call append(line(".")+9, "#define LL                    long long")
+    call append(line(".")+10, "#define ULL                   unsigned long long")
+    call append(line(".")+11, "")
+    call append(line(".")+12, "int main(){")
+    call append(line(".")+13, "    ")
+    call append(line(".")+14, "    return 0;")
+    call append(line(".")+15, "}")
+endfunc
 "设置透明"
 hi Normal guibg=NONE ctermbg=NONE

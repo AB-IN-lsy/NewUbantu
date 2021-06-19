@@ -1,26 +1,3 @@
-vim authorized_keys 
-ssh localhost 
-ssh DESKTOP-TSQQRSN
-sudo service ssh stop
-sudo service ssh restart 
-ssh localhost 
-ssh DESKTOP-TSQQRSN
-sudo passwd root
-ssh localhost 
-ssh DE
-ssh DESKTOP-TSQQRSN
-ssh localhost 
-ssh DESKTOP-TSQQRSN
-sudo vi /etc/ssh/sshd_config
-ssh DESKTOP-TSQQRSN
-vi /etc/hostname
-clear
-vi /etc/hostname
-shutdown
-shutdown -r now
-ssh localhost 
-vi /etc/hostname
-ssh localhost 
 sudo /etc/init.d/ssh restart
 ssh localhost 
 ssh DESKTOP-TSQQRSN
@@ -1340,3 +1317,684 @@ git push origin master
 ll
 cd
 clear
+ls
+git add .
+git commit -m "6.3"
+git push origin master 
+ls
+git log
+git status
+clear
+git status
+ls
+echo $PATH
+clear
+vim .bashrc 
+ls
+ll
+cat hosts 
+ll
+neofetch 
+cd
+clear
+ls
+ssh localhost cc
+ssh localhost
+ls
+systemctl status ufw
+SysV init
+sysv init
+sys init
+apt install openafs-client
+ls
+cd
+clear
+cd /etc
+vim interface
+cd network
+ls
+vim interfaces 
+ip addr
+route
+route show
+ip route show
+vim interfaces 
+cat interfaces 
+ifconfig
+vim /etc/network/interfaces 
+vim /etc/resolv.conf 
+vim /etc/resolvconf/resolv.conf.d/head
+cd /etc
+cd
+ip route show
+ifconfig
+apt-install rsync
+apt-get rsync
+ifconfig
+rsync
+clear
+ipconfig
+ifconfig
+vim /etc/network/interfaces 
+ip route show
+route -n
+nsloopup hcos
+vim /etc/network/interfaces 
+systemctl restart network
+systemctl
+service restart network
+service network restart
+service networking restart
+ifconfig
+vim /etc/network/interfaces 
+service networking restart
+vim /etc/network/interfaces 
+
+ervice networking restart
+service networking restart
+ifconfig
+ip route show
+ip addr
+vim /etc/network/interfaces 
+ip route show
+ifconfig
+vim /etc/network/interfaces 
+cat hosts 
+vim /etc/network/interfaces 
+service networking restart
+starth
+stoph
+vim /etc/network/interfaces 
+ping 10.191.53.85
+cd /etc/netplan
+ls
+ll
+cd
+clear
+vim /etc/network/interfaces 
+service networking restart 
+cat /etc/network/interfaces
+vim /etc/network/interfaces 
+service networking restart 
+cat /etc/network/interfaces
+ping 192.168.53.85
+vim /etc/host
+cd /etc
+ls
+cat host
+cat hosts
+vim hosts
+cd
+vim hosts 
+ping 192.168.53.85
+vim hosts 
+ping 192.168.43.112
+cat /etc/network/interfaces
+vim /etc/network/interfaces
+service networking restart
+ping 192.168.43.112
+ping 192.168.43.85
+ls
+ip addr
+vim /etc/network/interfaces
+vim /etc/network/interfaces.d
+vim /etc/network/interfaces
+cat /etc/network/interfaces.d
+ping 192.168.43.112
+ping 192.168.43.85
+sudo /etc/init.d/networking restart
+ping 192.168.43.85
+vim /etc/network/interfaces
+sudo /etc/init.d/networking restart
+ping 192.168.43.85
+vim hosts 
+ping 192.168.43.85
+ping 192.168.43.112
+vim /etc/network/interfaces
+ifconfig
+vim /etc/network/interfaces
+sudo /etc/init.d/networking restart
+ifconfig
+cat hosts 
+ip addr
+vim /etc/network/interfaces
+sudo /etc/init.d/networking restart
+ifconfig
+vim /etc/resolv.conf/base
+vim /etc/resolv.conf
+resolvconf -u
+apt install resolvconf
+resolvconf -u
+sudo /etc/init.d/networking restart 
+sudo ip addr flush wifi0
+sudo ip addr flush eth0
+ifconfig
+vim /etc/wsl.conf 
+1
+2
+3
+10
+vim /etc/resolvconf/resolv.conf.d/base 
+vim /etc/resolvconf
+vim /etc/resolv.conf 
+resolvconf -u
+ls
+ip addr
+clear
+sudo /etc/init.d/networking restart 
+ifconfig
+vi /etc/rc.local
+clear
+ip route show
+clear
+ll
+cccccccccccccccccccc
+scscscscsacas
+,c
+mc
+apt install mc
+mc
+ifconfig
+vim hosts 
+vim /etc/network/interfaces
+ifconfig
+ls
+ip addr
+service networking restart
+ifconfig
+ip addr
+ls
+clear
+cd code/
+ls
+cd algorithms/
+ls
+vim LCS.cpp 
+cd
+ls
+ip
+clear
+cd code/
+cd algorithms/
+cat LCS.cpp 
+ls
+cd
+cat hosts 
+ls
+clear
+apt-get update
+apt-get upgrade
+clear
+ls
+apt-get update
+apt-get upgrade
+vim .bashrc 
+ls
+cd file/
+ls
+cd
+cd .vim
+ls
+ll
+cd
+ll
+vim .vimrc 
+cd .vim/
+ls
+cd colors/
+ls
+cd
+cd .vim/
+ls
+cd bundle/
+ls
+cd YouCompleteMe/
+ls
+cd ..
+ls
+cd
+vim .vimrc 
+java -version
+clear
+cat /etc/profile
+cat /etc/bashrc
+cat ~/.bash_profile
+cat ~/.bashrc
+cat /etc/profile
+cat /etc/profile.d/
+cd  /etc/profile.d/
+ls
+vim java.sh
+cat hadoop.sh 
+cat rds_start.sh 
+cd ..
+. profile
+clear
+cd
+cd /opt/hadoop-2.7.2/
+ls
+cd
+vim .bashrc 
+ls
+cat .bashrc 
+cd bin/
+ls
+cat autoStartHadoop.sh 
+cat autoStopHadoop.sh 
+cd
+cdh
+cd etc/hadoop/
+ls
+cat core-site.xml
+cat hadoop-env.sh
+vim hdfs-site.xml
+clear
+cdh
+bin/hdfs namenode -format
+cdh
+starth
+stoph
+cdh
+cd etc/
+cd hadoop/
+ls
+cat yarn-site.xml 
+cat mapred-env.sh 
+cat mapred-site.xml 
+cd
+cd /etc/hosts
+vim /etc/hosts
+cdh
+starth
+stoph
+clear
+cd etc/hadoop/
+ls
+cat core-site.xml 
+history 
+cdh
+starth
+jps
+stoph
+jps
+clear
+vim .vimrc 
+vim /etc/bash.bashrc 
+cdh
+cd etc/hadoop/
+cat core-site.xml 
+cat hdfs-site.xml 
+cat yarn-env.sh 
+cat yarn-site.xml 
+cat mapred-env.sh 
+cat mapred-site.xml 
+cat slaves 
+cd ../../..
+cd h
+cdh
+cd bin/
+ls
+cat hdfs
+cat hdfs | grep "format"
+ls
+cd code/
+ls
+tar xvf examplefiles.tar.gz
+ls
+rm examplefiles.tar.gz 
+mkdir examplefiles
+mv printObjFile.c t1.txt t2.asm t3.asm examplefiles/
+ls
+cd examplefiles/
+ls
+cat printObjFile.c 
+cat t1.txt 
+ls
+cc
+cat t2.asm 
+cd ../organisation/
+ls
+cat 5.11.cpp 
+cd ..
+ls
+tar -zxvf c-examples.tar.gz 
+ls
+cat auckland.jpg 
+cd
+ls
+cd
+cd /code
+ls
+cd code/
+ls
+mkdir c-examples
+mv *.c c-examples
+ls
+mv auckland.jpg fileIO fileIO2 c-examples
+ls
+rm c-examples.tar.gz 
+ls
+cd c-examples/
+ls
+cat strsep.c 
+cd code/c-examples/
+cat strsep.c 
+cd ../organisation/
+ls
+cat 5.11.cpp 
+cd ../c-examples/
+ls
+cat file1.c 
+cat fileIO
+cat file2.c 
+ls
+cd ../organisation/
+ls
+cat file2.txt 
+cat sum.cpp 
+cat a.cpp 
+ls
+cat 5.13.cpp 
+cat sum.cpp 
+./sum.out 1 2
+cd ../examplefiles
+ls
+cat printObjFile.c 
+ls
+cd ../c-examples/
+ls
+cat cache-w.c 
+cat file1.c 
+ls
+cat printArg.c 
+cat sum.c 
+ls
+cat xor.c 
+cat file1.c 
+cat file2.c 
+cd ..
+ls
+cd organisation/
+ls
+cat 5.11.cpp 
+cd ../..
+cd code/
+ls
+cd c-examples/
+ls
+cat cache-w.c 
+cat file2.c 
+ll
+cat xor.c 
+cd ../..
+cd code/
+cd examplefiles/
+cat printObjFile
+cat printObjFile.c 
+ls
+cat printObjFile.c 
+apt-get update
+apt-get upgrade
+cd code/
+ls
+cd c-examples/
+ls
+vim strsep.c 
+vim ~/.vimrc 
+cd ../examplefiles/
+ls
+vim part1.c
+ls
+vim ~/.vimrc 
+vim part1.c
+ls
+clear
+vim part1.c 
+gcc -o part1 part1.c 
+ls
+./part1 t1.txt t1.obj
+;ls
+ls
+cat t1.obj 
+gcc -o printObjFile printObjFile.c
+./printObjFile t1.obj
+cat printObjFile
+clear
+cat printObjFile.c 
+cat t1.obj 
+cat t1.txt 
+./printObjFile t1.obj
+vim part1.c 
+./part1 t1.txt t1.obj
+./printObjFile t1.obj
+vim part1.c 
+vim printObjFile.c 
+vim part1.c 
+./part1 t1.txt t1.obj
+./printObjFile t1.obj
+cat printObjFile.c 
+cat t1.txt 
+vim part1.c 
+cat t1.obj 
+vim part1.c 
+history
+gcc -o part1 part1.c
+clear
+./part1 t1.txt t1.obj
+ls
+cat t1.obj 
+clear
+vim part1.c 
+cat ../examplefiles/
+cat ../organisation/5.13.cpp 
+cat ../organisation/5.11.cpp 
+rm part1*
+ls
+vim part1.c
+gcc -o part1 part1.c
+./part1 t1.txt t1.obj
+./printObjFile t1.obj
+vim part1.c
+gcc -o part1 part1.c
+./part1 t1.txt t1.obj
+./printObjFile t1.obj
+vim part1.c
+gcc -o part1 part1.c
+./part1 t1.txt t1.obj
+./printObjFile t1.obj
+vim part1.c
+gcc -o part1 part1.c
+./part1 t1.txt t1.obj
+./printObjFile t1.obj
+vim part1.c
+gcc -o part1 part1.c
+ll
+./part1 t1.txt t1.obj
+./printObjFile t1.obj
+vim part1.c
+cat t1.txt 
+vim part1.c
+rm t1.obj 
+rm part1
+gcc -o part1 part1.c
+./part1 t1.txt t1.obj
+./printObjFile t1.obj
+cat t1.obj 
+cat t1.txt 
+vim part1.c
+rm part1 t1.obj 
+ls
+gcc -o part1 part1.c
+./part1 t1.txt t1.obj
+./printObjFile t1.obj
+vim part1.c 
+gcc -o part1 part1.c
+./part1 t1.txt t1.obj
+./printObjFile t1.obj
+cat printObjFile.c 
+cd code
+cd examplefiles/
+ls
+rm t1.obj part1 part1.c 
+ls
+vim part1.c
+gcc -o part1 part1.c
+./part1 t1.txt t1.obj
+./printObjFile t1.obj
+cd code/
+ls
+cd examplefiles/
+ls
+cat t1.obj 
+clear
+ls
+cat t2.asm 
+cd ..
+cdh
+cd etc/hadoop/
+ls
+cat slaves 
+cd
+cd code/
+ls
+cd examplefiles/
+ls
+clear
+ls
+cp part1.c part2.c
+ls
+vim part2.c 
+gcc -o part2 part2.c
+./part1 test.txt test.obj
+./part2 test.txt test.obj
+cat test.o
+cat test.obj 
+./printObjFile test.obj
+vim part2.c 
+cat >> test.txt 
+cat test.txt 
+history
+gcc -o part2 part2.c
+./part1 test.txt test.obj
+cat test.obj 
+ll
+ls
+rm part1.c part2.c 
+ls
+rm test.obj 
+ls
+history
+gcc -o part2 part2.c
+ll
+ls
+df -h
+sudo apt-get install extundelete
+df -h
+sudo extundelete /dev --restore-all
+sudo extundelete / --restore-all
+sudo extundelete /sys/fs/cgroup --restore-all
+df -h
+sudo extundelete rootfs --restore-all
+sudo extundelete /mnt/d/Ubuntu_2004.2020.424.0_x64/rootfs/ --restore-all
+sudo extundelete /mnt/d/Ubuntu_2004.2020.424.0_x64/rootfs --restore-all
+ls
+df ~/code/examplefiles
+cd
+df ~
+cd code/
+ls
+cd organisation/
+cat 5.11.cpp 
+cat 5.13.cpp 
+cat 5.13.1.cpp 
+cat 5.13.cpp 
+cat ../examplefiles/
+ls
+cd ../examplefiles/
+cat part1.c 
+history
+cat t2.asm 
+cat > test.txt
+ls
+cat test.txt 
+cat > test.txt 
+clear
+history
+cd ../organisation/
+ls
+cat sum.cpp 
+vim sum.cpp 
+mv sum.cpp sum.c
+vim sum.c 
+mv sum.c sum.cpp
+ls
+de -h
+df -h
+cd /dev
+ls
+cd ~/.local/share/Trash/files/
+cd 
+cd .local/share/
+ls
+cd mc/
+ls
+cat history history 
+cat history 
+cd ..
+cd nano/
+ls
+cd
+cd /.local/share
+.local/share/
+cd .local/share/
+ll
+cd 
+cd code/examplefiles/
+sudo extundelete /dev/sda1 --restore-all
+df -T
+df ~/code/examplefiles
+ls
+cd ../organisation/
+cd ../c-examples/
+ls
+cat file1.c 
+cat file2.c 
+cat sum.c 
+cd ..
+cd /opt
+ls
+cd apache-maven-3.0.5/
+ls
+cdm
+cd /etc/profile.d/
+ls
+cat maven.sh 
+mvn
+cd 
+cd code/
+ls
+cd java/
+ls
+cdm
+ls
+cd conf/
+ls
+cat settings.xml settings.xml 
+cd ..
+ls
+cd boot/
+ls
+cd ..
+cd b
+cd bin/
+ls
+cd ..
+tree
+cd
+cd code/
+cd java/
+ls
+cd maverTest/
+ls
+cat pom.xml 
+ls

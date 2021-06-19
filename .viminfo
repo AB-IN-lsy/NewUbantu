@@ -17,10 +17,32 @@
 $
 
 # Command Line History (newest to oldest):
-:wq
-|2,0,1622638152,,"wq"
 :q
-|2,0,1622638096,,"q"
+|2,0,1624082934,,"q"
+:wq
+|2,0,1624082933,,"wq"
+:Q
+|2,0,1624082732,,"Q"
+:x
+|2,0,1623997189,,"x"
+:21
+|2,0,1623987403,,"21"
+:set nonu
+|2,0,1623984685,,"set nonu"
+:ste nonu
+|2,0,1623598470,,"ste nonu"
+:l
+|2,0,1623580523,,"l"
+:BundleUpdate
+|2,0,1623580403,,"BundleUpdate"
+:BundleList
+|2,0,1623580395,,"BundleList"
+:Wq
+|2,0,1622864168,,"Wq"
+:wqa
+|2,0,1622860179,,"wqa"
+:1
+|2,0,1622859651,,"1"
 :q!
 |2,0,1622638088,,"q!"
 :set nopaste
@@ -29,18 +51,10 @@ $
 |2,0,1622529518,,"set paste"
 :paste
 |2,0,1622529507,,"paste"
-:Q
-|2,0,1622529285,,"Q"
 :/mirror
 |2,0,1622527209,,"/mirror"
-:x
-|2,0,1622270314,,"x"
 :c
 |2,0,1622270312,,"c"
-:Wq
-|2,0,1622260931,,"Wq"
-:set nonu
-|2,0,1622259060,,"set nonu"
 :wq!
 |2,0,1622117068,,"wq!"
 :WQ
@@ -71,10 +85,10 @@ $
 |2,0,1621152775,,"num"
 
 # Search String History (newest to oldest):
+? @$
+|2,1,1622860996,,"@$"
 ? mirror
 |2,1,1622527209,,"mirror"
-? @$
-|2,1,1622261444,,"@$"
 ? ge
 |2,1,1622075810,,"ge"
 ? PermitRootLogin
@@ -106,267 +120,704 @@ $
 
 # Registers:
 "0	LINE	0
-	<property> 
-		<name>yarn.log-aggregation.retain-seconds</name>
-		<value>604800</value> 
-	</property>
-|3,0,0,1,4,0,1622270225,"<property> ","	<name>yarn.log-aggregation.retain-seconds</name>","	<value>604800</value> ","</property>"
+	                    int dr = strtol(token + 1, &ptr, 10);
+|3,0,0,1,1,0,1624082872,"                    int dr = strtol(token + 1, &ptr, 10);"
 ""1	LINE	0
-	        System.out.println("file: " + file);
-|3,1,1,1,1,0,1622636469,"        System.out.println(\"file: \" + file);"
+	
+|3,1,1,1,1,0,1624082880,""
 "2	LINE	0
-	        System.out.println("verbose: " + verbose);
-|3,0,2,1,1,0,1622636469,"        System.out.println(\"verbose: \" + verbose);"
+	                    int dr = strtol(token + 1, &ptr, 10);
+|3,0,2,1,1,0,1624082878,"                    int dr = strtol(token + 1, &ptr, 10);"
 "3	LINE	0
-	        }
-|3,0,3,1,1,0,1622636468,"        }"
+	                    token = strsep(&pos, delimiters);
+|3,0,3,1,1,0,1624082878,"                    token = strsep(&pos, delimiters);"
 "4	LINE	0
-	            file = commandLine.getOptionValue('f');
-|3,0,4,1,1,0,1622636468,"            file = commandLine.getOptionValue('f');"
+	#include <bits/stdc++.h>
+|3,0,4,1,1,0,1624082519,"#include <bits/stdc++.h>"
 "5	LINE	0
-	        if( commandLine.hasOption('f') ) {
-|3,0,5,1,1,0,1622636467,"        if( commandLine.hasOption('f') ) {"
+	            int judge = 0;
+|3,0,5,1,1,0,1624070111,"            int judge = 0;"
 "6	LINE	0
-	        }
-|3,0,6,1,1,0,1622636467,"        }"
+	            int cnt = 0;
+|3,0,6,1,1,0,1624070105,"            int cnt = 0;"
 "7	LINE	0
-	            verbose = true;
-|3,0,7,1,1,0,1622636467,"            verbose = true;"
+	                    cnt += 3;
+|3,0,7,1,1,0,1624070103,"                    cnt += 3;"
 "8	LINE	0
-	        if( commandLine.hasOption('v') ) {
-|3,0,8,1,1,0,1622636467,"        if( commandLine.hasOption('v') ) {"
+	/*
+	*  @Copyright (C) 2021 NEFU AB_IN. All rights reserved.
+	*  @FileName:part1.c
+	*  @Author:NEFU AB_IN
+	*  @Date:2021.06.18
+	*  @Description:https://blog.csdn.net/qq_45859188
+	*/
+	
+	#include <stdio.h>
+	#include <string.h>
+	#define LL                    long long
+	#define ULL                   unsigned long long
+	
+	int main(){
+	    
+	    return 0;
+	}
+|3,0,8,1,17,0,1624023046,"/*","*  @Copyright (C) 2021 NEFU AB_IN. All rights reserved.","*  @FileName:part1.c","*  @Author:NEFU AB_IN","*  @Date:2021.06.18","*  @Description:https://blog.csdn.net/qq_45859188","*/","","#include <stdio.h>","#include <string.h>","#define LL                    long long","#define ULL                   unsigned long long","","int main(){","    ","    return 0;","}"
 "9	LINE	0
 	        }
-|3,0,9,1,1,0,1622636467,"        }"
+|3,0,9,1,1,0,1624004336,"        }"
 "-	CHAR	0
 	8
 |3,0,36,0,1,0,1622270298,"8"
 
 # File marks:
-'0  54  9  ~/code/java/maverTest/pom.xml
-|4,48,54,9,1622638152,"~/code/java/maverTest/pom.xml"
-'1  1  0  ~/code/java/maverTest/pom.xml
-|4,49,1,0,1622638096,"~/code/java/maverTest/pom.xml"
-'2  1  0  ~/code/java/maverTest/pom.xml
-|4,50,1,0,1622638096,"~/code/java/maverTest/pom.xml"
-'3  54  9  ~/code/java/maverTest/pom.xml
-|4,51,54,9,1622638088,"~/code/java/maverTest/pom.xml"
-'4  54  9  ~/code/java/maverTest/pom.xml
-|4,52,54,9,1622638088,"~/code/java/maverTest/pom.xml"
-'5  54  9  ~/code/java/maverTest/pom.xml
-|4,53,54,9,1622638088,"~/code/java/maverTest/pom.xml"
-'6  15  8  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
-|4,54,15,8,1622636472,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
-'7  37  43  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
-|4,55,37,43,1622636196,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
-'8  1  0  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
-|4,56,1,0,1622635393,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
-'9  1  0  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
-|4,57,1,0,1622635393,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
+'0  1  19  ~/code/organisation/sum.cpp
+|4,48,1,19,1624082672,"~/code/organisation/sum.cpp"
+'1  1  0  ~/code/examplefiles/part2.c
+|4,49,1,0,1624070661,"~/code/examplefiles/part2.c"
+'2  1  0  ~/code/examplefiles/part2.c
+|4,50,1,0,1624070661,"~/code/examplefiles/part2.c"
+'3  71  0  ~/code/examplefiles/part2.c
+|4,51,71,0,1624070653,"~/code/examplefiles/part2.c"
+'4  71  0  ~/code/examplefiles/part2.c
+|4,52,71,0,1624070653,"~/code/examplefiles/part2.c"
+'5  65  0  ~/code/examplefiles/part2.c
+|4,53,65,0,1624070653,"~/code/examplefiles/part2.c"
+'6  65  0  ~/code/examplefiles/part2.c
+|4,54,65,0,1624070653,"~/code/examplefiles/part2.c"
+'7  17  12  ~/code/examplefiles/part1.c
+|4,55,17,12,1624023067,"~/code/examplefiles/part1.c"
+'8  17  12  ~/code/examplefiles/part1.c
+|4,56,17,12,1624023067,"~/code/examplefiles/part1.c"
+'9  17  12  ~/code/examplefiles/part1.c
+|4,57,17,12,1624023067,"~/code/examplefiles/part1.c"
 
 # Jumplist (newest first):
--'  54  9  ~/code/java/maverTest/pom.xml
-|4,39,54,9,1622638152,"~/code/java/maverTest/pom.xml"
--'  1  0  ~/code/java/maverTest/pom.xml
-|4,39,1,0,1622638123,"~/code/java/maverTest/pom.xml"
--'  1  0  ~/code/java/maverTest/pom.xml
-|4,39,1,0,1622638096,"~/code/java/maverTest/pom.xml"
--'  54  9  ~/code/java/maverTest/pom.xml
-|4,39,54,9,1622638088,"~/code/java/maverTest/pom.xml"
--'  54  9  ~/code/java/maverTest/pom.xml
-|4,39,54,9,1622638088,"~/code/java/maverTest/pom.xml"
--'  1  0  ~/code/java/maverTest/pom.xml
-|4,39,1,0,1622638027,"~/code/java/maverTest/pom.xml"
--'  15  8  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
-|4,39,15,8,1622636472,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
--'  15  8  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
-|4,39,15,8,1622636472,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
--'  15  8  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
-|4,39,15,8,1622636472,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
--'  15  8  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
-|4,39,15,8,1622636472,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
--'  15  8  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
-|4,39,15,8,1622636472,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
--'  15  8  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
-|4,39,15,8,1622636472,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
--'  15  8  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
-|4,39,15,8,1622636472,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
--'  15  8  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
-|4,39,15,8,1622636472,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
--'  1  0  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
-|4,39,1,0,1622636456,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
--'  1  0  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
-|4,39,1,0,1622636456,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
--'  1  0  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
-|4,39,1,0,1622636456,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
--'  1  0  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
-|4,39,1,0,1622636456,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
--'  1  0  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
-|4,39,1,0,1622636456,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
--'  1  0  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
-|4,39,1,0,1622636456,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
--'  1  0  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
-|4,39,1,0,1622636456,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
--'  1  0  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
-|4,39,1,0,1622636456,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
--'  37  43  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
-|4,39,37,43,1622636196,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
--'  37  43  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
-|4,39,37,43,1622636196,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
--'  37  43  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
-|4,39,37,43,1622636196,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
--'  37  43  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
-|4,39,37,43,1622636196,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
--'  37  43  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
-|4,39,37,43,1622636196,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
--'  37  43  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
-|4,39,37,43,1622636196,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
--'  37  43  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
-|4,39,37,43,1622636196,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
--'  37  43  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
-|4,39,37,43,1622636196,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
--'  1  0  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
-|4,39,1,0,1622635998,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
--'  1  0  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
-|4,39,1,0,1622635998,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
--'  1  0  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
-|4,39,1,0,1622635998,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
--'  1  0  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
-|4,39,1,0,1622635998,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
--'  1  0  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
-|4,39,1,0,1622635998,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
--'  1  0  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
-|4,39,1,0,1622635998,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
--'  1  0  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
-|4,39,1,0,1622635998,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
--'  1  0  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
-|4,39,1,0,1622635998,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
--'  1  0  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
-|4,39,1,0,1622635393,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
--'  1  0  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
-|4,39,1,0,1622635393,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
--'  1  0  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
-|4,39,1,0,1622635393,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
--'  1  0  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
-|4,39,1,0,1622635393,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
--'  1  0  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
-|4,39,1,0,1622635393,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
--'  1  0  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
-|4,39,1,0,1622635393,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
--'  1  0  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
-|4,39,1,0,1622635393,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
--'  1  0  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
-|4,39,1,0,1622635393,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
--'  11  47  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
-|4,39,11,47,1622635348,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
--'  38  47  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
-|4,39,38,47,1622635348,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
--'  11  47  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
-|4,39,11,47,1622635348,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
--'  11  47  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
-|4,39,11,47,1622635348,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
--'  11  47  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
-|4,39,11,47,1622635348,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
--'  38  47  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
-|4,39,38,47,1622635348,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
--'  11  47  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
-|4,39,11,47,1622635348,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
--'  11  47  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
-|4,39,11,47,1622635348,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
--'  11  47  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
-|4,39,11,47,1622635348,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
--'  38  47  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
-|4,39,38,47,1622635348,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
--'  11  47  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
-|4,39,11,47,1622635348,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
--'  11  47  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
-|4,39,11,47,1622635348,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
--'  11  47  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
-|4,39,11,47,1622635348,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
--'  38  47  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
-|4,39,38,47,1622635348,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
--'  11  47  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
-|4,39,11,47,1622635348,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
--'  11  47  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
-|4,39,11,47,1622635348,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
--'  11  47  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
-|4,39,11,47,1622635348,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
--'  38  47  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
-|4,39,38,47,1622635348,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
--'  11  47  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
-|4,39,11,47,1622635348,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
--'  11  47  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
-|4,39,11,47,1622635348,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
--'  11  47  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
-|4,39,11,47,1622635348,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
--'  38  47  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
-|4,39,38,47,1622635348,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
--'  11  47  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
-|4,39,11,47,1622635348,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
--'  11  47  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
-|4,39,11,47,1622635348,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
--'  11  47  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
-|4,39,11,47,1622635348,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
--'  38  47  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
-|4,39,38,47,1622635348,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
--'  11  47  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
-|4,39,11,47,1622635348,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
--'  11  47  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
-|4,39,11,47,1622635348,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
--'  11  47  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
-|4,39,11,47,1622635348,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
--'  38  47  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
-|4,39,38,47,1622635348,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
--'  11  47  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
-|4,39,11,47,1622635348,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
--'  11  47  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
-|4,39,11,47,1622635348,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
--'  1  0  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
-|4,39,1,0,1622635280,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
--'  1  0  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
-|4,39,1,0,1622635280,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
--'  1  0  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
-|4,39,1,0,1622635280,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
--'  1  0  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
-|4,39,1,0,1622635280,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
--'  1  0  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
-|4,39,1,0,1622635280,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
--'  1  0  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
-|4,39,1,0,1622635280,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
--'  1  0  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
-|4,39,1,0,1622635280,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
--'  1  0  ~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java
-|4,39,1,0,1622635280,"~/code/java/maverTest/src/main/java/com/hadoop/lesson/App.java"
--'  1  0  ~/code/java/test/src/main/java/com/hadoop/class/App.java
-|4,39,1,0,1622548353,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
--'  1  0  ~/code/java/test/src/main/java/com/hadoop/class/App.java
-|4,39,1,0,1622548353,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
--'  1  0  ~/code/java/test/src/main/java/com/hadoop/class/App.java
-|4,39,1,0,1622548353,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
--'  1  0  ~/code/java/test/src/main/java/com/hadoop/class/App.java
-|4,39,1,0,1622548353,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
--'  1  0  ~/code/java/test/src/main/java/com/hadoop/class/App.java
-|4,39,1,0,1622548353,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
--'  1  0  ~/code/java/test/src/main/java/com/hadoop/class/App.java
-|4,39,1,0,1622548353,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
--'  1  0  ~/code/java/test/src/main/java/com/hadoop/class/App.java
-|4,39,1,0,1622548353,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
--'  1  0  ~/code/java/test/src/main/java/com/hadoop/class/App.java
-|4,39,1,0,1622548353,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
--'  1  0  ~/code/java/test/src/main/java/com/hadoop/class/App.java
-|4,39,1,0,1622548353,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
--'  1  0  ~/code/java/test/src/main/java/com/hadoop/class/App.java
-|4,39,1,0,1622548353,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
--'  1  0  ~/code/java/test/src/main/java/com/hadoop/class/App.java
-|4,39,1,0,1622548353,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
--'  1  0  ~/code/java/test/src/main/java/com/hadoop/class/App.java
-|4,39,1,0,1622548353,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
--'  1  0  ~/code/java/test/src/main/java/com/hadoop/class/App.java
-|4,39,1,0,1622548353,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
--'  1  0  ~/code/java/test/src/main/java/com/hadoop/class/App.java
-|4,39,1,0,1622548353,"~/code/java/test/src/main/java/com/hadoop/class/App.java"
+-'  2  0  ~/code/organisation/sum.c
+|4,39,2,0,1624082682,"~/code/organisation/sum.c"
+-'  1  19  ~/code/organisation/sum.cpp
+|4,39,1,19,1624082672,"~/code/organisation/sum.cpp"
+-'  1  19  ~/code/organisation/sum.cpp
+|4,39,1,19,1624082672,"~/code/organisation/sum.cpp"
+-'  1  0  ~/code/examplefiles/part2.c
+|4,39,1,0,1624071219,"~/code/examplefiles/part2.c"
+-'  1  0  ~/code/examplefiles/part2.c
+|4,39,1,0,1624070661,"~/code/examplefiles/part2.c"
+-'  1  0  ~/code/examplefiles/part2.c
+|4,39,1,0,1624070661,"~/code/examplefiles/part2.c"
+-'  1  0  ~/code/examplefiles/part2.c
+|4,39,1,0,1624070661,"~/code/examplefiles/part2.c"
+-'  1  0  ~/code/examplefiles/part2.c
+|4,39,1,0,1624070661,"~/code/examplefiles/part2.c"
+-'  71  0  ~/code/examplefiles/part2.c
+|4,39,71,0,1624070653,"~/code/examplefiles/part2.c"
+-'  65  0  ~/code/examplefiles/part2.c
+|4,39,65,0,1624070653,"~/code/examplefiles/part2.c"
+-'  65  0  ~/code/examplefiles/part2.c
+|4,39,65,0,1624070653,"~/code/examplefiles/part2.c"
+-'  65  0  ~/code/examplefiles/part2.c
+|4,39,65,0,1624070653,"~/code/examplefiles/part2.c"
+-'  65  0  ~/code/examplefiles/part2.c
+|4,39,65,0,1624070653,"~/code/examplefiles/part2.c"
+-'  65  0  ~/code/examplefiles/part2.c
+|4,39,65,0,1624070653,"~/code/examplefiles/part2.c"
+-'  65  0  ~/code/examplefiles/part2.c
+|4,39,65,0,1624070653,"~/code/examplefiles/part2.c"
+-'  65  0  ~/code/examplefiles/part2.c
+|4,39,65,0,1624070653,"~/code/examplefiles/part2.c"
+-'  65  0  ~/code/examplefiles/part2.c
+|4,39,65,0,1624070653,"~/code/examplefiles/part2.c"
+-'  1  0  ~/code/examplefiles/part2.c
+|4,39,1,0,1624068454,"~/code/examplefiles/part2.c"
+-'  1  0  ~/code/examplefiles/part2.c
+|4,39,1,0,1624068454,"~/code/examplefiles/part2.c"
+-'  1  0  ~/code/examplefiles/part2.c
+|4,39,1,0,1624068454,"~/code/examplefiles/part2.c"
+-'  1  0  ~/code/examplefiles/part2.c
+|4,39,1,0,1624068454,"~/code/examplefiles/part2.c"
+-'  17  12  ~/code/examplefiles/part1.c
+|4,39,17,12,1624023067,"~/code/examplefiles/part1.c"
+-'  17  12  ~/code/examplefiles/part1.c
+|4,39,17,12,1624023067,"~/code/examplefiles/part1.c"
+-'  17  12  ~/code/examplefiles/part1.c
+|4,39,17,12,1624023067,"~/code/examplefiles/part1.c"
+-'  17  12  ~/code/examplefiles/part1.c
+|4,39,17,12,1624023067,"~/code/examplefiles/part1.c"
+-'  17  12  ~/code/examplefiles/part1.c
+|4,39,17,12,1624023067,"~/code/examplefiles/part1.c"
+-'  17  12  ~/code/examplefiles/part1.c
+|4,39,17,12,1624023067,"~/code/examplefiles/part1.c"
+-'  17  12  ~/code/examplefiles/part1.c
+|4,39,17,12,1624023067,"~/code/examplefiles/part1.c"
+-'  17  12  ~/code/examplefiles/part1.c
+|4,39,17,12,1624023067,"~/code/examplefiles/part1.c"
+-'  17  12  ~/code/examplefiles/part1.c
+|4,39,17,12,1624023067,"~/code/examplefiles/part1.c"
+-'  17  12  ~/code/examplefiles/part1.c
+|4,39,17,12,1624023067,"~/code/examplefiles/part1.c"
+-'  17  12  ~/code/examplefiles/part1.c
+|4,39,17,12,1624023067,"~/code/examplefiles/part1.c"
+-'  17  12  ~/code/examplefiles/part1.c
+|4,39,17,12,1624023067,"~/code/examplefiles/part1.c"
+-'  17  12  ~/code/examplefiles/part1.c
+|4,39,17,12,1624023067,"~/code/examplefiles/part1.c"
+-'  17  12  ~/code/examplefiles/part1.c
+|4,39,17,12,1624023067,"~/code/examplefiles/part1.c"
+-'  17  12  ~/code/examplefiles/part1.c
+|4,39,17,12,1624023067,"~/code/examplefiles/part1.c"
+-'  17  12  ~/code/examplefiles/part1.c
+|4,39,17,12,1624023067,"~/code/examplefiles/part1.c"
+-'  17  12  ~/code/examplefiles/part1.c
+|4,39,17,12,1624023067,"~/code/examplefiles/part1.c"
+-'  1  0  ~/code/examplefiles/part1.c
+|4,39,1,0,1624023044,"~/code/examplefiles/part1.c"
+-'  1  0  ~/code/examplefiles/part1.c
+|4,39,1,0,1624023044,"~/code/examplefiles/part1.c"
+-'  1  0  ~/code/examplefiles/part1.c
+|4,39,1,0,1624023044,"~/code/examplefiles/part1.c"
+-'  1  0  ~/code/examplefiles/part1.c
+|4,39,1,0,1624023044,"~/code/examplefiles/part1.c"
+-'  1  0  ~/code/examplefiles/part1.c
+|4,39,1,0,1624023044,"~/code/examplefiles/part1.c"
+-'  1  0  ~/code/examplefiles/part1.c
+|4,39,1,0,1624023044,"~/code/examplefiles/part1.c"
+-'  1  0  ~/code/examplefiles/part1.c
+|4,39,1,0,1624023044,"~/code/examplefiles/part1.c"
+-'  1  0  ~/code/examplefiles/part1.c
+|4,39,1,0,1624023044,"~/code/examplefiles/part1.c"
+-'  1  0  ~/code/examplefiles/part1.c
+|4,39,1,0,1624023044,"~/code/examplefiles/part1.c"
+-'  1  0  ~/code/examplefiles/part1.c
+|4,39,1,0,1624023044,"~/code/examplefiles/part1.c"
+-'  1  0  ~/code/examplefiles/part1.c
+|4,39,1,0,1624023044,"~/code/examplefiles/part1.c"
+-'  1  0  ~/code/examplefiles/part1.c
+|4,39,1,0,1624023044,"~/code/examplefiles/part1.c"
+-'  1  0  ~/code/examplefiles/part1.c
+|4,39,1,0,1624023044,"~/code/examplefiles/part1.c"
+-'  1  0  ~/code/examplefiles/part1.c
+|4,39,1,0,1624023044,"~/code/examplefiles/part1.c"
+-'  1  0  ~/code/examplefiles/part1.c
+|4,39,1,0,1624023044,"~/code/examplefiles/part1.c"
+-'  1  0  ~/code/examplefiles/part1.c
+|4,39,1,0,1624023044,"~/code/examplefiles/part1.c"
+-'  1  0  ~/code/examplefiles/part1.c
+|4,39,1,0,1624023044,"~/code/examplefiles/part1.c"
+-'  11  41  ~/code/examplefiles/part1.c
+|4,39,11,41,1624006828,"~/code/examplefiles/part1.c"
+-'  28  41  ~/code/examplefiles/part1.c
+|4,39,28,41,1624006828,"~/code/examplefiles/part1.c"
+-'  11  41  ~/code/examplefiles/part1.c
+|4,39,11,41,1624006828,"~/code/examplefiles/part1.c"
+-'  28  41  ~/code/examplefiles/part1.c
+|4,39,28,41,1624006828,"~/code/examplefiles/part1.c"
+-'  11  41  ~/code/examplefiles/part1.c
+|4,39,11,41,1624006828,"~/code/examplefiles/part1.c"
+-'  28  41  ~/code/examplefiles/part1.c
+|4,39,28,41,1624006828,"~/code/examplefiles/part1.c"
+-'  11  41  ~/code/examplefiles/part1.c
+|4,39,11,41,1624006828,"~/code/examplefiles/part1.c"
+-'  28  41  ~/code/examplefiles/part1.c
+|4,39,28,41,1624006828,"~/code/examplefiles/part1.c"
+-'  11  41  ~/code/examplefiles/part1.c
+|4,39,11,41,1624006828,"~/code/examplefiles/part1.c"
+-'  28  41  ~/code/examplefiles/part1.c
+|4,39,28,41,1624006828,"~/code/examplefiles/part1.c"
+-'  11  41  ~/code/examplefiles/part1.c
+|4,39,11,41,1624006828,"~/code/examplefiles/part1.c"
+-'  28  41  ~/code/examplefiles/part1.c
+|4,39,28,41,1624006828,"~/code/examplefiles/part1.c"
+-'  11  41  ~/code/examplefiles/part1.c
+|4,39,11,41,1624006828,"~/code/examplefiles/part1.c"
+-'  28  41  ~/code/examplefiles/part1.c
+|4,39,28,41,1624006828,"~/code/examplefiles/part1.c"
+-'  11  41  ~/code/examplefiles/part1.c
+|4,39,11,41,1624006828,"~/code/examplefiles/part1.c"
+-'  28  41  ~/code/examplefiles/part1.c
+|4,39,28,41,1624006828,"~/code/examplefiles/part1.c"
+-'  11  41  ~/code/examplefiles/part1.c
+|4,39,11,41,1624006828,"~/code/examplefiles/part1.c"
+-'  28  41  ~/code/examplefiles/part1.c
+|4,39,28,41,1624006828,"~/code/examplefiles/part1.c"
+-'  11  41  ~/code/examplefiles/part1.c
+|4,39,11,41,1624006828,"~/code/examplefiles/part1.c"
+-'  28  41  ~/code/examplefiles/part1.c
+|4,39,28,41,1624006828,"~/code/examplefiles/part1.c"
+-'  11  41  ~/code/examplefiles/part1.c
+|4,39,11,41,1624006828,"~/code/examplefiles/part1.c"
+-'  28  41  ~/code/examplefiles/part1.c
+|4,39,28,41,1624006828,"~/code/examplefiles/part1.c"
+-'  11  41  ~/code/examplefiles/part1.c
+|4,39,11,41,1624006828,"~/code/examplefiles/part1.c"
+-'  28  41  ~/code/examplefiles/part1.c
+|4,39,28,41,1624006828,"~/code/examplefiles/part1.c"
+-'  11  41  ~/code/examplefiles/part1.c
+|4,39,11,41,1624006828,"~/code/examplefiles/part1.c"
+-'  28  41  ~/code/examplefiles/part1.c
+|4,39,28,41,1624006828,"~/code/examplefiles/part1.c"
+-'  11  41  ~/code/examplefiles/part1.c
+|4,39,11,41,1624006828,"~/code/examplefiles/part1.c"
+-'  28  41  ~/code/examplefiles/part1.c
+|4,39,28,41,1624006828,"~/code/examplefiles/part1.c"
+-'  11  41  ~/code/examplefiles/part1.c
+|4,39,11,41,1624006828,"~/code/examplefiles/part1.c"
+-'  28  41  ~/code/examplefiles/part1.c
+|4,39,28,41,1624006828,"~/code/examplefiles/part1.c"
+-'  11  41  ~/code/examplefiles/part1.c
+|4,39,11,41,1624006828,"~/code/examplefiles/part1.c"
+-'  28  41  ~/code/examplefiles/part1.c
+|4,39,28,41,1624006828,"~/code/examplefiles/part1.c"
+-'  11  41  ~/code/examplefiles/part1.c
+|4,39,11,41,1624006828,"~/code/examplefiles/part1.c"
+-'  28  41  ~/code/examplefiles/part1.c
+|4,39,28,41,1624006828,"~/code/examplefiles/part1.c"
+-'  1  0  ~/code/examplefiles/part1.c
+|4,39,1,0,1624006794,"~/code/examplefiles/part1.c"
+-'  1  0  ~/code/examplefiles/part1.c
+|4,39,1,0,1624006794,"~/code/examplefiles/part1.c"
+-'  1  0  ~/code/examplefiles/part1.c
+|4,39,1,0,1624006794,"~/code/examplefiles/part1.c"
+-'  1  0  ~/code/examplefiles/part1.c
+|4,39,1,0,1624006794,"~/code/examplefiles/part1.c"
+-'  1  0  ~/code/examplefiles/part1.c
+|4,39,1,0,1624006794,"~/code/examplefiles/part1.c"
+-'  1  0  ~/code/examplefiles/part1.c
+|4,39,1,0,1624006794,"~/code/examplefiles/part1.c"
+-'  1  0  ~/code/examplefiles/part1.c
+|4,39,1,0,1624006794,"~/code/examplefiles/part1.c"
+-'  1  0  ~/code/examplefiles/part1.c
+|4,39,1,0,1624006794,"~/code/examplefiles/part1.c"
+-'  16  0  ~/code/examplefiles/part1.c
+|4,39,16,0,1624005632,"~/code/examplefiles/part1.c"
+-'  33  0  ~/code/examplefiles/part1.c
+|4,39,33,0,1624005632,"~/code/examplefiles/part1.c"
 
 # History of marks within files (newest to oldest):
+
+> ~/code/examplefiles/part2.c
+	*	1624082931	0
+	"	55	16
+	^	42	26
+	.	53	35
+	+	23	0
+	+	22	10
+	+	20	17
+	+	24	31
+	+	23	8
+	+	22	5
+	+	30	26
+	+	66	13
+	+	26	28
+	+	19	20
+	+	32	0
+	+	18	4
+	+	35	33
+	+	44	52
+	+	45	28
+	+	62	48
+	+	44	37
+	+	45	24
+	+	35	26
+	+	36	0
+	+	35	14
+	+	36	31
+	+	39	0
+	+	19	28
+	+	39	47
+	+	42	28
+	+	47	50
+	+	49	0
+	+	35	23
+	+	42	28
+	+	49	19
+	+	42	0
+	+	35	0
+	+	21	4
+	+	65	0
+	+	40	50
+	+	41	51
+	+	47	50
+	+	56	0
+	+	59	0
+	+	56	36
+	+	59	51
+	+	60	3
+	+	49	11
+	+	58	0
+	+	60	19
+	+	49	44
+	+	55	27
+	+	48	29
+	+	55	40
+	+	55	53
+	+	55	40
+	+	10	23
+	+	55	0
+	+	10	0
+	+	55	57
+	+	55	0
+	+	50	49
+	+	51	0
+	+	52	0
+	+	55	0
+	+	52	23
+	+	51	23
+	+	51	0
+	+	52	61
+	+	53	35
+
+> ~/code/organisation/sum.c
+	*	1624082732	0
+	"	1	0
+	.	1	0
+	+	2	17
+	+	1	0
+
+> ~/code/organisation/sum.cpp
+	*	1624082670	0
+	"	1	19
+	.	1	0
+	+	1	0
+
+> ~/code/examplefiles/part1.c
+	*	1624023066	0
+	"	17	12
+	^	17	13
+	.	16	26
+	+	1	0
+	+	1	33
+	+	1	0
+	+	1	33
+	+	1	32
+	+	1	21
+	+	1	49
+	+	1	19
+	+	1	93
+	+	1	132
+	+	1	30
+	+	1	45
+	+	1	73
+	+	1	31
+	+	1	96
+	+	1	26
+	+	1	15
+	+	1	30
+	+	1	22
+	+	1	23
+	+	1	28
+	+	1	29
+	+	1	0
+	+	1	7
+	+	1	0
+	+	1	27
+	+	1	10
+	+	1	11
+	+	1	52
+	+	1	28
+	+	1	0
+	+	1	27
+	+	1	40
+	+	1	25
+	+	1	10
+	+	1	26
+	+	1	0
+	+	1	13
+	+	1	35
+	+	1	21
+	+	1	41
+	+	1	0
+	+	1	2
+	+	16	0
+	+	1	25
+	+	1	26
+	+	3	0
+	+	1	12
+	+	1	10
+	+	11	33
+	+	4	35
+	+	1	6
+	+	1	0
+	+	6	32
+	+	7	37
+	+	12	0
+	+	1	24
+	+	4	35
+	+	2	15
+	+	5	23
+	+	9	35
+	+	4	51
+	+	11	41
+	+	1	2
+	+	24	1
+	+	15	25
+	+	16	26
+
+> ~/code/examplefiles/printObjFile.c
+	*	1623987212	0
+	"	1	0
+
+> ~/.vimrc
+	*	1623985054	0
+	"	98	27
+	^	98	28
+	.	98	27
+	+	1	20
+	+	1	22
+	+	1	0
+	+	1	20
+	+	1	28
+	+	1	23
+	+	1	19
+	+	1	0
+	+	1	71
+	+	1	81
+	+	1	0
+	+	1	22
+	+	1	19
+	+	1	31
+	+	1	64
+	+	1	0
+	+	1	16
+	+	1	23
+	+	1	0
+	+	1	24
+	+	1	56
+	+	1	0
+	+	1	29
+	+	1	47
+	+	1	27
+	+	1	25
+	+	1	0
+	+	1	28
+	+	1	76
+	+	1	74
+	+	1	109
+	+	1	62
+	+	1	24
+	+	1	0
+	+	1	24
+	+	1	39
+	+	1	28
+	+	1	29
+	+	1	38
+	+	1	28
+	+	1	30
+	+	1	12
+	+	1	28
+	+	1	0
+	+	1	43
+	+	1	0
+	+	1	30
+	+	1	0
+	+	1	32
+	+	1	0
+	+	1	26
+	+	1	23
+	+	1	36
+	+	1	32
+	+	1	39
+	+	1	37
+	+	1	26
+	+	1	24
+	+	1	13
+	+	1	8
+	+	1	14
+	+	1	22
+	+	101	32
+	+	51	50
+	+	52	0
+	+	53	45
+	+	54	14
+	+	53	0
+	+	57	0
+	+	56	0
+	+	99	7
+	+	81	15
+	+	90	47
+	+	91	48
+	+	93	112
+	+	95	44
+	+	96	34
+	+	93	81
+	+	94	27
+	+	95	27
+	+	96	27
+	+	97	27
+	+	98	27
+	+	93	81
+	+	94	27
+	+	95	27
+	+	96	27
+	+	97	27
+	+	98	27
+
+> ~/code/c-examples/strsep.c
+	*	1623983368	0
+	"	1	0
+
+> /etc/bash.bashrc
+	*	1623772806	0
+	"	1	0
+
+> /etc/hosts
+	*	1623668252	0
+	"	1	0
+	^	5	13
+	.	5	12
+	+	5	0
+	+	7	0
+	+	5	1
+	+	7	11
+	+	5	12
+
+> /opt/hadoop-2.7.2/etc/hadoop/hdfs-site.xml
+	*	1623599344	0
+	"	28	0
+	^	26	28
+	.	26	27
+	+	20	0
+	+	28	15
+	+	17	59
+	+	19	0
+	+	17	5
+	+	18	2
+	+	17	57
+	+	24	0
+	+	25	29
+	+	26	27
+
+> ~/.bashrc
+	*	1623598985	0
+	"	88	0
+	^	91	29
+	.	91	0
+	+	52	0
+	+	60	0
+	+	56	2
+	+	52	0
+	+	54	0
+	+	55	1
+	+	56	0
+	+	56	2
+	+	57	0
+	+	52	0
+	+	58	0
+	+	85	25
+	+	86	21
+	+	85	21
+	+	86	26
+	+	108	22
+	+	85	12
+	+	86	13
+	+	87	13
+	+	87	32
+	+	88	31
+	+	93	0
+	+	89	31
+	+	90	38
+	+	91	0
+
+> /etc/profile.d/java.sh
+	*	1623598503	0
+	"	1	0
+	^	1	21
+	.	1	20
+	+	2	30
+	+	2	32
+	+	1	20
+
+> ~/code/algorithms/LCS.cpp
+	*	1622969287	0
+	"	24	0
+
+> /etc/network/interfaces
+	*	1622864282	0
+	"	10	23
+	^	10	24
+	.	10	23
+	+	2	42
+	+	9	31
+	+	5	20
+	+	6	21
+	+	5	21
+	+	6	22
+	+	5	0
+	+	6	0
+	+	7	0
+	+	8	0
+	+	9	0
+	+	7	20
+	+	9	19
+	+	2	43
+	+	2	7
+	+	3	21
+	+	2	0
+	+	10	21
+	+	7	16
+	+	10	0
+	+	2	0
+	+	10	23
+	+	5	9
+	+	2	0
+	+	3	0
+	+	7	19
+	+	8	16
+	+	9	17
+	+	10	23
+
+> ~/hosts
+	*	1622864168	0
+	"	5	11
+	^	5	12
+	.	5	11
+	+	5	11
+	+	6	0
+	+	5	11
+
+> /etc/rc.local
+	*	1622861208	0
+	"	1	0
+
+> /etc/resolv.conf
+	*	1622861020	0
+	"	1	0
+	^	5	0
+	.	4	18
+	+	4	18
+
+> /etc/resolvconf/resolv.conf.d/base
+	*	1622860991	0
+	"	1	17
+	^	1	18
+	.	1	17
+	+	1	17
+
+> /etc/wsl.conf
+	*	1622860933	0
+	"	3	25
+	^	3	26
+	.	3	25
+	+	2	41
+	+	2	31
+	+	2	20
+	+	3	25
+	+	2	20
+	+	3	25
+
+> /etc/network/interfaces.d
+	*	1622859637	0
+	"	1	0
+
+> /etc/host
+	*	1622859025	0
+	"	1	0
+
+> /etc/resolvconf/resolv.conf.d/head
+	*	1622855606	0
+	"	1	0
+
+> /etc/interface
+	*	1622853460	0
+	"	1	0
 
 > ~/code/java/maverTest/pom.xml
 	*	1622638152	0
@@ -487,37 +938,6 @@ $
 	+	158	8
 	+	165	9
 
-> ~/.bashrc
-	*	1622527671	0
-	"	92	28
-	^	92	29
-	.	92	28
-	+	52	0
-	+	60	0
-	+	56	2
-	+	52	0
-	+	54	0
-	+	55	1
-	+	56	0
-	+	56	2
-	+	57	0
-	+	52	0
-	+	58	0
-	+	85	25
-	+	86	21
-	+	85	21
-	+	86	26
-	+	109	22
-	+	85	12
-	+	86	13
-	+	87	13
-	+	87	32
-	+	88	31
-	+	94	0
-	+	89	31
-	+	90	38
-	+	92	28
-
 > ~/code/java/HelloWorld
 	*	1622527443	0
 	"	1	0
@@ -590,22 +1010,6 @@ $
 	+	25	33
 	+	99	33
 
-> /opt/hadoop-2.7.2/etc/hadoop/hdfs-site.xml
-	*	1622269720	0
-	"	26	27
-	^	26	28
-	.	26	27
-	+	20	0
-	+	28	15
-	+	17	59
-	+	19	0
-	+	17	5
-	+	18	2
-	+	17	57
-	+	24	0
-	+	25	29
-	+	26	27
-
 > /opt/hadoop-2.7.2/etc/hadoop/core-site.xml
 	*	1622269599	0
 	"	21	27
@@ -619,17 +1023,6 @@ $
 	+	30	15
 	+	29	0
 	+	21	36
-
-> /etc/hosts
-	*	1622269553	0
-	"	5	12
-	^	5	13
-	.	5	13
-	+	5	0
-	+	7	0
-	+	5	1
-	+	7	11
-	+	5	13
 
 > /etc/profile.d/rds_start.sh
 	*	1622267894	0
@@ -647,17 +1040,6 @@ $
 	+	10	27
 	+	9	21
 	+	8	6
-
-> /etc/wsl.conf
-	*	1622266320	0
-	"	2	19
-	^	2	20
-	.	2	19
-	+	2	41
-	+	2	31
-	+	2	20
-	+	3	25
-	+	2	19
 
 > ~/bin/autoStopHadoop.sh
 	*	1622261659	0
@@ -794,12 +1176,6 @@ $
 > /opt/hadoop-2.7.2/etc/hadoop/hadoop-env.
 	*	1621942942	0
 	"	1	0
-
-> ~/code/organisation/sum.cpp
-	*	1621935998	0
-	"	1	0
-	.	1	0
-	+	1	0
 
 > ~/code/test.cpp
 	*	1621917422	0
@@ -994,75 +1370,6 @@ $
 	+	13	34
 	+	14	0
 
-> ~/.vimrc
-	*	1621839621	0
-	"	1	0
-	^	78	33
-	.	78	32
-	+	1	20
-	+	1	22
-	+	1	0
-	+	1	20
-	+	1	28
-	+	1	23
-	+	1	19
-	+	1	0
-	+	1	71
-	+	1	81
-	+	1	0
-	+	1	22
-	+	1	19
-	+	1	31
-	+	1	64
-	+	1	0
-	+	1	16
-	+	1	23
-	+	1	0
-	+	1	24
-	+	1	56
-	+	1	0
-	+	1	29
-	+	1	47
-	+	1	27
-	+	1	25
-	+	1	0
-	+	1	28
-	+	1	76
-	+	1	74
-	+	1	109
-	+	1	62
-	+	1	24
-	+	1	0
-	+	1	24
-	+	1	39
-	+	1	28
-	+	1	29
-	+	1	38
-	+	1	28
-	+	1	30
-	+	1	12
-	+	1	28
-	+	1	0
-	+	1	43
-	+	1	0
-	+	1	30
-	+	1	0
-	+	1	32
-	+	1	0
-	+	1	26
-	+	1	23
-	+	1	36
-	+	1	32
-	+	1	39
-	+	1	37
-	+	1	26
-	+	1	24
-	+	1	13
-	+	1	8
-	+	1	14
-	+	1	22
-	+	78	32
-
 > /etc/profile.d/hadoop.sh
 	*	1621839513	0
 	"	1	22
@@ -1070,15 +1377,6 @@ $
 	.	1	22
 	+	2	33
 	+	1	22
-
-> /etc/profile.d/java.sh
-	*	1621839493	0
-	"	2	20
-	^	1	21
-	.	1	20
-	+	2	30
-	+	2	32
-	+	1	20
 
 > ~/.git/config
 	*	1621679041	0
@@ -1265,46 +1563,3 @@ $
 	"	1	0
 	.	11	0
 	+	11	0
-
-> ~/a.c
-	*	1621167865	0
-	"	1	0
-	.	11	0
-	+	11	0
-
-> ~/.vimc
-	*	1621166442	0
-	"	1	0
-
-> ~/sum.cpp
-	*	1621166347	0
-	"	1	0
-
-> /opt/sublime_text/sublime.py
-	*	1621165444	0
-	"	165	0
-
-> ~/WindowsPath
-	*	1621156824	0
-	"	1	40
-	^	1	41
-	.	1	41
-	+	1	41
-
-> ~/text
-	*	1621156535	0
-	"	1	0
-	^	1	10
-	.	1	0
-	+	1	0
-
-> /.bashrc
-	*	1621156067	0
-	"	1	0
-
-> ~/bashrc
-	*	1621156053	0
-	"	1	0
-
-> ~/clang_complete/clang_complete.vmb
-	"	1	0

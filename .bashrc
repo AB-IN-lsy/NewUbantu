@@ -88,7 +88,6 @@ alias cdh='cd /opt/hadoop-2.7.2'
 alias starth='autoStartHadoop.sh'
 alias stoph='autoStopHadoop.sh'
 alias cdm='cd /opt/apache-maven-3.0.5'
-
 alias runjava='autorunjava.sh'
 # Alias definitions.
 # You may want to put all your additions into a separate file like

@@ -1,0 +1,15 @@
+[cmdline]
+0=1
+1=2
+2=3
+3=10
+4=
+
+[Dir Hist New Right Panel]
+0=/root
+
+[Dir Hist New Left Panel]
+0=/
+1=/root
+2=/root/code
+3=/root/code/organisation

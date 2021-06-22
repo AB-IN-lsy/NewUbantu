@@ -18,13 +18,17 @@ $
 
 # Command Line History (newest to oldest):
 :q
-|2,0,1624082934,,"q"
+|2,0,1624368120,,"q"
+:q!
+|2,0,1624355683,,"q!"
 :wq
-|2,0,1624082933,,"wq"
+|2,0,1624341427,,"wq"
+:x
+|2,0,1624332145,,"x"
+:Wq
+|2,0,1624332139,,"Wq"
 :Q
 |2,0,1624082732,,"Q"
-:x
-|2,0,1623997189,,"x"
 :21
 |2,0,1623987403,,"21"
 :set nonu
@@ -37,14 +41,10 @@ $
 |2,0,1623580403,,"BundleUpdate"
 :BundleList
 |2,0,1623580395,,"BundleList"
-:Wq
-|2,0,1622864168,,"Wq"
 :wqa
 |2,0,1622860179,,"wqa"
 :1
 |2,0,1622859651,,"1"
-:q!
-|2,0,1622638088,,"q!"
 :set nopaste
 |2,0,1622529557,,"set nopaste"
 :set paste
@@ -120,278 +120,435 @@ $
 
 # Registers:
 "0	LINE	0
-	                    int dr = strtol(token + 1, &ptr, 10);
-|3,0,0,1,1,0,1624082872,"                    int dr = strtol(token + 1, &ptr, 10);"
+	            file = commandLine.getOptionValue('d');  
+|3,0,0,1,1,0,1624341080,"            file = commandLine.getOptionValue('d');  "
 ""1	LINE	0
-	
-|3,1,1,1,1,0,1624082880,""
+	         i   file_to = commandLine.getOptionValue('d');  
+|3,1,1,1,1,0,1624341097,"         i   file_to = commandLine.getOptionValue('d');  "
 "2	LINE	0
-	                    int dr = strtol(token + 1, &ptr, 10);
-|3,0,2,1,1,0,1624082878,"                    int dr = strtol(token + 1, &ptr, 10);"
+	add r1,r2,r3
+|3,0,2,1,1,0,1624104630,"add r1,r2,r3"
 "3	LINE	0
-	                    token = strsep(&pos, delimiters);
-|3,0,3,1,1,0,1624082878,"                    token = strsep(&pos, delimiters);"
+	
+|3,0,3,1,1,0,1624082880,""
 "4	LINE	0
-	#include <bits/stdc++.h>
-|3,0,4,1,1,0,1624082519,"#include <bits/stdc++.h>"
+	                    int dr = strtol(token + 1, &ptr, 10);
+|3,0,4,1,1,0,1624082878,"                    int dr = strtol(token + 1, &ptr, 10);"
 "5	LINE	0
-	            int judge = 0;
-|3,0,5,1,1,0,1624070111,"            int judge = 0;"
+	                    token = strsep(&pos, delimiters);
+|3,0,5,1,1,0,1624082878,"                    token = strsep(&pos, delimiters);"
 "6	LINE	0
-	            int cnt = 0;
-|3,0,6,1,1,0,1624070105,"            int cnt = 0;"
+	#include <bits/stdc++.h>
+|3,0,6,1,1,0,1624082519,"#include <bits/stdc++.h>"
 "7	LINE	0
-	                    cnt += 3;
-|3,0,7,1,1,0,1624070103,"                    cnt += 3;"
+	            int judge = 0;
+|3,0,7,1,1,0,1624070111,"            int judge = 0;"
 "8	LINE	0
-	/*
-	*  @Copyright (C) 2021 NEFU AB_IN. All rights reserved.
-	*  @FileName:part1.c
-	*  @Author:NEFU AB_IN
-	*  @Date:2021.06.18
-	*  @Description:https://blog.csdn.net/qq_45859188
-	*/
-	
-	#include <stdio.h>
-	#include <string.h>
-	#define LL                    long long
-	#define ULL                   unsigned long long
-	
-	int main(){
-	    
-	    return 0;
-	}
-|3,0,8,1,17,0,1624023046,"/*","*  @Copyright (C) 2021 NEFU AB_IN. All rights reserved.","*  @FileName:part1.c","*  @Author:NEFU AB_IN","*  @Date:2021.06.18","*  @Description:https://blog.csdn.net/qq_45859188","*/","","#include <stdio.h>","#include <string.h>","#define LL                    long long","#define ULL                   unsigned long long","","int main(){","    ","    return 0;","}"
+	            int cnt = 0;
+|3,0,8,1,1,0,1624070105,"            int cnt = 0;"
 "9	LINE	0
-	        }
-|3,0,9,1,1,0,1624004336,"        }"
+	                    cnt += 3;
+|3,0,9,1,1,0,1624070103,"                    cnt += 3;"
 "-	CHAR	0
 	8
 |3,0,36,0,1,0,1622270298,"8"
 
 # File marks:
-'0  1  19  ~/code/organisation/sum.cpp
-|4,48,1,19,1624082672,"~/code/organisation/sum.cpp"
-'1  1  0  ~/code/examplefiles/part2.c
-|4,49,1,0,1624070661,"~/code/examplefiles/part2.c"
-'2  1  0  ~/code/examplefiles/part2.c
-|4,50,1,0,1624070661,"~/code/examplefiles/part2.c"
-'3  71  0  ~/code/examplefiles/part2.c
-|4,51,71,0,1624070653,"~/code/examplefiles/part2.c"
-'4  71  0  ~/code/examplefiles/part2.c
-|4,52,71,0,1624070653,"~/code/examplefiles/part2.c"
-'5  65  0  ~/code/examplefiles/part2.c
-|4,53,65,0,1624070653,"~/code/examplefiles/part2.c"
-'6  65  0  ~/code/examplefiles/part2.c
-|4,54,65,0,1624070653,"~/code/examplefiles/part2.c"
-'7  17  12  ~/code/examplefiles/part1.c
-|4,55,17,12,1624023067,"~/code/examplefiles/part1.c"
-'8  17  12  ~/code/examplefiles/part1.c
-|4,56,17,12,1624023067,"~/code/examplefiles/part1.c"
-'9  17  12  ~/code/examplefiles/part1.c
-|4,57,17,12,1624023067,"~/code/examplefiles/part1.c"
+'0  64  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/Rename.java
+|4,48,64,0,1624368120,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/Rename.java"
+'1  71  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/Append.java
+|4,49,71,0,1624367135,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/Append.java"
+'2  54  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/Touch.java
+|4,50,54,0,1624367074,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/Touch.java"
+'3  69  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/ListFiles.java
+|4,51,69,0,1624365780,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/ListFiles.java"
+'4  64  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java
+|4,52,64,0,1624356917,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java"
+'5  64  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java
+|4,53,64,0,1624356877,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java"
+'6  64  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyFromLocal.java
+|4,54,64,0,1624356646,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyFromLocal.java"
+'7  53  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/Delete.java
+|4,55,53,0,1624355715,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/Delete.java"
+'8  53  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/Delete.java
+|4,56,53,0,1624355683,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/Delete.java"
+'9  61  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/Ls.java
+|4,57,61,0,1624355179,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/Ls.java"
 
 # Jumplist (newest first):
--'  2  0  ~/code/organisation/sum.c
-|4,39,2,0,1624082682,"~/code/organisation/sum.c"
--'  1  19  ~/code/organisation/sum.cpp
-|4,39,1,19,1624082672,"~/code/organisation/sum.cpp"
--'  1  19  ~/code/organisation/sum.cpp
-|4,39,1,19,1624082672,"~/code/organisation/sum.cpp"
--'  1  0  ~/code/examplefiles/part2.c
-|4,39,1,0,1624071219,"~/code/examplefiles/part2.c"
--'  1  0  ~/code/examplefiles/part2.c
-|4,39,1,0,1624070661,"~/code/examplefiles/part2.c"
--'  1  0  ~/code/examplefiles/part2.c
-|4,39,1,0,1624070661,"~/code/examplefiles/part2.c"
--'  1  0  ~/code/examplefiles/part2.c
-|4,39,1,0,1624070661,"~/code/examplefiles/part2.c"
--'  1  0  ~/code/examplefiles/part2.c
-|4,39,1,0,1624070661,"~/code/examplefiles/part2.c"
--'  71  0  ~/code/examplefiles/part2.c
-|4,39,71,0,1624070653,"~/code/examplefiles/part2.c"
--'  65  0  ~/code/examplefiles/part2.c
-|4,39,65,0,1624070653,"~/code/examplefiles/part2.c"
--'  65  0  ~/code/examplefiles/part2.c
-|4,39,65,0,1624070653,"~/code/examplefiles/part2.c"
--'  65  0  ~/code/examplefiles/part2.c
-|4,39,65,0,1624070653,"~/code/examplefiles/part2.c"
--'  65  0  ~/code/examplefiles/part2.c
-|4,39,65,0,1624070653,"~/code/examplefiles/part2.c"
--'  65  0  ~/code/examplefiles/part2.c
-|4,39,65,0,1624070653,"~/code/examplefiles/part2.c"
--'  65  0  ~/code/examplefiles/part2.c
-|4,39,65,0,1624070653,"~/code/examplefiles/part2.c"
--'  65  0  ~/code/examplefiles/part2.c
-|4,39,65,0,1624070653,"~/code/examplefiles/part2.c"
--'  65  0  ~/code/examplefiles/part2.c
-|4,39,65,0,1624070653,"~/code/examplefiles/part2.c"
--'  1  0  ~/code/examplefiles/part2.c
-|4,39,1,0,1624068454,"~/code/examplefiles/part2.c"
--'  1  0  ~/code/examplefiles/part2.c
-|4,39,1,0,1624068454,"~/code/examplefiles/part2.c"
--'  1  0  ~/code/examplefiles/part2.c
-|4,39,1,0,1624068454,"~/code/examplefiles/part2.c"
--'  1  0  ~/code/examplefiles/part2.c
-|4,39,1,0,1624068454,"~/code/examplefiles/part2.c"
--'  17  12  ~/code/examplefiles/part1.c
-|4,39,17,12,1624023067,"~/code/examplefiles/part1.c"
--'  17  12  ~/code/examplefiles/part1.c
-|4,39,17,12,1624023067,"~/code/examplefiles/part1.c"
--'  17  12  ~/code/examplefiles/part1.c
-|4,39,17,12,1624023067,"~/code/examplefiles/part1.c"
--'  17  12  ~/code/examplefiles/part1.c
-|4,39,17,12,1624023067,"~/code/examplefiles/part1.c"
--'  17  12  ~/code/examplefiles/part1.c
-|4,39,17,12,1624023067,"~/code/examplefiles/part1.c"
--'  17  12  ~/code/examplefiles/part1.c
-|4,39,17,12,1624023067,"~/code/examplefiles/part1.c"
--'  17  12  ~/code/examplefiles/part1.c
-|4,39,17,12,1624023067,"~/code/examplefiles/part1.c"
--'  17  12  ~/code/examplefiles/part1.c
-|4,39,17,12,1624023067,"~/code/examplefiles/part1.c"
--'  17  12  ~/code/examplefiles/part1.c
-|4,39,17,12,1624023067,"~/code/examplefiles/part1.c"
--'  17  12  ~/code/examplefiles/part1.c
-|4,39,17,12,1624023067,"~/code/examplefiles/part1.c"
--'  17  12  ~/code/examplefiles/part1.c
-|4,39,17,12,1624023067,"~/code/examplefiles/part1.c"
--'  17  12  ~/code/examplefiles/part1.c
-|4,39,17,12,1624023067,"~/code/examplefiles/part1.c"
--'  17  12  ~/code/examplefiles/part1.c
-|4,39,17,12,1624023067,"~/code/examplefiles/part1.c"
--'  17  12  ~/code/examplefiles/part1.c
-|4,39,17,12,1624023067,"~/code/examplefiles/part1.c"
--'  17  12  ~/code/examplefiles/part1.c
-|4,39,17,12,1624023067,"~/code/examplefiles/part1.c"
--'  17  12  ~/code/examplefiles/part1.c
-|4,39,17,12,1624023067,"~/code/examplefiles/part1.c"
--'  17  12  ~/code/examplefiles/part1.c
-|4,39,17,12,1624023067,"~/code/examplefiles/part1.c"
--'  1  0  ~/code/examplefiles/part1.c
-|4,39,1,0,1624023044,"~/code/examplefiles/part1.c"
--'  1  0  ~/code/examplefiles/part1.c
-|4,39,1,0,1624023044,"~/code/examplefiles/part1.c"
--'  1  0  ~/code/examplefiles/part1.c
-|4,39,1,0,1624023044,"~/code/examplefiles/part1.c"
--'  1  0  ~/code/examplefiles/part1.c
-|4,39,1,0,1624023044,"~/code/examplefiles/part1.c"
--'  1  0  ~/code/examplefiles/part1.c
-|4,39,1,0,1624023044,"~/code/examplefiles/part1.c"
--'  1  0  ~/code/examplefiles/part1.c
-|4,39,1,0,1624023044,"~/code/examplefiles/part1.c"
--'  1  0  ~/code/examplefiles/part1.c
-|4,39,1,0,1624023044,"~/code/examplefiles/part1.c"
--'  1  0  ~/code/examplefiles/part1.c
-|4,39,1,0,1624023044,"~/code/examplefiles/part1.c"
--'  1  0  ~/code/examplefiles/part1.c
-|4,39,1,0,1624023044,"~/code/examplefiles/part1.c"
--'  1  0  ~/code/examplefiles/part1.c
-|4,39,1,0,1624023044,"~/code/examplefiles/part1.c"
--'  1  0  ~/code/examplefiles/part1.c
-|4,39,1,0,1624023044,"~/code/examplefiles/part1.c"
--'  1  0  ~/code/examplefiles/part1.c
-|4,39,1,0,1624023044,"~/code/examplefiles/part1.c"
--'  1  0  ~/code/examplefiles/part1.c
-|4,39,1,0,1624023044,"~/code/examplefiles/part1.c"
--'  1  0  ~/code/examplefiles/part1.c
-|4,39,1,0,1624023044,"~/code/examplefiles/part1.c"
--'  1  0  ~/code/examplefiles/part1.c
-|4,39,1,0,1624023044,"~/code/examplefiles/part1.c"
--'  1  0  ~/code/examplefiles/part1.c
-|4,39,1,0,1624023044,"~/code/examplefiles/part1.c"
--'  1  0  ~/code/examplefiles/part1.c
-|4,39,1,0,1624023044,"~/code/examplefiles/part1.c"
--'  11  41  ~/code/examplefiles/part1.c
-|4,39,11,41,1624006828,"~/code/examplefiles/part1.c"
--'  28  41  ~/code/examplefiles/part1.c
-|4,39,28,41,1624006828,"~/code/examplefiles/part1.c"
--'  11  41  ~/code/examplefiles/part1.c
-|4,39,11,41,1624006828,"~/code/examplefiles/part1.c"
--'  28  41  ~/code/examplefiles/part1.c
-|4,39,28,41,1624006828,"~/code/examplefiles/part1.c"
--'  11  41  ~/code/examplefiles/part1.c
-|4,39,11,41,1624006828,"~/code/examplefiles/part1.c"
--'  28  41  ~/code/examplefiles/part1.c
-|4,39,28,41,1624006828,"~/code/examplefiles/part1.c"
--'  11  41  ~/code/examplefiles/part1.c
-|4,39,11,41,1624006828,"~/code/examplefiles/part1.c"
--'  28  41  ~/code/examplefiles/part1.c
-|4,39,28,41,1624006828,"~/code/examplefiles/part1.c"
--'  11  41  ~/code/examplefiles/part1.c
-|4,39,11,41,1624006828,"~/code/examplefiles/part1.c"
--'  28  41  ~/code/examplefiles/part1.c
-|4,39,28,41,1624006828,"~/code/examplefiles/part1.c"
--'  11  41  ~/code/examplefiles/part1.c
-|4,39,11,41,1624006828,"~/code/examplefiles/part1.c"
--'  28  41  ~/code/examplefiles/part1.c
-|4,39,28,41,1624006828,"~/code/examplefiles/part1.c"
--'  11  41  ~/code/examplefiles/part1.c
-|4,39,11,41,1624006828,"~/code/examplefiles/part1.c"
--'  28  41  ~/code/examplefiles/part1.c
-|4,39,28,41,1624006828,"~/code/examplefiles/part1.c"
--'  11  41  ~/code/examplefiles/part1.c
-|4,39,11,41,1624006828,"~/code/examplefiles/part1.c"
--'  28  41  ~/code/examplefiles/part1.c
-|4,39,28,41,1624006828,"~/code/examplefiles/part1.c"
--'  11  41  ~/code/examplefiles/part1.c
-|4,39,11,41,1624006828,"~/code/examplefiles/part1.c"
--'  28  41  ~/code/examplefiles/part1.c
-|4,39,28,41,1624006828,"~/code/examplefiles/part1.c"
--'  11  41  ~/code/examplefiles/part1.c
-|4,39,11,41,1624006828,"~/code/examplefiles/part1.c"
--'  28  41  ~/code/examplefiles/part1.c
-|4,39,28,41,1624006828,"~/code/examplefiles/part1.c"
--'  11  41  ~/code/examplefiles/part1.c
-|4,39,11,41,1624006828,"~/code/examplefiles/part1.c"
--'  28  41  ~/code/examplefiles/part1.c
-|4,39,28,41,1624006828,"~/code/examplefiles/part1.c"
--'  11  41  ~/code/examplefiles/part1.c
-|4,39,11,41,1624006828,"~/code/examplefiles/part1.c"
--'  28  41  ~/code/examplefiles/part1.c
-|4,39,28,41,1624006828,"~/code/examplefiles/part1.c"
--'  11  41  ~/code/examplefiles/part1.c
-|4,39,11,41,1624006828,"~/code/examplefiles/part1.c"
--'  28  41  ~/code/examplefiles/part1.c
-|4,39,28,41,1624006828,"~/code/examplefiles/part1.c"
--'  11  41  ~/code/examplefiles/part1.c
-|4,39,11,41,1624006828,"~/code/examplefiles/part1.c"
--'  28  41  ~/code/examplefiles/part1.c
-|4,39,28,41,1624006828,"~/code/examplefiles/part1.c"
--'  11  41  ~/code/examplefiles/part1.c
-|4,39,11,41,1624006828,"~/code/examplefiles/part1.c"
--'  28  41  ~/code/examplefiles/part1.c
-|4,39,28,41,1624006828,"~/code/examplefiles/part1.c"
--'  11  41  ~/code/examplefiles/part1.c
-|4,39,11,41,1624006828,"~/code/examplefiles/part1.c"
--'  28  41  ~/code/examplefiles/part1.c
-|4,39,28,41,1624006828,"~/code/examplefiles/part1.c"
--'  11  41  ~/code/examplefiles/part1.c
-|4,39,11,41,1624006828,"~/code/examplefiles/part1.c"
--'  28  41  ~/code/examplefiles/part1.c
-|4,39,28,41,1624006828,"~/code/examplefiles/part1.c"
--'  1  0  ~/code/examplefiles/part1.c
-|4,39,1,0,1624006794,"~/code/examplefiles/part1.c"
--'  1  0  ~/code/examplefiles/part1.c
-|4,39,1,0,1624006794,"~/code/examplefiles/part1.c"
--'  1  0  ~/code/examplefiles/part1.c
-|4,39,1,0,1624006794,"~/code/examplefiles/part1.c"
--'  1  0  ~/code/examplefiles/part1.c
-|4,39,1,0,1624006794,"~/code/examplefiles/part1.c"
--'  1  0  ~/code/examplefiles/part1.c
-|4,39,1,0,1624006794,"~/code/examplefiles/part1.c"
--'  1  0  ~/code/examplefiles/part1.c
-|4,39,1,0,1624006794,"~/code/examplefiles/part1.c"
--'  1  0  ~/code/examplefiles/part1.c
-|4,39,1,0,1624006794,"~/code/examplefiles/part1.c"
--'  1  0  ~/code/examplefiles/part1.c
-|4,39,1,0,1624006794,"~/code/examplefiles/part1.c"
--'  16  0  ~/code/examplefiles/part1.c
-|4,39,16,0,1624005632,"~/code/examplefiles/part1.c"
--'  33  0  ~/code/examplefiles/part1.c
-|4,39,33,0,1624005632,"~/code/examplefiles/part1.c"
+-'  64  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/Rename.java
+|4,39,64,0,1624368120,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/Rename.java"
+-'  1  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/Rename.java
+|4,39,1,0,1624367958,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/Rename.java"
+-'  71  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/Append.java
+|4,39,71,0,1624367135,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/Append.java"
+-'  71  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/Append.java
+|4,39,71,0,1624367135,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/Append.java"
+-'  1  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/Append.java
+|4,39,1,0,1624367081,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/Append.java"
+-'  1  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/Append.java
+|4,39,1,0,1624367081,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/Append.java"
+-'  54  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/Touch.java
+|4,39,54,0,1624367074,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/Touch.java"
+-'  54  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/Touch.java
+|4,39,54,0,1624367074,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/Touch.java"
+-'  54  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/Touch.java
+|4,39,54,0,1624367074,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/Touch.java"
+-'  54  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/Touch.java
+|4,39,54,0,1624367074,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/Touch.java"
+-'  1  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/Touch.java
+|4,39,1,0,1624367028,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/Touch.java"
+-'  1  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/Touch.java
+|4,39,1,0,1624367028,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/Touch.java"
+-'  1  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/Touch.java
+|4,39,1,0,1624367028,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/Touch.java"
+-'  1  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/Touch.java
+|4,39,1,0,1624367028,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/Touch.java"
+-'  69  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/ListFiles.java
+|4,39,69,0,1624365780,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/ListFiles.java"
+-'  69  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/ListFiles.java
+|4,39,69,0,1624365780,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/ListFiles.java"
+-'  69  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/ListFiles.java
+|4,39,69,0,1624365780,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/ListFiles.java"
+-'  69  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/ListFiles.java
+|4,39,69,0,1624365780,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/ListFiles.java"
+-'  69  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/ListFiles.java
+|4,39,69,0,1624365780,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/ListFiles.java"
+-'  69  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/ListFiles.java
+|4,39,69,0,1624365780,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/ListFiles.java"
+-'  69  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/ListFiles.java
+|4,39,69,0,1624365780,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/ListFiles.java"
+-'  69  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/ListFiles.java
+|4,39,69,0,1624365780,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/ListFiles.java"
+-'  1  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/ListFiles.java
+|4,39,1,0,1624365744,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/ListFiles.java"
+-'  1  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/ListFiles.java
+|4,39,1,0,1624365744,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/ListFiles.java"
+-'  1  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/ListFiles.java
+|4,39,1,0,1624365744,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/ListFiles.java"
+-'  1  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/ListFiles.java
+|4,39,1,0,1624365744,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/ListFiles.java"
+-'  1  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/ListFiles.java
+|4,39,1,0,1624365744,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/ListFiles.java"
+-'  1  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/ListFiles.java
+|4,39,1,0,1624365744,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/ListFiles.java"
+-'  1  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/ListFiles.java
+|4,39,1,0,1624365744,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/ListFiles.java"
+-'  1  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/ListFiles.java
+|4,39,1,0,1624365744,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/ListFiles.java"
+-'  64  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java
+|4,39,64,0,1624356917,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java"
+-'  64  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java
+|4,39,64,0,1624356917,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java"
+-'  64  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java
+|4,39,64,0,1624356917,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java"
+-'  64  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java
+|4,39,64,0,1624356917,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java"
+-'  64  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java
+|4,39,64,0,1624356917,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java"
+-'  64  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java
+|4,39,64,0,1624356917,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java"
+-'  64  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java
+|4,39,64,0,1624356917,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java"
+-'  64  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java
+|4,39,64,0,1624356917,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java"
+-'  64  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java
+|4,39,64,0,1624356917,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java"
+-'  64  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java
+|4,39,64,0,1624356917,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java"
+-'  64  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java
+|4,39,64,0,1624356917,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java"
+-'  64  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java
+|4,39,64,0,1624356917,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java"
+-'  64  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java
+|4,39,64,0,1624356917,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java"
+-'  64  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java
+|4,39,64,0,1624356917,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java"
+-'  64  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java
+|4,39,64,0,1624356917,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java"
+-'  64  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java
+|4,39,64,0,1624356917,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java"
+-'  1  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java
+|4,39,1,0,1624356887,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java"
+-'  1  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java
+|4,39,1,0,1624356887,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java"
+-'  1  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java
+|4,39,1,0,1624356887,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java"
+-'  1  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java
+|4,39,1,0,1624356887,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java"
+-'  1  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java
+|4,39,1,0,1624356887,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java"
+-'  1  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java
+|4,39,1,0,1624356887,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java"
+-'  1  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java
+|4,39,1,0,1624356887,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java"
+-'  1  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java
+|4,39,1,0,1624356887,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java"
+-'  1  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java
+|4,39,1,0,1624356887,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java"
+-'  1  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java
+|4,39,1,0,1624356887,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java"
+-'  1  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java
+|4,39,1,0,1624356887,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java"
+-'  1  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java
+|4,39,1,0,1624356887,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java"
+-'  1  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java
+|4,39,1,0,1624356887,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java"
+-'  1  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java
+|4,39,1,0,1624356887,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java"
+-'  1  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java
+|4,39,1,0,1624356887,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java"
+-'  1  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java
+|4,39,1,0,1624356887,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java"
+-'  64  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java
+|4,39,64,0,1624356877,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java"
+-'  64  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java
+|4,39,64,0,1624356877,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java"
+-'  64  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java
+|4,39,64,0,1624356877,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java"
+-'  64  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java
+|4,39,64,0,1624356877,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java"
+-'  64  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java
+|4,39,64,0,1624356877,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java"
+-'  64  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java
+|4,39,64,0,1624356877,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java"
+-'  64  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java
+|4,39,64,0,1624356877,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java"
+-'  64  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java
+|4,39,64,0,1624356877,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java"
+-'  64  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java
+|4,39,64,0,1624356877,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java"
+-'  64  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java
+|4,39,64,0,1624356877,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java"
+-'  64  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java
+|4,39,64,0,1624356877,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java"
+-'  64  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java
+|4,39,64,0,1624356877,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java"
+-'  64  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java
+|4,39,64,0,1624356877,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java"
+-'  64  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java
+|4,39,64,0,1624356877,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java"
+-'  64  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java
+|4,39,64,0,1624356877,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java"
+-'  64  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java
+|4,39,64,0,1624356877,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java"
+-'  1  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java
+|4,39,1,0,1624356860,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java"
+-'  1  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java
+|4,39,1,0,1624356860,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java"
+-'  1  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java
+|4,39,1,0,1624356860,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java"
+-'  1  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java
+|4,39,1,0,1624356860,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java"
+-'  1  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java
+|4,39,1,0,1624356860,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java"
+-'  1  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java
+|4,39,1,0,1624356860,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java"
+-'  1  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java
+|4,39,1,0,1624356860,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java"
+-'  1  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java
+|4,39,1,0,1624356860,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java"
+-'  1  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java
+|4,39,1,0,1624356860,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java"
+-'  1  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java
+|4,39,1,0,1624356860,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java"
+-'  1  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java
+|4,39,1,0,1624356860,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java"
+-'  1  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java
+|4,39,1,0,1624356860,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java"
+-'  1  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java
+|4,39,1,0,1624356860,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java"
+-'  1  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java
+|4,39,1,0,1624356860,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java"
+-'  1  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java
+|4,39,1,0,1624356860,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java"
+-'  1  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java
+|4,39,1,0,1624356860,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java"
+-'  64  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyFromLocal.java
+|4,39,64,0,1624356646,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyFromLocal.java"
+-'  64  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyFromLocal.java
+|4,39,64,0,1624356646,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyFromLocal.java"
+-'  64  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyFromLocal.java
+|4,39,64,0,1624356646,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyFromLocal.java"
+-'  64  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyFromLocal.java
+|4,39,64,0,1624356646,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyFromLocal.java"
+-'  64  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyFromLocal.java
+|4,39,64,0,1624356646,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyFromLocal.java"
+-'  64  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyFromLocal.java
+|4,39,64,0,1624356646,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyFromLocal.java"
 
 # History of marks within files (newest to oldest):
+
+> /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/Rename.java
+	*	1624368120	0
+	"	64	0
+
+> /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/Append.java
+	*	1624367135	0
+	"	71	0
+	^	71	1
+	.	66	7
+	+	1	25
+	+	58	53
+	+	57	8
+	+	58	8
+	+	57	0
+	+	59	8
+	+	60	62
+	+	61	0
+	+	62	8
+	+	63	8
+	+	64	3
+	+	65	8
+	+	66	4
+	+	31	8
+	+	32	4
+	+	56	4
+	+	57	11
+	+	58	11
+	+	59	11
+	+	60	11
+	+	61	8
+	+	62	11
+	+	63	11
+	+	64	7
+	+	65	11
+	+	66	7
+
+> /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/Touch.java
+	*	1624367073	0
+	"	54	0
+
+> /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/ListFiles.java
+	*	1624365765	0
+	"	69	0
+
+> /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java
+	*	1624356916	0
+	"	64	0
+
+> /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyFromLocal.java
+	*	1624356645	0
+	"	64	0
+	^	25	59
+	.	25	58
+	+	16	25
+	+	57	40
+	+	58	42
+	+	62	46
+	+	58	11
+	+	33	35
+	+	44	0
+	+	33	32
+	+	45	18
+	+	62	74
+	+	58	62
+	+	33	35
+	+	35	44
+	+	35	0
+	+	36	0
+	+	36	51
+	+	37	0
+	+	45	0
+	+	35	35
+	+	36	14
+	+	44	15
+	+	43	0
+	+	39	57
+	+	40	26
+	+	42	0
+	+	58	56
+	+	62	70
+	+	58	59
+	+	25	58
+
+> /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/Delete.java
+	*	1624355715	0
+	"	53	0
+
+> /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/Ls.java
+	*	1624355179	0
+	"	61	0
+	.	1	0
+	+	1	0
+
+> /etc/hosts
+	*	1624352666	0
+	"	5	0
+	^	5	13
+	.	5	12
+	+	5	0
+	+	7	0
+	+	5	1
+	+	7	11
+	+	5	12
+
+> /opt/apache-maven-3.0.5/work_place/hdfs/src/main/resources/log4j.properties
+	*	1624334508	0
+	"	9	0
+	^	9	0
+	.	8	76
+	+	8	76
+
+> /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/Mkdir.java
+	*	1624334011	0
+	"	1	0
+	^	52	50
+	.	45	61
+	+	1	25
+	+	44	69
+	+	42	0
+	+	40	67
+	+	41	0
+	+	46	0
+	+	45	61
+
+> ~/code/examplefiles/test.txt
+	*	1624110340	0
+	"	2	11
+	^	2	12
+	.	2	11
+	+	2	11
+
+> /mnt/f/CODE/VscodeC/examplefiles/test.txt
+	*	1624105320	0
+	"	2	11
+	^	2	12
+	.	2	11
+	+	2	0
+	+	2	11
+
+> ~/.bashrc
+	*	1624099788	0
+	"	92	34
+	^	92	35
+	.	92	35
+	+	52	0
+	+	60	0
+	+	56	2
+	+	52	0
+	+	54	0
+	+	55	1
+	+	56	0
+	+	56	2
+	+	57	0
+	+	52	0
+	+	58	0
+	+	85	25
+	+	86	21
+	+	85	21
+	+	86	26
+	+	109	22
+	+	85	12
+	+	86	13
+	+	87	13
+	+	87	32
+	+	88	31
+	+	94	0
+	+	89	31
+	+	90	38
+	+	91	30
+	+	92	35
 
 > ~/code/examplefiles/part2.c
 	*	1624082931	0
@@ -658,17 +815,6 @@ $
 	*	1623772806	0
 	"	1	0
 
-> /etc/hosts
-	*	1623668252	0
-	"	1	0
-	^	5	13
-	.	5	12
-	+	5	0
-	+	7	0
-	+	5	1
-	+	7	11
-	+	5	12
-
 > /opt/hadoop-2.7.2/etc/hadoop/hdfs-site.xml
 	*	1623599344	0
 	"	28	0
@@ -684,37 +830,6 @@ $
 	+	24	0
 	+	25	29
 	+	26	27
-
-> ~/.bashrc
-	*	1623598985	0
-	"	88	0
-	^	91	29
-	.	91	0
-	+	52	0
-	+	60	0
-	+	56	2
-	+	52	0
-	+	54	0
-	+	55	1
-	+	56	0
-	+	56	2
-	+	57	0
-	+	52	0
-	+	58	0
-	+	85	25
-	+	86	21
-	+	85	21
-	+	86	26
-	+	108	22
-	+	85	12
-	+	86	13
-	+	87	13
-	+	87	32
-	+	88	31
-	+	93	0
-	+	89	31
-	+	90	38
-	+	91	0
 
 > /etc/profile.d/java.sh
 	*	1623598503	0
@@ -1463,103 +1578,3 @@ $
 	+	26	0
 	+	25	10
 	+	25	0
-
-> ~/.vim/plugin/clang_complete.vim
-	*	1621321343	0
-	"	44	0
-	^	43	27
-	.	44	0
-	+	39	48
-	+	45	0
-	+	44	65
-	+	44	0
-
-> ~/.vim/.VimballRecord
-	*	1621319040	0
-	"	1	0
-	.	1	0
-	+	1	0
-
-> ~/b.cpp
-	*	1621315505	0
-	"	1	0
-	^	21	8
-	.	21	7
-	+	12	0
-	+	12	13
-	+	13	0
-	+	12	24
-	+	35	0
-	+	22	1
-	+	19	29
-	+	22	16
-	+	24	48
-	+	29	39
-	+	30	40
-	+	32	69
-	+	11	0
-	+	32	0
-	+	31	22
-	+	25	0
-	+	23	11
-	+	11	0
-	+	21	7
-
-> /PluginInstall
-	*	1621315176	0
-	"	1	0
-
-> ~/autorunpy.sh
-	*	1621255617	0
-	"	5	0
-	^	5	0
-	.	6	0
-	+	5	9
-	+	3	10
-	+	4	0
-	+	3	2
-	+	4	12
-	+	6	0
-
-> ~/autorunc.sh
-	*	1621255543	0
-	"	1	0
-
-> ~/.brshrc
-	*	1621255378	0
-	"	1	0
-
-> /a.cpp
-	*	1621254942	0
-	"	21	1
-	^	21	2
-	.	21	2
-	+	23	0
-	+	21	2
-
-> ~/.bash
-	*	1621242585	0
-	"	1	0
-
-> ~/autorun.sh
-	*	1621173386	0
-	"	7	9
-	^	7	10
-	.	7	10
-	+	1	7
-	+	3	17
-	+	7	15
-	+	1	11
-	+	3	9
-	+	4	0
-	+	7	10
-
-> ~/.vimrcs
-	*	1621171589	0
-	"	1	0
-
-> ~/b.sh
-	*	1621167896	0
-	"	1	0
-	.	11	0
-	+	11	0

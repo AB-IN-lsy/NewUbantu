@@ -1,647 +1,3 @@
-sudo /etc/init.d/ssh restart
-ssh localhost 
-ssh DESKTOP-TSQQRSN
-jps
-@localhost
-ssh-keygen -t dsa -P '' -f ~/.ssh/id_dsa
-cat ~/.ssh/id_dsa.pub >> ~/.ssh/authorized_keys
-ll .ssh
-ssh localhost 
-vim .ssh/known_hosts 
-chmod 644 ~/.ssh/authorized_keys
-sudo su -test
-sudo su - test
-ssh localhost 
-ssh-copy-id -i ~/.ssh/id_rsa.pub root@localhost
-whoami
-set password for 'root'@'localhost' = password('123456');
-passwd localhost
-passwd
-set password for 'root'@'localhost' = password('123456');
-ssh-copy-id -i ~/.ssh/id_rsa.pub root@localhost
-ssh localhost 
-jsp
-jps
-cd /opt/hadoop-2.7.2/etc/hadoop/
-ls
-vim core-site.xml 
-cd ../..
-ls
-./sbin/stop-all.sh
-jps
-ssh DESKTOP-TSQQRSN
-cd /opt/hadoop-2.7.2/
-clear
-sbin/hadoop-daemon.sh start namenode
-jps
-ip
-ipad
-iprr
-ifconfig
-apt install net-tools
-ifconfig
-ip addr
-bin/hdfs dfs -mkdir -p /user/root/input
-bin/hdfs dfs -ls /user/root/input
-bin/hdfs dfs -put /root/WindowsPath.txt /user/root/input
-bin/hdfs dfs -ls /user/root/input
-bin/hdfs dfs -ls -R /user/root/input
-bin/hadoop jar share/hadoop/mapreduce/hadoop-mapreduce-examples-2.7.2.jar wordcout /user/root/input /user/root/output
-bin/hadoop jar share/hadoop/mapreduce/hadoop-mapreduce-examples-2.7.2.jar wordcount /user/root/input /user/root/output
-ls
-bin/hdfs dfs -ls -R /user/root
-bin/hdfs dfs -cat /user/root/output/part-r-00000
-cd /user/root/output/
-ls
-cd /
-cd user
-ls
-cd /opt/hadoop-2.7.2
-ls
-cd output
-ls
-cat part-r-00000 
-cd ..
-ls
-cd input/
-ls
-vim core-site.xml 
-cd ..
-ls
-rm -p output/
-rm -r output/
-ls
-bin/hadoop jar share/hadoop/mapreduce/hadoop-mapreduce-examples-2.7.2.jar wordcout /user/root/input/core-site.xml /user/root/output
-bin/hadoop jar share/hadoop/mapreduce/hadoop-mapreduce-examples-2.7.2.jar wordcount /user/root/input/core-site.xml /user/root/output
-ls
-bin/hdfs -rm -r output
-bin/hdfs dfs -rm -r output
-bin/hadoop jar share/hadoop/mapreduce/hadoop-mapreduce-examples-2.7.2.jar wordcount /user/root/input/core-site.xml /user/root/output
-bin/hadoop jar share/hadoop/mapreduce/hadoop-mapreduce-examples-2.7.2.jar wordcount /user/root/input /user/root/output
-bin/hdfs dfs -cat /user/root/output/p*
-ls
-cd 
-vim .bashrc
-. .bashrc
-cdh
-ls
-apt-get update
-apt-get upgrade
-jps
-cd code
-ls
-cd algorithms/
-ls
-vim recMatrixChain.cpp 
-ll
-chmod 600 *.cpp
-lll
-ll
-vim recMatrixChain.cpp 
-runc recMatrixChain.cpp 
-vim recMatrixChain.
-vim recMatrixChain.cpp 
-vim MatrixChain.cpp 
-runc MatrixChain.cpp 
-ll
-ssh localhost 
-apt-get update
-apt-get upgrade
-clear
-ssh DESKTOP-TSQQRSN
-service ssh start
-ssh DESKTOP-TSQQRSN
-ssh localhost 
-cd
-ssh localhost 
-ssh DESKTOP-TSQQRSN
-cd .ssh
-ls
-cat authorized_keys 
-ssh  Liusy@DESKTOP-TSQQRSN
-cat id_rsa.pub 
-ssh  Liusy@DESKTOP-TSQQRSN
-ssh DESKTOP-TSQQRSN
-cdh
-bin/hdfs namenode -format
-sbin/hadoop-daemon.sh start namenode
-sbin/hadoop-daemon.shstart datanode
-sbin/hadoop-daemon.sh start datanode
-jps
-bin/hdfs dfs -ls /user/root/input
-sbin/hadoop-daemon.sh start datanode
-jps
-sbin/hadoop-daemon.sh start datanode
-jps
-./sbin/stop-all.sh 
-jps
-sbin/hadoop-daemon.sh start datanode
-jps
-sbin/hadoop-daemon.sh start namenode
-jps
-pwd
-sbin/hadoop-daemon.sh start datanode
-jps
-vim etc/hadoop/hdfs-site.xml
-bin/hadoop datanode -format
-bin/hdfs namenode -format
-bin/hdfs datanode -format
-jps
-./sbin/stop-all.sh 
-bin/hdfs datanode -format
-bin/hdfs namenode -format
-bin/hdfs datanode -format
-cd /opt/hadoop/data/hadoop-root/dfs/
-jps
-vim etc/hadoop/core-site.xml 
-cd tmp
-ls
-vim etc/hadoop/core-site.xml 
-cd data/tmp
-ls
-cd dfs
-ls
-cd data
-ls
-cd current/
-ls
-cd ../..
-ls
-cat name/current/VERSION
-cat data/current/VERSION
-cd ../..
-ls
-rm -r tmp/
-ls
-cd ../..
-cd hadoop-2.7.2/
-clear
-bin/hdfs namenode -format
-sbin/hadoop-daemon.sh start namenode
-sbin/hadoop-daemon.sh start datanode
-jps
-pwd
-ls
-rm -r input/
-ls
-clear
-pwd
-bin/hdfs dfs -mkdir -p /user/root/input
-bin/hdfs dfs ls /user/root/input
-bin/hdfs dfs -ls /user/root/input
-bin/hdfs dfs -ls /
-bin/hdfs dfs -ls -R /
-ll
-mkdir wcinput
-cd wcinput/
-v
-vim wc.input
-cdh
-bin/hadoop jar share/hadoop/mapreduce/hadoop-mapreduce-examples-2.7.2.jar wordcount wcinput wcoutput
-ls
-bin/hadoop jar share/hadoop/mapreduce/hadoop-mapreduce-examples-2.7.2.jar wordcount wcinput wcoutput
-clear
-bin/hdfs dfs -put ./wcinput/wc.input /user/root/input
-bin/hdfs dfs -ls /
-bin/hdfs dfs -ls -R /
-bin/hdfs dfs -cat /user/root/input/wc.input
-bin/hadoop jar share/hadoop/mapreduce/hadoop-mapreduce-examples-2.7.2.jar wordcount /user/root/input/wc.input /user/root/output
-bin/hdfs dfs -ls /user/root/output
-bin/hdfs dfs -cat /user/root/output/part-r-00000
-clear
-ls
-cd etc/hadoop/
-ls
-vim hadoop-env.sh 
-cdd
-cdh
-clear
-vim ~/.bashrc 
-vim etc/hadoop/yarn-env.sh
-echo $JAVA_HOME 
-vim etc/hadoop/yarn-env.sh
-vim etc/hadoop/yarn-site.xml 
-vim etc/hadoop/mapred-env.sh
-mv etc/hadoop/mapred-site.xml.template etc/hadoop/mapred-site.xml
-vim etc/hadoop/mapred-site.xml 
-将mapred-site.xml.template重命名为mapred-site.xml。
-jps
-sbin/yarn-daemon.sh start resourcemanager
-sbin/yarn-daemon.sh start nodemanager
-jps
-ipadrr
-iprr
-ipconfig
-ifconfig
-ip addr
-hdfs dfs -rm -r /user/root/output
-hdfs dfs -ls -R /
-hadoop jar share/hadoop/mapreduce/hadoop-mapreduce-examples-2.7.2.jar wordcount /user/root/input /user/root/output
-ip addr
-ifconfig
-clear
-cd
-vim IP.txt
-cdh
-hadoop jar share/hadoop/mapreduce/hadoop-mapreduce-examples-2.7.2.jar wordcount /user/root/input /user/root/output
-vim etc/hadoop/mapred-site.xml 
-vim etc/hadoop/yarn-site.xml 
-ssh DESKTOP-TSQQRSN
-vim etc/hadoop/mapred-site.xml
-jps
-ls
-cd logs/
-ls
-ll
-cat yarn-root-nodemanager-DESKTOP-TSQQRSN.log 
-cat yarn-root-nodemanager-DESKTOP-TSQQRSN.out 
-hadoop jar share/hadoop/mapreduce/hadoop-mapreduce-examples-2.7.2.jar wordcount /user/root/input /user/root/output
-cdh
-hadoop jar share/hadoop/mapreduce/hadoop-mapreduce-examples-2.7.2.jar wordcount /user/root/input /user/root/output
-vim etc/hadoop/yarn-site.xml 
-hadoop jar share/hadoop/mapreduce/hadoop-mapreduce-examples-2.7.2.jar wordcount /user/root/input /user/root/output
-vim etc/hadoop/yarn-site.xml 
-cd .ssh
-ll
-cat authorized_keys 
-ssh  liusy200708@163.com
-ssh Liusy@DESKTOP-TSQQRSN
-ssh Subsystem powershell /usr/bin/pwsh -sshs -NoLogo
-Subsystem powershell /usr/bin/pwsh -sshs -NoLogo
-cd
-jps
-ls
-apt-get update
-ssh localhost 
-cdh
-jps
-ssh DESKTOP-TSQQRSN
-cdh
-ssh DESKTOP-TSQQRSN
-cdh
-bin/hdfs dfs -ls -R /
-hdfs dfs -ls -R /
-hdfs dfs -ls 
-hadoop jar share/hadoop/mapreduce/hadoop-mapreduce-examples-2.7.2.jar wordcount /user/root/input /user/root/output
-./sbin/stop-all.sh
-jps
-sbin/hdfs-config.sh start namenode
-jps
-sbin/hadoop-daemon.sh start namenode
-sbin/hadoop-daemon.sh start datanode
-jps
-sbin/yarn-daemon.sh start resourcemanager
-sbin/yarn-daemon.sh start nodemanager
-jps
-vim etc/hadoop/core-site.xml 
-hadoop jar share/hadoop/mapreduce/hadoop-mapreduce-examples-2.7.2.jar wordcount /user/root/input /user/root/output
-vim /etc/hadoop/yarn-site.xml
-vim etc/hadoop/yarn-site.xml
-hadoop jar share/hadoop/mapreduce/hadoop-mapreduce-examples-2.7.2.jar wordcount /user/root/input /user/root/output
-./sbin/stop-all.sh 
-sbin/hadoop-daemon.sh start namenode
-sbin/hadoop-daemon.sh start datanode
-sbin/yarn-daemon.sh start nodemanager
-sbin/yarn-daemon.sh start resourcemanager
-jps
-hadoop jar share/hadoop/mapreduce/hadoop-mapreduce-examples-2.7.2.jar wordcount /user/root/input /user/root/output
-hdfs dfs -ls /
-hadoop dfsadmin -safemode leave
-hadoop jar share/hadoop/mapreduce/hadoop-mapreduce-examples-2.7.2.jar wordcount /user/root/input /user/root/output
-hdfs dfs -cat output/p*
-vim etc/hadoop/yarn-site.xml 
-clear
-vim etc/hadoop/mapred-site.xml
-sbin/mr-jobhistory-daemon.sh start historyserver
-jps
-curl DESKTOP-TSQQRSN.localdomain:62210
-curl
-curl --help
-vim /etc/hosts
-vi /etc/sysconfig/network
-vim /etc/sysconfig/network
-cd /etc
-ls
-hostname
-vim /etc/init.d/mysqld
-hostname
-cdh
-cd etc/hadoop/
-ls
-vim yarn-site.xml 
-vim /etc/hostname 
-vim /etc/hosts
-cd
-cdh
-hdfs dfs -rm -r /user/root/output
-hdfs dfs -ls
-./sbin/stop-all.sh 
-./sbin/start-all.sh 
-jps
-hadoop jar share/hadoop/mapreduce/hadoop-mapreduce-examples-2.7.2.jar wordcount /user/root/input /user/root/output
-hdfs dfs -cat /user/root/output/p*
-sudo apt-get install ufw
-sudo ufw status
-sudo apt-get install iptables
-sudo apt-get install kernel
-apt-get upgrade
-sudo ufw enable
-iptables -F
-service iptables save
-whereis iptables
-iptables
-iptables --help
-iptables -L
-lsmod | grep ip
-insmod iptables
-cd /etc/systemd
-ls
-cd
-vi /etc/sysconfig/iptables
-cd /etc
-mkdir sysconfig
-cd sysconfig/
-touch iptables
-cd
-iptables -L
-service iptables save
-modprobe iptable_filter
-make menuconfig
-ip addr
-vim /etc/hosts
-vim /etc/wsl.conf
-vim /etc/hosts
-./opt/hadoop-2.7.2/etc/hadoop/stop-all.sh
-cd /opt/hadoop-2.7.2/etc/hadoop/
-ls
-./opt/hadoop-2.7.2/sbin/stop-all.sh
-cdh
-cd sbin
-ls
-./opt/hadoop-2.7.2/sbin/stop-all.sh
-pwd
-./opt/hadoop-2.7.2/sbin/stop-all.sh
-.stop-all.sh
-.//opt/hadoop-2.7.2/sbin/stop-all.sh
-./sbin/stop-all.sh 
-cdh
-./sbin/stop-all.sh 
-cd /etc/init.d/
-ls
-cd
-ipconfig
-ifconfig
-vim /etc/hosts
-cdh
-./sbin/start-all.sh 
-jps
-./sbin/stop-all.sh 
-vim /etc/hosts
-./sbin/start-all.sh 
-hdfs dfs -rm -r /user/root/output
-hadoop jar share/hadoop/mapreduce/hadoop-mapreduce-examples-2.7.2.jar wordcount /user/root/input /user/root/output
-jps
-vim etc/hadoop/mapred-site.xml 
-./sbin/stop-yarn.sh
-./sbin/start-yarn.sh
-jps
-hdfs dfs -rm -r /user/root/output
-hadoop jar share/hadoop/mapreduce/hadoop-mapreduce-examples-2.7.2.jar wordcount /user/root/input /user/root/output
-vim etc/hadoop/mapred-site.xml 
-./sbin/stop-all.sh 
-ip addr
-vim etc/hadoop/mapred-site.xml 
-vim /etc/hosts
-./sbin/start-all.sh 
-jps
-ifcongif
-ipcongif
-ifconfig 
-./sbin/stop-all.sh 
-vim etc/hadoop/mapred-site.xml 
-vim /etc/hosts
-./sbin/start-all.sh 
-jps
-vim etc/hadoop/mapred-site.xml 
-vim /etc/hosts
-apt-get ipdate
-apt-get update
-apt-get upgrade
-hostname
-clear
-ifconfig
-cdh
-ls
-ifconfig
-cat IP.txt 
-cat > IP.txt 
-cat IP.txt 
-cdh
-./sbin/start-all.sh 
-jps
-hostname
-vim etc/hadoop/core-site.xml 
-./sbin/stop-all.sh 
-ssh DESKTOP-TSQQRSN
-chcp
-vim .ssh
-cd
-cd .ssh
-ls
-cat authorized_keys 
-cat id_rsa.pub 
-ll
-cat known_hosts 
-ll
-chmod 600 authorized_keys 
-ls
-ll
-ssh DESKTOP-TSQQRSN
-ssh localhost 
-ufw disable   
-net start sshd  
-ssh DESKTOP-TSQQRSN
-ervice ssh restart
-service ssh restart
-ssh DESKTOP-TSQQRSN
-cd /etc/profile.d
-vim rds_start.sh 
-cp rds_start.sh /etc/init.d/
-sysv-rc-conf rds_start.sh on
-ls
-cd /etc/profile.d
-vim rds_start.sh 
-cd /etc/profile.d
-vim rds_start.sh 
-cd /etc/profile.d
-vim rds_start.sh 
-cd /etc/profile.d
-vim rds_start.sh 
-ps -e
-cdh
-./sbin/start-all.sh 
-jps
-vim /etc/hosts
-ls
-cd /etc
-ls
-vim wsl.conf
-cdh
-./sbin/stop-all.sh 
-jps
-./sbin/start-all.sh 
-jps
-./sbin/stop-all.sh 
-cdh
-./sbin/start-all.sh 
-./sbin/stop-all.sh 
-cd
-vim /etc/hosts
-vim wsl.conf
-vim /etc/wsl.conf
-ps -e | grep ssh
-cdh
-./sbin/start-all.sh 
-jps
-vim etc/hadoop/mapred-site.xml 
-sbin/mr-jobhistory-daemon.sh start historyserver
-jps
-cdh
-vim etc/hadoop/mapred-site.xml 
-cd
-ls
-cd bin/
-ls
-vim autoStartHadoop.sh
-vim autorunc.sh 
-vim autoStartHadoop.sh
-vim autoStopHadoop.sh
-cat autoStartHadoop.sh 
-vim autoStopHadoop.sh
-vim autoStartHadoop.sh
-chd
-cdh
-./sbin/stop-all.sh 
-jps
-./sbin/mr-jobhistory-daemon.sh stop historyserver
-jps
-cd
-cd bin
-ls
-cat autoStopHadoop.sh 
-vim autoStopHadoop.sh 
-cd 
-vim .bashrc 
-. .bashrc 
-starth
-vim bin
-cd bin
-chmod +x *.sh
-ll
-cd
-starth
-cd bin
-vim autoStartHadoop.sh 
-vim autoStopHadoop.sh 
-starth
-cd
-. .bashrc 
-ls
-starth
-cdh
-cd
-cd /opt/hadoop-2.7.2
-cd
-vim bin/autoStartHadoop.sh 
-vim bin/autoStopHadoop.sh 
-starth
-stoph
-cdh
-jps
-vim etc/hadoop/yarn-site.xml 
-op -e
-ps -e
-vim etc/hadoop/yarn-site.xml 
-starth
-hdfs dfs -rm -r /user/root/optput
-hdfs dfs -rm -r /user/root/output
-ls
-cd etc
-ls
-cd
-cd /opt/hadoop-2.7.2/etc
-cd hadoop/
-ls
-cdh
-cd data/
-ls
-rm -r tmp
-cdh
-stoph
-starth
-hdfs -dfs -ls /
-hdfs dfs -ls /
-bin/hdfs dfs -mkdir -p /user/root/input
-jps
-stoph
-jps
-cd data/tmp/dfs/
-ls
-cd name
-ls
-cd current/
-ls
-cat VERSION 
-CD ../..
-cd ../..
-cd data/
-ls
-cdh
-cd data/
-jps
-rm -rv *
-cdh
-hadoop namenode -format 
-jps
-sbin/hadoop-daemon.sh stop datanode
-hadoop datanode -format 
-jps
-chh
-cdh
-sbin/hadoop-daemon.sh start namenode
-jps
-vim etc/hadoop/core-site.xml 
-cd data/
-cd tmp/
-cd dfs/
-cd data/
-ls
-cd ..
-cd name/
-ls
-ll
-cd current/
-ls
-ll
-cd ../..
-rm -rf *
-ls
-q
-cd
-cdh
-sbin/hadoop-daemon.sh start namenode
-kps
-jps
-cd
-vim /etc/hosts
-cdh
-cd logs/
-ls
-cat hadoop-root-namenode-DESKTOP-TSQQRSN.out
-ll
-cat hadoop-root-secondarynamenode-DESKTOP-TSQQRSN.out.5
-cat hadoop-root-secondarynamenode-DESKTOP-TSQQRSN.log 
-cdh
 hadoop namenode -format 
 cd data/tmp/dfs/name/current/
 ls
@@ -1998,3 +1354,647 @@ cd maverTest/
 ls
 cat pom.xml 
 ls
+vim .bashrc 
+source .bashrc 
+cdv
+cd /
+cd mnt/f/CODE/
+CD VscodeC/
+cd VscodeC/
+cd examplefiles/
+ls
+./printObjFile t1.obj
+cdv
+runc sum.cpp
+cd organisation/
+runc sum.cpp 
+runc sum.cpp 1 2
+
+runc sum.cpp 2 3
+./sum.out 2 3
+runc sum.cpp 2 3
+./sum.out 2 3
+runc sum.cpp
+./sum.out 10 12
+cd ../examplefiles/
+clear
+gcc -o part2 part2.c 
+cdv
+cd examplefiles/
+gcc -o part2 part2.c 
+./part2 t2.asm t2.obj
+./part2 test.txt test.obj
+gcc -o part2 part2.c 
+./part2 test.txt test.obj
+./printObjFile t2.obj
+gcc -o part2 part2.c 
+./part2 test.txt test.obj
+gcc -o part2 part2.c 
+./part2 test.txt test.obj
+./printObjFile t2.obj
+./part2 test.txt test.obj
+./printObjFile test.obj
+gcc -o part2 part2.c 
+./part2 test.txt test.obj
+./printObjFile test.obj
+gcc -o part2 part2.c 
+./part2 test.txt test.obj
+./printObjFile test.obj
+gcc -o part2 part2.c 
+./part2 test.txt test.obj
+gcc -o part2 part2.c 
+./part2 test.txt test.obj
+./printObjFile test.obj
+gcc -o part2 part2.c 
+./part2 test.txt test.obj
+gcc -o part2 part2.c 
+./part2 test.txt test.obj
+gcc -o part2 part2.c 
+./part2 test.txt test.obj
+gcc -o part2 part2.c 
+gcc -o sum sum.c 
+./sum 1 2
+gcc -o part2 part2.c 
+./part2 test.txt test.obj
+./printObjFile test.obj
+./part2 test.txt test.obj
+gcc -o part2 part2.c 
+./part2 test.txt test.obj
+gcc -o part2 part2.c 
+./part2 test.txt test.obj
+gcc -o part2 part2.c 
+./part2 test.txt test.obj
+cat test.txt 
+gcc -o part2 part2.c 
+./part2 test.txt test.obj
+gcc -o part2 part2.c 
+./part2 test.txt test.obj
+gcc -o part2 part2.c 
+./part2 test.txt test.obj
+gcc -o part2 part2.c 
+./part2 test.txt test.obj
+gcc -o part2 part2.c 
+./part2 test.txt test.obj
+ls
+clear
+gcc -o part2 part2.c 
+./part2 test.txt test.obj
+clear
+./printObjFile test.obj
+gcc -o part2 part2.c 
+./part2 test.txt test.obj
+gcc -o part2 part2.c 
+./part2 test.txt test.obj
+gcc -o part2 part2.c 
+./part2 test.txt test.obj
+gcc -o part2 part2.c 
+./part2 test.txt test.obj
+gcc -o part2 part2.c 
+./part2 test.txt test.obj
+./printObjFile test.obj
+gcc -o part2 part2.c 
+./part2 test.txt test.obj
+gcc -o part2 part2.c 
+./part2 test.txt test.obj
+gcc -o part2 part2.c 
+./part2 test.txt test.obj
+./printObjFile test.obj
+gcc -o part2 part2.c 
+./part2 test.txt test.obj
+./printObjFile test.obj
+gcc -o part2 part2.c 
+./part2 test.txt test.obj
+./printObjFile test.obj
+gcc -o part1 part1.c 
+./part1 t1.txt t1.obj
+gcc -o part1 part1.c 
+./part1 t1.txt t1.obj
+gcc -o part1 part1.c 
+./part1 t1.txt t1.obj
+gcc -o tt tt.c 
+./tt
+gcc -o part1 pa2t1.ct2.c
+clear
+gcc -o part2 part2.c
+./part2 test.txt test.obj
+./printObjFile test.obj
+gcc -o part2 part2.c
+./printObjFile test.obj
+./part2 test.txt test.obj
+./printObjFile test.obj
+gcc -o part2 part2.c
+./part2 test.txt test.obj
+cat test.txt 
+cdv
+cd examplefiles/
+ls
+gcc -o part2 part2.c 
+./part test.txt test.obj 
+./part2 test.txt test.obj 
+cat test.txt 
+cat code/
+cd code/organisation/
+ls
+cat sum.cpp 
+cd ../examplefiles/
+vim test.txt 
+cat test.txt 
+ls
+cdb
+cdv
+ls
+cd examplefiles/
+ls
+gcc -o part2 part2.c 
+ls
+gcc -o part2 part2.c 
+cat test.txt 
+vim test.txt 
+ls
+cat t2.obj 
+ls
+rm part1.exe 
+ls
+vim test.txt 
+cdv
+cd examplefiles/
+gcc -o part2 part2.c 
+./part2 t2.asm t2.obj
+./printObjFile t2.obj 
+./part2 test.txt test.obj
+./printObjFile test.obj 
+gcc -o part3 part3.c 
+./part2 t3.asm t3.obj
+./part3 t3.asm t3.obj
+./printObjFile t3.obj 
+gcc -o part3 part3.c 
+./part3 t3.asm t3.obj
+gcc -o part3 part3.c 
+./part3 test.txt test.obj
+gcc -o part2 part2.c 
+./part2 t2.asm t2.obj
+./printObjFile t2.obj 
+./part3 test.txt test.obj
+gcc -o part3 part3.c 
+./part3 test.txt test.obj
+./printObjFile test.obj 
+gcc -o part3 part3.c 
+./part3 test.txt test.obj
+./printObjFile test.obj 
+gcc -o part3 part3.c 
+./part3 test.txt test.obj
+gcc -o part3 part3.c 
+./part3 test.txt test.obj
+gcc -o part3 part3.c 
+./part3 test.txt test.obj
+gcc -o part3 part3.c 
+./part3 test.txt test.obj
+gcc -o part3 part3.c 
+./part3 test.txt test.obj
+gcc -o part3 part3.c 
+./part3 test.txt test.obj
+./printObjFile test.obj 
+gcc -o part3 part3.c 
+./part3 test.txt test.obj
+./printObjFile test.obj 
+gcc -o part3 part3.c 
+./printObjFile test.obj 
+./part3 test.txt test.obj
+.orig x3020
+gcc -o part3 part3.c 
+./part3 test.txt test.obj
+gcc -o part3 part3.c 
+./part3 test.txt test.obj
+gcc -o part3 part3.c 
+./part3 test.txt test.obj
+gcc -o part3 part3.c 
+./part3 test.txt test.obj
+./printObjFile test.obj 
+gcc -o part3 part3.c 
+./part3 test.txt test.obj
+gcc -o part3 part3.c 
+./part3 test.txt test.obj
+./printObjFile test.obj 
+gcc -o part3 part3.c 
+./part3 t3.asm t3.obj 
+./printObjFile t3.obj 
+cd /opt/
+ls
+git add .
+git commit -m "6.20"
+ls
+git branch
+git push origin master
+cd /opt
+git status 
+git push origin master 
+git config lfs.https://github.com/AB-IN-lsy/UbantuOpt.git/info/lfs.locksverify false
+git push origin master 
+git logs
+git log
+git push origin master 
+ip addr
+ifconfig
+starth
+hadoop fs -ls /
+hadoop fs -ls -r /
+hadoop fs -ls -R /
+ls
+cat >> name.txt
+hadoop fs -moveFromLocal name.txt /
+ls
+clear
+cat >> love.txt
+hadoop fs -appendToFile love.txt name.txt
+ls
+hadoop fs -cat name.txt
+cat > love.txt 
+cat love.txt 
+hadoop fs -appendToFile love.txt name.txt
+hadoop fs -cat name.txt
+clear
+rm love.txt 
+ls
+hadoop fs -chmod 666 name.txt
+hadoop fs -chgrp root name.txt
+ls
+jps
+hadoop fs -cat name.txt
+cdh
+cd etc/hadoop/
+ls
+cat core-site.xml 
+cat hdfs-site.xml 
+cat yarn-site.xml 
+ls
+jps
+hadoop fs -put hosts /
+hadoop fs -get name.txt name
+ls
+cat name 
+hadoop fs -rm name.txt
+hadoop fs -ls /
+ls
+hadoop fs -ls /
+hadoop fs -rm /name.txt
+stoph
+jps
+starth
+jps
+clear
+ls
+hadoop fs -ls /
+cat >> love
+hadoop fs -moveFromLocal lby /lby
+ls
+hadoop fs -moveFromLocal love /love
+ls
+hadoop fs -appendToFile name /love
+ls
+hadoop fs -cat /lby
+hadoop fs -cat /love
+hadoop fs -chgrp root /love
+hadoop fs -chmod 666 /love
+hadoop fs -copyFromLocal name /name
+ls
+hadoop fs -ls /
+hadoop fs -copyToLocal /love love
+hadoop fs -ls /
+ls
+cat love 
+hadoop fs -cp /love /test/love
+hadoop fs -cp /name /test/
+hadoop fs -rm /test/love
+hadoop fs -mv /love /tesr/
+hadoop fs -mv /love /test/
+ls
+hadoop fs -ls /
+hadoop fs -getmerge /name /hosts all.txt
+ls
+cat all.txt 
+rm all.txt 
+ls
+clear
+hadoop fs -tail -help
+hadoop fs -tail /user/root/wcinput/wc.input
+hadoop fs -tail -f /user/root/wcinput/wc.input
+hadoop fs -tail -f /user/root/input/hdfs-site.xml
+clear
+ls
+hadoop fs -ls /
+hadoop fs -du /
+hadoop fs -du -h /
+hadoop fs -du -h -s /
+hadoop fs -rm /test
+hadoop fs -rm -d /test
+hadoop fs -rm -r /test
+hadoop fs -mv /name /README.md
+cdh
+cd data/tmp/dfs/data/current/BP-1542253369-10.191.53.85-1622264819009/current/finalized/subdir0/subdir0/
+ll
+cat blk_1073741977_1154.meta
+cat blk_1073741977_1154
+cat blk_1073741977
+clear
+cat blk_1073741977
+hadoop fs -setrep 2 /hosts
+hadoop fs -setrep 1 /hosts
+cd
+ls
+rm love name 
+ls
+clear
+hadoop fs -moveToLocal /user .
+hadoop fs -help
+hadoop fs -help | grep "move"
+hadoop fs -moveToLocal /user /user
+ks
+ls
+hadoop fs -moveToLocal /hosts .
+ls
+hadoop fs -ls /
+clear
+hadoop fs -moveToLocal /user /
+ls
+hadoop fs -copyToLocal /user .
+ls
+cd user/
+ls
+cd ..
+hadoop fs -rm -r /user
+hadoop fs -ls /
+clear
+hadoop fs -mkdir /user
+hadoop fs -ls /user
+hadoop fs -ls /
+hadoop fs -rm /user
+hadoop fs -rm -r /user
+hadoop fs -ls /
+hadoop fs -mkdir -r /user/root
+hadoop fs -mkdir -p /user/root
+hadoop fs -ls /user/root
+hadoop fs -mkdir /user/root/input
+hadoop fs -mkdir /input
+hadoop fs -rmdir /input
+ls
+hadoop fs -rm /hosts
+ls
+hadoop fs -ls /
+clear
+hadoop fs -put hosts /hosts
+hadoop fs -ls /
+hadoop fs -get /README.md .
+ls
+hadoop fs -cat /hosts
+hadoop fs -ls /hosts
+hadoop fs -ls /
+hadoop fs -mkdir -p /user/root/input/wc.input
+hadoop fs -rkdir -p /user/root/input/wc.input
+hadoop fs -rmdir -p /user/root/input/wc.input
+hadoop fs -rmdir /user/root/input/wc.input
+hadoop fs -mkdir -p /a/aa/aaa
+hadoop fs -cat /a/aa/aaa/c.txt
+hadoop fs -rm hosts
+hadoop fs -rm /hosts
+hadoop fs -rm -r /a
+cat >> tmp.txt
+hadoop fs -appendToFile tmp.txt /README.md
+hadoop fs -cat /README.md
+hadoop fs -rm /README.md
+clear
+hadoop fs -rm -r /user/root
+hadoop fs -put README.md /
+hadoop fs -mv /README.md /user/
+clear
+cd /mnt/f/CODE/Hadoop/code/
+ls
+make
+ls
+tree
+cat src/main/java/edu/nefu/hadoop/App.java 
+cat src/main/java/edu/nefu/hadoop/Append.java 
+cat src/main/java/edu/nefu/hadoop/Mkdir.java 
+cd
+stoph
+cd code/
+ls
+cd c-examples
+ls
+cat file1.c 
+clear
+hadoop-daemon.sh start NameNode
+sbin/hadoop-daemon.sh start NameNode
+cdh
+sbin/hadoop-daemon.sh start NameNode
+sbin/hadoop-daemon.sh start namenode
+jps
+cd /opt/apache-maven-3.0.5/work_place/hdfs
+ls
+cat pom.xml 
+tree
+mvn clean package
+tree
+java -cp target/hadoop-hdfs-code-1.0-SNAPSHOT-jar-with-dependencies.jar com.lab5.operation.Mkdir -h
+java -cp target/hadoop-hdfs-code-1.0-SNAPSHOT-jar-with-dependencies.jar com.lab5.operation.Mkdir h
+java -cp target/hadoop-hdfs-code-1.0-SNAPSHOT-jar-with-dependencies.jar com.lab5.operation.Mkdir -d /cc
+cd src/main/java/com/lab5/operation/
+vim Mkdir.java 
+cd /opt/apache-maven-3.0.5/
+cd work_place/hdfs/
+ls
+tree
+cd src/main/
+mkdir resources
+cd $_
+vim log4j.properties
+cd ../
+cd ../../
+ls
+mvn clean package
+tree
+hadoop fs -rm -r /cc
+java -cp target/hadoop-hdfs-code-1.0-SNAPSHOT-jar-with-dependencies.jar com.lab5.operation.Mkdir -d /cc
+cd src/main/java/com/lab5/operation/
+ls
+cat Mkdir.java 
+cp Mkdir.java CopyFromLocal.java
+vim CopyFromLocal.java 
+cd /opt/apache-maven-3.0.5/work_place/hdfs
+tree
+java -cp target/hadoop-hdfs-code-1.0-SNAPSHOT-jar-with-dependencies.jar com.lab5.operation.Mkdir /c
+mvn clean package
+vim src/main/java/com/lab5/operation/CopyFromLocal.java 
+mvn clean package
+starth
+stoph
+starth
+jps
+cdm
+ls
+mkdir work_place
+ls
+cd work_place/
+ls
+mvn archetype:generate "-DgroupId=com.lab5.operation" "-DartifactId=hdfs" "-DarchetypeArtifactId=maven-archetype-quickstart" "-DinteractiveMode=false"
+ls
+tree
+cd hdfs/
+mv /mnt/f/CODE/Hadoop/code/pom.xml .
+ls
+cat pom.xml 
+cp pom.xml /mnt/f/CODE/Hadoop/code/
+clear
+tree
+cd src/main/java/com/lab5/operation/
+vim Mkdir.java
+LS
+ls
+vim Mkdir.java 
+ls
+ll
+chmod 666 Append.java Mkdir.java 
+ls
+ll
+vim Mkdir.java 
+vim Append.java 
+clear
+vim Mkdir.java 
+cat Mkdir.java 
+ls
+jps
+cdm
+ls
+cd work_place/hdfs/
+mvn clean package
+cd src/main/java/com/lab5/operation/
+vim CopyFromLocal.java 
+cd /opt/apache-maven-3.0.5/work_place/hdfs
+ls
+mvn clean package
+tree
+java -cp target/hadoop-hdfs-code-1.0-SNAPSHOT-jar-with-dependencies.jar com.lab5.operation.CopyFromLocal -d ~/hosts /
+vim src/main/java/com/lab5/operation/CopyFromLocal.java 
+vim src/main/java/com/lab5/operation/Append.java 
+vim src/main/java/com/lab5/operation/CopyFromLocal.java 
+mvn clean package
+vim src/main/java/com/lab5/operation/CopyFromLocal.java 
+mvn clean package
+java -cp target/hadoop-hdfs-code-1.0-SNAPSHOT-jar-with-dependencies.jar com.lab5.operation.CopyFromLocal -d ~/hosts -s /
+java -cp target/hadoop-hdfs-code-1.0-SNAPSHOT-jar-with-dependencies.jar com.lab5.operation.CopyFromLocal -s ~/hosts -d /
+vim src/main/java/com/lab5/operation/CopyFromLocal.java 
+mvn clean package
+java -cp target/hadoop-hdfs-code-1.0-SNAPSHOT-jar-with-dependencies.jar com.lab5.operation.CopyFromLocal -s ~/hosts -d /
+hadoop fs -rm -r /root
+hadoop fs -rm -r /hosts
+ls
+clear
+tree
+hdfs oiv
+cdH
+cdh
+cd data/tmp/dfs/name/current
+ls
+http://111.41.178.77/http://111.41.178.77/http://111.41.178.77/http://111.41.178.77/http://111.41.178.77/http://111.41.178.77/http://111.41.178.77/http://111.41.178.77/http://111.41.178.77/http://111.41.178.77/
+clear
+history
+cd code/
+ls
+cd java/
+ls
+cd maverTest/
+ls
+cd src/main/java/com/hadoop/lesson/
+cat App.java 
+cd ~/code/java
+cd test/src/main/java/com/hadoop/class/
+cat App.java 
+cd ~/code/java/maverTest/src/main/java/com/hadoop/lesson
+ls
+cd ~/code/java/maverTest
+tree
+cdh
+cdm
+cd work_place/hdfs/
+cd src/main/java/com/lab5/operation/
+vim Append.java 
+cd /opt/apache-maven-3.0.5/work_place
+ls
+cd hdfs/
+ls
+cat pom.xml 
+tree
+mvn clean package
+tree
+java -cp target/hadoop-hdfs-code-1.0-SNAPSHOT-jar-with-dependencies.jar com.lab5.operation.Ls -d /user
+java -cp target/hadoop-hdfs-code-1.0-SNAPSHOT-jar-with-dependencies.jar com.lab5.operation.Ls -d /
+vi /etc/hosts
+mvn clean package
+java -cp target/hadoop-hdfs-code-1.0-SNAPSHOT-jar-with-dependencies.jar com.lab5.operation.Ls -d /
+mvn clean package
+java -cp target/hadoop-hdfs-code-1.0-SNAPSHOT-jar-with-dependencies.jar com.lab5.operation.Ls -d /
+vim src/main/java/com/lab5/operation/Ls.java 
+ls
+ch src/main/java/com/lab5/operation/Ls.java 
+chmod 666 src/main/java/com/lab5/operation/Ls.java 
+vim src/main/java/com/lab5/operation/Ls.java 
+java -cp target/hadoop-hdfs-code-1.0-SNAPSHOT-jar-with-dependencies.jar com.lab5.operation.Ls -d /user
+vim src/main/java/com/lab5/operation/Ls.java 
+mvn clean package
+java -cp target/hadoop-hdfs-code-1.0-SNAPSHOT-jar-with-dependencies.jar com.lab5.operation.Ls -d /user
+java -cp target/hadoop-hdfs-code-1.0-SNAPSHOT-jar-with-dependencies.jar com.lab5.operation.Ls -d /
+java -cp target/hadoop-hdfs-code-1.0-SNAPSHOT-jar-with-dependencies.jar com.lab5.operation.CopyFromLocal 
+hadoop fs -get /user .
+ls
+java -cp target/hadoop-hdfs-code-1.0-SNAPSHOT-jar-with-dependencies.jar com.lab5.operation.Ls -d /user
+java -cp target/hadoop-hdfs-code-1.0-SNAPSHOT-jar-with-dependencies.jar com.lab5.operation.Mkdir -d /user
+java -cp target/hadoop-hdfs-code-1.0-SNAPSHOT-jar-with-dependencies.jar com.lab5.operation.Ls -d /
+java -cp target/hadoop-hdfs-code-1.0-SNAPSHOT-jar-with-dependencies.jar com.lab5.operation.Mkdir -d /user/input
+java -cp target/hadoop-hdfs-code-1.0-SNAPSHOT-jar-with-dependencies.jar com.lab5.operation.Mkdir -d /input
+vim src/main/java/com/lab5/operation/Delete.java 
+chmod 666 src/main/java/com/lab5/operation/Delete.java 
+vim src/main/java/com/lab5/operation/Delete.java 
+java -cp target/hadoop-hdfs-code-1.0-SNAPSHOT-jar-with-dependencies.jar com.lab5.operation.Delete -d /input
+clear
+ls
+
+ls
+java -cp target/hadoop-hdfs-code-1.0-SNAPSHOT-jar-with-dependencies.jar com.lab5.operation.CopyFromLocal -s pom.xml -d /
+ls
+vim src/main/java/com/lab5/operation/CopyFromLocal.java 
+mvn clean package
+java -cp target/hadoop-hdfs-code-1.0-SNAPSHOT-jar-with-dependencies.jar com.lab5.operation.CopyToLocal /user/README.md .
+java -cp target/hadoop-hdfs-code-1.0-SNAPSHOT-jar-with-dependencies.jar com.lab5.operation.CopyToLocal -s /user/README.md -d .
+ls
+vim src/main/java/com/lab5/operation/CopyToLocal.java 
+chmod 666 src/main/java/com/lab5/operation/CopyToLocal.java 
+vim src/main/java/com/lab5/operation/CopyToLocal.java 
+ls
+hadoop fs -ls /pom.xml
+clear
+java -cp target/hadoop-hdfs-code-1.0-SNAPSHOT-jar-with-dependencies.jar com.lab5.operation.Ls -d /pom.xml
+mvn clean package
+java -cp target/hadoop-hdfs-code-1.0-SNAPSHOT-jar-with-dependencies.jar com.lab5.operation.ListFiles -d /pom.xml
+vim src/main/java/com/lab5/operation/ListFiles.java 
+chmod 666 src/main/java/com/lab5/operation/ListFiles.java 
+clear
+java -cp target/hadoop-hdfs-code-1.0-SNAPSHOT-jar-with-dependencies.jar com.lab5.operation.ListFiles -d /
+java -cp target/hadoop-hdfs-code-1.0-SNAPSHOT-jar-with-dependencies.jar com.lab5.operation.Mkdir -d /cc/c
+java -cp target/hadoop-hdfs-code-1.0-SNAPSHOT-jar-with-dependencies.jar com.lab5.operation.Delete -d /cc
+mvn clean package
+java -cp target/hadoop-hdfs-code-1.0-SNAPSHOT-jar-with-dependencies.jar com.lab5.operation.Touch -d /test.txt
+java -cp target/hadoop-hdfs-code-1.0-SNAPSHOT-jar-with-dependencies.jar com.lab5.operation.Delete -d /test.txt
+vim src/main/java/com/lab5/operation/Touch.java 
+vim src/main/java/com/lab5/operation/Append.java 
+ls
+java -cp target/hadoop-hdfs-code-1.0-SNAPSHOT-jar-with-dependencies.jar com.lab5.operation.Append -s README.md -d /pom.xml
+hadoop fs -cat /pom.xml
+hadoop fs -put README.md /
+java -cp target/hadoop-hdfs-code-1.0-SNAPSHOT-jar-with-dependencies.jar com.lab5.operation.Append -s README.md -d /README.md
+hadoop fs -cat /README.md
+ls
+java -cp target/hadoop-hdfs-code-1.0-SNAPSHOT-jar-with-dependencies.jar com.lab5.operation.Delete -d /README.md
+java -cp target/hadoop-hdfs-code-1.0-SNAPSHOT-jar-with-dependencies.jar com.lab5.operation.Delete -d /user
+hadoop fs -mkdir /user
+java -cp target/hadoop-hdfs-code-1.0-SNAPSHOT-jar-with-dependencies.jar com.lab5.operation.Rename -s /pom.xml -d /user/pom.xml
+vim src/main/java/com/lab5/operation/Rename.java 
+stoph

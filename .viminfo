@@ -11,22 +11,22 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/mirror
+~Msle0~/\<140\>
 
 # Last Substitute String:
 $
 
 # Command Line History (newest to oldest):
+:wq
+|2,0,1624714668,,"wq"
+:x
+|2,0,1624692548,,"x"
+:Wq
+|2,0,1624692546,,"Wq"
 :q
 |2,0,1624368120,,"q"
 :q!
 |2,0,1624355683,,"q!"
-:wq
-|2,0,1624341427,,"wq"
-:x
-|2,0,1624332145,,"x"
-:Wq
-|2,0,1624332139,,"Wq"
 :Q
 |2,0,1624082732,,"Q"
 :21
@@ -85,6 +85,10 @@ $
 |2,0,1621152775,,"num"
 
 # Search String History (newest to oldest):
+? \<140\>
+|2,1,1624692186,,"\\<140\\>"
+? \<127\>
+|2,1,1624373720,,"\\<127\\>"
 ? @$
 |2,1,1622860996,,"@$"
 ? mirror
@@ -154,230 +158,293 @@ $
 |3,0,36,0,1,0,1622270298,"8"
 
 # File marks:
-'0  64  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/Rename.java
-|4,48,64,0,1624368120,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/Rename.java"
-'1  71  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/Append.java
-|4,49,71,0,1624367135,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/Append.java"
-'2  54  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/Touch.java
-|4,50,54,0,1624367074,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/Touch.java"
-'3  69  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/ListFiles.java
-|4,51,69,0,1624365780,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/ListFiles.java"
-'4  64  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java
-|4,52,64,0,1624356917,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java"
-'5  64  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java
-|4,53,64,0,1624356877,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java"
-'6  64  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyFromLocal.java
-|4,54,64,0,1624356646,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyFromLocal.java"
-'7  53  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/Delete.java
-|4,55,53,0,1624355715,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/Delete.java"
-'8  53  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/Delete.java
-|4,56,53,0,1624355683,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/Delete.java"
-'9  61  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/Ls.java
-|4,57,61,0,1624355179,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/Ls.java"
+'0  49  0  ~/hosts
+|4,48,49,0,1624714668,"~/hosts"
+'1  9  0  /opt/apache-maven-3.0.5/work_place/hadoop-mapreduce-code/src/main/resources/log4j.properties
+|4,49,9,0,1624699314,"/opt/apache-maven-3.0.5/work_place/hadoop-mapreduce-code/src/main/resources/log4j.properties"
+'2  1  0  ~/hosts
+|4,50,1,0,1624693601,"~/hosts"
+'3  1  0  ~/hosts
+|4,51,1,0,1624693601,"~/hosts"
+'4  49  0  ~/hosts
+|4,52,49,0,1624692549,"~/hosts"
+'5  49  0  ~/hosts
+|4,53,49,0,1624692549,"~/hosts"
+'6  49  0  ~/hosts
+|4,54,49,0,1624692549,"~/hosts"
+'7  1  2  ~/hosts
+|4,55,1,2,1624692205,"~/hosts"
+'8  1  2  ~/hosts
+|4,56,1,2,1624692205,"~/hosts"
+'9  1  2  ~/hosts
+|4,57,1,2,1624692205,"~/hosts"
 
 # Jumplist (newest first):
--'  64  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/Rename.java
-|4,39,64,0,1624368120,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/Rename.java"
--'  1  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/Rename.java
-|4,39,1,0,1624367958,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/Rename.java"
--'  71  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/Append.java
-|4,39,71,0,1624367135,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/Append.java"
--'  71  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/Append.java
-|4,39,71,0,1624367135,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/Append.java"
--'  1  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/Append.java
-|4,39,1,0,1624367081,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/Append.java"
--'  1  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/Append.java
-|4,39,1,0,1624367081,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/Append.java"
--'  54  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/Touch.java
-|4,39,54,0,1624367074,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/Touch.java"
--'  54  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/Touch.java
-|4,39,54,0,1624367074,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/Touch.java"
--'  54  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/Touch.java
-|4,39,54,0,1624367074,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/Touch.java"
--'  54  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/Touch.java
-|4,39,54,0,1624367074,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/Touch.java"
--'  1  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/Touch.java
-|4,39,1,0,1624367028,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/Touch.java"
--'  1  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/Touch.java
-|4,39,1,0,1624367028,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/Touch.java"
--'  1  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/Touch.java
-|4,39,1,0,1624367028,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/Touch.java"
--'  1  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/Touch.java
-|4,39,1,0,1624367028,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/Touch.java"
--'  69  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/ListFiles.java
-|4,39,69,0,1624365780,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/ListFiles.java"
--'  69  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/ListFiles.java
-|4,39,69,0,1624365780,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/ListFiles.java"
--'  69  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/ListFiles.java
-|4,39,69,0,1624365780,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/ListFiles.java"
--'  69  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/ListFiles.java
-|4,39,69,0,1624365780,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/ListFiles.java"
--'  69  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/ListFiles.java
-|4,39,69,0,1624365780,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/ListFiles.java"
--'  69  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/ListFiles.java
-|4,39,69,0,1624365780,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/ListFiles.java"
--'  69  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/ListFiles.java
-|4,39,69,0,1624365780,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/ListFiles.java"
--'  69  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/ListFiles.java
-|4,39,69,0,1624365780,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/ListFiles.java"
--'  1  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/ListFiles.java
-|4,39,1,0,1624365744,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/ListFiles.java"
--'  1  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/ListFiles.java
-|4,39,1,0,1624365744,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/ListFiles.java"
--'  1  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/ListFiles.java
-|4,39,1,0,1624365744,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/ListFiles.java"
--'  1  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/ListFiles.java
-|4,39,1,0,1624365744,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/ListFiles.java"
--'  1  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/ListFiles.java
-|4,39,1,0,1624365744,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/ListFiles.java"
--'  1  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/ListFiles.java
-|4,39,1,0,1624365744,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/ListFiles.java"
--'  1  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/ListFiles.java
-|4,39,1,0,1624365744,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/ListFiles.java"
--'  1  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/ListFiles.java
-|4,39,1,0,1624365744,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/ListFiles.java"
--'  64  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java
-|4,39,64,0,1624356917,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java"
--'  64  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java
-|4,39,64,0,1624356917,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java"
--'  64  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java
-|4,39,64,0,1624356917,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java"
--'  64  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java
-|4,39,64,0,1624356917,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java"
--'  64  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java
-|4,39,64,0,1624356917,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java"
--'  64  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java
-|4,39,64,0,1624356917,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java"
--'  64  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java
-|4,39,64,0,1624356917,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java"
--'  64  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java
-|4,39,64,0,1624356917,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java"
--'  64  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java
-|4,39,64,0,1624356917,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java"
--'  64  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java
-|4,39,64,0,1624356917,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java"
--'  64  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java
-|4,39,64,0,1624356917,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java"
--'  64  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java
-|4,39,64,0,1624356917,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java"
--'  64  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java
-|4,39,64,0,1624356917,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java"
--'  64  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java
-|4,39,64,0,1624356917,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java"
--'  64  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java
-|4,39,64,0,1624356917,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java"
--'  64  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java
-|4,39,64,0,1624356917,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java"
--'  1  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java
-|4,39,1,0,1624356887,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java"
--'  1  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java
-|4,39,1,0,1624356887,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java"
--'  1  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java
-|4,39,1,0,1624356887,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java"
--'  1  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java
-|4,39,1,0,1624356887,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java"
--'  1  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java
-|4,39,1,0,1624356887,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java"
--'  1  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java
-|4,39,1,0,1624356887,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java"
--'  1  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java
-|4,39,1,0,1624356887,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java"
--'  1  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java
-|4,39,1,0,1624356887,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java"
--'  1  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java
-|4,39,1,0,1624356887,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java"
--'  1  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java
-|4,39,1,0,1624356887,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java"
--'  1  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java
-|4,39,1,0,1624356887,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java"
--'  1  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java
-|4,39,1,0,1624356887,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java"
--'  1  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java
-|4,39,1,0,1624356887,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java"
--'  1  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java
-|4,39,1,0,1624356887,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java"
--'  1  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java
-|4,39,1,0,1624356887,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java"
--'  1  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java
-|4,39,1,0,1624356887,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java"
--'  64  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java
-|4,39,64,0,1624356877,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java"
--'  64  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java
-|4,39,64,0,1624356877,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java"
--'  64  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java
-|4,39,64,0,1624356877,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java"
--'  64  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java
-|4,39,64,0,1624356877,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java"
--'  64  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java
-|4,39,64,0,1624356877,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java"
--'  64  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java
-|4,39,64,0,1624356877,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java"
--'  64  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java
-|4,39,64,0,1624356877,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java"
--'  64  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java
-|4,39,64,0,1624356877,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java"
--'  64  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java
-|4,39,64,0,1624356877,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java"
--'  64  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java
-|4,39,64,0,1624356877,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java"
--'  64  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java
-|4,39,64,0,1624356877,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java"
--'  64  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java
-|4,39,64,0,1624356877,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java"
--'  64  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java
-|4,39,64,0,1624356877,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java"
--'  64  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java
-|4,39,64,0,1624356877,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java"
--'  64  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java
-|4,39,64,0,1624356877,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java"
--'  64  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java
-|4,39,64,0,1624356877,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java"
--'  1  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java
-|4,39,1,0,1624356860,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java"
--'  1  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java
-|4,39,1,0,1624356860,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java"
--'  1  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java
-|4,39,1,0,1624356860,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java"
--'  1  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java
-|4,39,1,0,1624356860,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java"
--'  1  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java
-|4,39,1,0,1624356860,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java"
--'  1  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java
-|4,39,1,0,1624356860,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java"
--'  1  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java
-|4,39,1,0,1624356860,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java"
--'  1  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java
-|4,39,1,0,1624356860,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java"
--'  1  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java
-|4,39,1,0,1624356860,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java"
--'  1  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java
-|4,39,1,0,1624356860,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java"
--'  1  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java
-|4,39,1,0,1624356860,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java"
--'  1  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java
-|4,39,1,0,1624356860,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java"
--'  1  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java
-|4,39,1,0,1624356860,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java"
--'  1  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java
-|4,39,1,0,1624356860,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java"
--'  1  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java
-|4,39,1,0,1624356860,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java"
--'  1  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java
-|4,39,1,0,1624356860,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyToLocal.java"
--'  64  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyFromLocal.java
-|4,39,64,0,1624356646,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyFromLocal.java"
--'  64  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyFromLocal.java
-|4,39,64,0,1624356646,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyFromLocal.java"
--'  64  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyFromLocal.java
-|4,39,64,0,1624356646,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyFromLocal.java"
--'  64  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyFromLocal.java
-|4,39,64,0,1624356646,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyFromLocal.java"
--'  64  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyFromLocal.java
-|4,39,64,0,1624356646,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyFromLocal.java"
--'  64  0  /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyFromLocal.java
-|4,39,64,0,1624356646,"/opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/CopyFromLocal.java"
+-'  49  0  ~/hosts
+|4,39,49,0,1624714668,"~/hosts"
+-'  1  0  ~/hosts
+|4,39,1,0,1624714659,"~/hosts"
+-'  9  0  /opt/apache-maven-3.0.5/work_place/hadoop-mapreduce-code/src/main/resources/log4j.properties
+|4,39,9,0,1624699314,"/opt/apache-maven-3.0.5/work_place/hadoop-mapreduce-code/src/main/resources/log4j.properties"
+-'  9  0  /opt/apache-maven-3.0.5/work_place/hadoop-mapreduce-code/src/main/resources/log4j.properties
+|4,39,9,0,1624699314,"/opt/apache-maven-3.0.5/work_place/hadoop-mapreduce-code/src/main/resources/log4j.properties"
+-'  1  0  /opt/apache-maven-3.0.5/work_place/hadoop-mapreduce-code/src/main/resources/log4j.properties
+|4,39,1,0,1624699309,"/opt/apache-maven-3.0.5/work_place/hadoop-mapreduce-code/src/main/resources/log4j.properties"
+-'  1  0  /opt/apache-maven-3.0.5/work_place/hadoop-mapreduce-code/src/main/resources/log4j.properties
+|4,39,1,0,1624699309,"/opt/apache-maven-3.0.5/work_place/hadoop-mapreduce-code/src/main/resources/log4j.properties"
+-'  1  0  ~/hosts
+|4,39,1,0,1624693601,"~/hosts"
+-'  1  0  ~/hosts
+|4,39,1,0,1624693601,"~/hosts"
+-'  49  0  ~/hosts
+|4,39,49,0,1624692549,"~/hosts"
+-'  49  0  ~/hosts
+|4,39,49,0,1624692549,"~/hosts"
+-'  49  0  ~/hosts
+|4,39,49,0,1624692549,"~/hosts"
+-'  49  0  ~/hosts
+|4,39,49,0,1624692549,"~/hosts"
+-'  1  0  ~/hosts
+|4,39,1,0,1624692536,"~/hosts"
+-'  1  0  ~/hosts
+|4,39,1,0,1624692536,"~/hosts"
+-'  1  2  ~/hosts
+|4,39,1,2,1624692205,"~/hosts"
+-'  1  2  ~/hosts
+|4,39,1,2,1624692205,"~/hosts"
+-'  49  0  ~/hosts
+|4,39,49,0,1624692186,"~/hosts"
+-'  49  0  ~/hosts
+|4,39,49,0,1624692186,"~/hosts"
+-'  4  0  ~/hosts
+|4,39,4,0,1624675092,"~/hosts"
+-'  4  0  ~/hosts
+|4,39,4,0,1624675092,"~/hosts"
+-'  4  0  ~/hosts
+|4,39,4,0,1624675092,"~/hosts"
+-'  4  0  ~/hosts
+|4,39,4,0,1624675092,"~/hosts"
+-'  4  0  ~/hosts
+|4,39,4,0,1624675092,"~/hosts"
+-'  4  0  ~/hosts
+|4,39,4,0,1624675092,"~/hosts"
+-'  4  0  ~/hosts
+|4,39,4,0,1624675092,"~/hosts"
+-'  4  0  ~/hosts
+|4,39,4,0,1624675092,"~/hosts"
+-'  4  0  ~/hosts
+|4,39,4,0,1624675092,"~/hosts"
+-'  1  0  ~/hosts
+|4,39,1,0,1624675081,"~/hosts"
+-'  1  0  ~/hosts
+|4,39,1,0,1624675081,"~/hosts"
+-'  33  0  /opt/hadoop-2.7.2/etc/hadoop/core-site.xml
+|4,39,33,0,1624668468,"/opt/hadoop-2.7.2/etc/hadoop/core-site.xml"
+-'  33  0  /opt/hadoop-2.7.2/etc/hadoop/core-site.xml
+|4,39,33,0,1624668468,"/opt/hadoop-2.7.2/etc/hadoop/core-site.xml"
+-'  33  0  /opt/hadoop-2.7.2/etc/hadoop/core-site.xml
+|4,39,33,0,1624668468,"/opt/hadoop-2.7.2/etc/hadoop/core-site.xml"
+-'  33  0  /opt/hadoop-2.7.2/etc/hadoop/core-site.xml
+|4,39,33,0,1624668468,"/opt/hadoop-2.7.2/etc/hadoop/core-site.xml"
+-'  33  0  /opt/hadoop-2.7.2/etc/hadoop/core-site.xml
+|4,39,33,0,1624668468,"/opt/hadoop-2.7.2/etc/hadoop/core-site.xml"
+-'  33  0  /opt/hadoop-2.7.2/etc/hadoop/core-site.xml
+|4,39,33,0,1624668468,"/opt/hadoop-2.7.2/etc/hadoop/core-site.xml"
+-'  33  0  /opt/hadoop-2.7.2/etc/hadoop/core-site.xml
+|4,39,33,0,1624668468,"/opt/hadoop-2.7.2/etc/hadoop/core-site.xml"
+-'  33  0  /opt/hadoop-2.7.2/etc/hadoop/core-site.xml
+|4,39,33,0,1624668468,"/opt/hadoop-2.7.2/etc/hadoop/core-site.xml"
+-'  33  0  /opt/hadoop-2.7.2/etc/hadoop/core-site.xml
+|4,39,33,0,1624668468,"/opt/hadoop-2.7.2/etc/hadoop/core-site.xml"
+-'  33  0  /opt/hadoop-2.7.2/etc/hadoop/core-site.xml
+|4,39,33,0,1624668468,"/opt/hadoop-2.7.2/etc/hadoop/core-site.xml"
+-'  33  0  /opt/hadoop-2.7.2/etc/hadoop/core-site.xml
+|4,39,33,0,1624668468,"/opt/hadoop-2.7.2/etc/hadoop/core-site.xml"
+-'  33  0  /opt/hadoop-2.7.2/etc/hadoop/core-site.xml
+|4,39,33,0,1624668468,"/opt/hadoop-2.7.2/etc/hadoop/core-site.xml"
+-'  33  0  /opt/hadoop-2.7.2/etc/hadoop/core-site.xml
+|4,39,33,0,1624668468,"/opt/hadoop-2.7.2/etc/hadoop/core-site.xml"
+-'  33  0  /opt/hadoop-2.7.2/etc/hadoop/core-site.xml
+|4,39,33,0,1624668468,"/opt/hadoop-2.7.2/etc/hadoop/core-site.xml"
+-'  33  0  /opt/hadoop-2.7.2/etc/hadoop/core-site.xml
+|4,39,33,0,1624668468,"/opt/hadoop-2.7.2/etc/hadoop/core-site.xml"
+-'  33  0  /opt/hadoop-2.7.2/etc/hadoop/core-site.xml
+|4,39,33,0,1624668468,"/opt/hadoop-2.7.2/etc/hadoop/core-site.xml"
+-'  33  0  /opt/hadoop-2.7.2/etc/hadoop/core-site.xml
+|4,39,33,0,1624668468,"/opt/hadoop-2.7.2/etc/hadoop/core-site.xml"
+-'  33  0  /opt/hadoop-2.7.2/etc/hadoop/core-site.xml
+|4,39,33,0,1624668468,"/opt/hadoop-2.7.2/etc/hadoop/core-site.xml"
+-'  33  0  /opt/hadoop-2.7.2/etc/hadoop/core-site.xml
+|4,39,33,0,1624668468,"/opt/hadoop-2.7.2/etc/hadoop/core-site.xml"
+-'  33  0  /opt/hadoop-2.7.2/etc/hadoop/core-site.xml
+|4,39,33,0,1624668468,"/opt/hadoop-2.7.2/etc/hadoop/core-site.xml"
+-'  33  0  /opt/hadoop-2.7.2/etc/hadoop/core-site.xml
+|4,39,33,0,1624668468,"/opt/hadoop-2.7.2/etc/hadoop/core-site.xml"
+-'  33  0  /opt/hadoop-2.7.2/etc/hadoop/core-site.xml
+|4,39,33,0,1624668468,"/opt/hadoop-2.7.2/etc/hadoop/core-site.xml"
+-'  33  0  /opt/hadoop-2.7.2/etc/hadoop/core-site.xml
+|4,39,33,0,1624668468,"/opt/hadoop-2.7.2/etc/hadoop/core-site.xml"
+-'  33  0  /opt/hadoop-2.7.2/etc/hadoop/core-site.xml
+|4,39,33,0,1624668468,"/opt/hadoop-2.7.2/etc/hadoop/core-site.xml"
+-'  33  0  /opt/hadoop-2.7.2/etc/hadoop/core-site.xml
+|4,39,33,0,1624668468,"/opt/hadoop-2.7.2/etc/hadoop/core-site.xml"
+-'  33  0  /opt/hadoop-2.7.2/etc/hadoop/core-site.xml
+|4,39,33,0,1624668468,"/opt/hadoop-2.7.2/etc/hadoop/core-site.xml"
+-'  33  0  /opt/hadoop-2.7.2/etc/hadoop/core-site.xml
+|4,39,33,0,1624668468,"/opt/hadoop-2.7.2/etc/hadoop/core-site.xml"
+-'  33  0  /opt/hadoop-2.7.2/etc/hadoop/core-site.xml
+|4,39,33,0,1624668468,"/opt/hadoop-2.7.2/etc/hadoop/core-site.xml"
+-'  33  0  /opt/hadoop-2.7.2/etc/hadoop/core-site.xml
+|4,39,33,0,1624668468,"/opt/hadoop-2.7.2/etc/hadoop/core-site.xml"
+-'  33  0  /opt/hadoop-2.7.2/etc/hadoop/core-site.xml
+|4,39,33,0,1624668468,"/opt/hadoop-2.7.2/etc/hadoop/core-site.xml"
+-'  33  0  /opt/hadoop-2.7.2/etc/hadoop/core-site.xml
+|4,39,33,0,1624668468,"/opt/hadoop-2.7.2/etc/hadoop/core-site.xml"
+-'  33  0  /opt/hadoop-2.7.2/etc/hadoop/core-site.xml
+|4,39,33,0,1624668468,"/opt/hadoop-2.7.2/etc/hadoop/core-site.xml"
+-'  33  0  /opt/hadoop-2.7.2/etc/hadoop/core-site.xml
+|4,39,33,0,1624668468,"/opt/hadoop-2.7.2/etc/hadoop/core-site.xml"
+-'  33  0  /opt/hadoop-2.7.2/etc/hadoop/core-site.xml
+|4,39,33,0,1624668468,"/opt/hadoop-2.7.2/etc/hadoop/core-site.xml"
+-'  33  0  /opt/hadoop-2.7.2/etc/hadoop/core-site.xml
+|4,39,33,0,1624668468,"/opt/hadoop-2.7.2/etc/hadoop/core-site.xml"
+-'  33  0  /opt/hadoop-2.7.2/etc/hadoop/core-site.xml
+|4,39,33,0,1624668468,"/opt/hadoop-2.7.2/etc/hadoop/core-site.xml"
+-'  33  0  /opt/hadoop-2.7.2/etc/hadoop/core-site.xml
+|4,39,33,0,1624668468,"/opt/hadoop-2.7.2/etc/hadoop/core-site.xml"
+-'  33  0  /opt/hadoop-2.7.2/etc/hadoop/core-site.xml
+|4,39,33,0,1624668468,"/opt/hadoop-2.7.2/etc/hadoop/core-site.xml"
+-'  33  0  /opt/hadoop-2.7.2/etc/hadoop/core-site.xml
+|4,39,33,0,1624668468,"/opt/hadoop-2.7.2/etc/hadoop/core-site.xml"
+-'  33  0  /opt/hadoop-2.7.2/etc/hadoop/core-site.xml
+|4,39,33,0,1624668468,"/opt/hadoop-2.7.2/etc/hadoop/core-site.xml"
+-'  33  0  /opt/hadoop-2.7.2/etc/hadoop/core-site.xml
+|4,39,33,0,1624668468,"/opt/hadoop-2.7.2/etc/hadoop/core-site.xml"
+-'  33  0  /opt/hadoop-2.7.2/etc/hadoop/core-site.xml
+|4,39,33,0,1624668468,"/opt/hadoop-2.7.2/etc/hadoop/core-site.xml"
+-'  33  0  /opt/hadoop-2.7.2/etc/hadoop/core-site.xml
+|4,39,33,0,1624668468,"/opt/hadoop-2.7.2/etc/hadoop/core-site.xml"
+-'  33  0  /opt/hadoop-2.7.2/etc/hadoop/core-site.xml
+|4,39,33,0,1624668468,"/opt/hadoop-2.7.2/etc/hadoop/core-site.xml"
+-'  33  0  /opt/hadoop-2.7.2/etc/hadoop/core-site.xml
+|4,39,33,0,1624668468,"/opt/hadoop-2.7.2/etc/hadoop/core-site.xml"
+-'  33  0  /opt/hadoop-2.7.2/etc/hadoop/core-site.xml
+|4,39,33,0,1624668468,"/opt/hadoop-2.7.2/etc/hadoop/core-site.xml"
+-'  33  0  /opt/hadoop-2.7.2/etc/hadoop/core-site.xml
+|4,39,33,0,1624668468,"/opt/hadoop-2.7.2/etc/hadoop/core-site.xml"
+-'  33  0  /opt/hadoop-2.7.2/etc/hadoop/core-site.xml
+|4,39,33,0,1624668468,"/opt/hadoop-2.7.2/etc/hadoop/core-site.xml"
+-'  33  0  /opt/hadoop-2.7.2/etc/hadoop/core-site.xml
+|4,39,33,0,1624668468,"/opt/hadoop-2.7.2/etc/hadoop/core-site.xml"
+-'  33  0  /opt/hadoop-2.7.2/etc/hadoop/core-site.xml
+|4,39,33,0,1624668468,"/opt/hadoop-2.7.2/etc/hadoop/core-site.xml"
+-'  33  0  /opt/hadoop-2.7.2/etc/hadoop/core-site.xml
+|4,39,33,0,1624668468,"/opt/hadoop-2.7.2/etc/hadoop/core-site.xml"
+-'  33  0  /opt/hadoop-2.7.2/etc/hadoop/core-site.xml
+|4,39,33,0,1624668468,"/opt/hadoop-2.7.2/etc/hadoop/core-site.xml"
+-'  33  0  /opt/hadoop-2.7.2/etc/hadoop/core-site.xml
+|4,39,33,0,1624668468,"/opt/hadoop-2.7.2/etc/hadoop/core-site.xml"
+-'  33  0  /opt/hadoop-2.7.2/etc/hadoop/core-site.xml
+|4,39,33,0,1624668468,"/opt/hadoop-2.7.2/etc/hadoop/core-site.xml"
+-'  33  0  /opt/hadoop-2.7.2/etc/hadoop/core-site.xml
+|4,39,33,0,1624668468,"/opt/hadoop-2.7.2/etc/hadoop/core-site.xml"
+-'  33  0  /opt/hadoop-2.7.2/etc/hadoop/core-site.xml
+|4,39,33,0,1624668468,"/opt/hadoop-2.7.2/etc/hadoop/core-site.xml"
+-'  33  0  /opt/hadoop-2.7.2/etc/hadoop/core-site.xml
+|4,39,33,0,1624668468,"/opt/hadoop-2.7.2/etc/hadoop/core-site.xml"
+-'  33  0  /opt/hadoop-2.7.2/etc/hadoop/core-site.xml
+|4,39,33,0,1624668468,"/opt/hadoop-2.7.2/etc/hadoop/core-site.xml"
+-'  33  0  /opt/hadoop-2.7.2/etc/hadoop/core-site.xml
+|4,39,33,0,1624668468,"/opt/hadoop-2.7.2/etc/hadoop/core-site.xml"
+-'  33  0  /opt/hadoop-2.7.2/etc/hadoop/core-site.xml
+|4,39,33,0,1624668468,"/opt/hadoop-2.7.2/etc/hadoop/core-site.xml"
+-'  33  0  /opt/hadoop-2.7.2/etc/hadoop/core-site.xml
+|4,39,33,0,1624668468,"/opt/hadoop-2.7.2/etc/hadoop/core-site.xml"
+-'  33  0  /opt/hadoop-2.7.2/etc/hadoop/core-site.xml
+|4,39,33,0,1624668468,"/opt/hadoop-2.7.2/etc/hadoop/core-site.xml"
+-'  33  0  /opt/hadoop-2.7.2/etc/hadoop/core-site.xml
+|4,39,33,0,1624668468,"/opt/hadoop-2.7.2/etc/hadoop/core-site.xml"
+-'  33  0  /opt/hadoop-2.7.2/etc/hadoop/core-site.xml
+|4,39,33,0,1624668468,"/opt/hadoop-2.7.2/etc/hadoop/core-site.xml"
+-'  1  0  /opt/hadoop-2.7.2/etc/hadoop/core-site.xml
+|4,39,1,0,1624668353,"/opt/hadoop-2.7.2/etc/hadoop/core-site.xml"
+-'  1  0  /opt/hadoop-2.7.2/etc/hadoop/core-site.xml
+|4,39,1,0,1624668353,"/opt/hadoop-2.7.2/etc/hadoop/core-site.xml"
+-'  1  0  /opt/hadoop-2.7.2/etc/hadoop/core-site.xml
+|4,39,1,0,1624668353,"/opt/hadoop-2.7.2/etc/hadoop/core-site.xml"
+-'  1  0  /opt/hadoop-2.7.2/etc/hadoop/core-site.xml
+|4,39,1,0,1624668353,"/opt/hadoop-2.7.2/etc/hadoop/core-site.xml"
+-'  1  0  /opt/hadoop-2.7.2/etc/hadoop/core-site.xml
+|4,39,1,0,1624668353,"/opt/hadoop-2.7.2/etc/hadoop/core-site.xml"
+-'  1  0  /opt/hadoop-2.7.2/etc/hadoop/core-site.xml
+|4,39,1,0,1624668353,"/opt/hadoop-2.7.2/etc/hadoop/core-site.xml"
+-'  1  0  /opt/hadoop-2.7.2/etc/hadoop/core-site.xml
+|4,39,1,0,1624668353,"/opt/hadoop-2.7.2/etc/hadoop/core-site.xml"
 
 # History of marks within files (newest to oldest):
+
+> ~/hosts
+	*	1624714668	0
+	"	49	0
+	^	49	0
+	.	49	0
+	+	5	11
+	+	6	0
+	+	5	11
+	+	4	1
+	+	51	0
+	+	50	11
+	+	4	0
+	+	49	0
+
+> /opt/apache-maven-3.0.5/work_place/hadoop-mapreduce-code/src/main/resources/log4j.properties
+	*	1624699313	0
+	"	9	0
+	^	9	0
+	.	8	76
+	+	8	76
+
+> /opt/hadoop-2.7.2/etc/hadoop/core-site.xml
+	*	1624668467	0
+	"	33	0
+	^	33	0
+	.	33	0
+	+	19	0
+	+	23	16
+	+	37	11
+	+	21	36
+	+	23	0
+	+	39	15
+	+	38	0
+	+	21	36
+	+	27	11
+	+	32	10
+	+	28	0
+	+	27	3
+	+	35	0
+	+	33	0
+
+> /etc/hosts
+	*	1624373705	0
+	"	4	1
+	^	4	2
+	.	4	1
+	+	5	0
+	+	7	0
+	+	5	1
+	+	7	11
+	+	5	12
+	+	4	1
+
+> ~/.git/config
+	*	1624373460	0
+	"	7	48
+	^	7	49
+	.	7	48
+	+	4	0
+	+	2	19
+	+	3	30
+	+	7	48
 
 > /opt/apache-maven-3.0.5/work_place/hdfs/src/main/java/com/lab5/operation/Rename.java
 	*	1624368120	0
@@ -471,17 +538,6 @@ $
 	"	61	0
 	.	1	0
 	+	1	0
-
-> /etc/hosts
-	*	1624352666	0
-	"	5	0
-	^	5	13
-	.	5	12
-	+	5	0
-	+	7	0
-	+	5	1
-	+	7	11
-	+	5	12
 
 > /opt/apache-maven-3.0.5/work_place/hdfs/src/main/resources/log4j.properties
 	*	1624334508	0
@@ -879,15 +935,6 @@ $
 	+	9	17
 	+	10	23
 
-> ~/hosts
-	*	1622864168	0
-	"	5	11
-	^	5	12
-	.	5	11
-	+	5	11
-	+	6	0
-	+	5	11
-
 > /etc/rc.local
 	*	1622861208	0
 	"	1	0
@@ -1124,20 +1171,6 @@ $
 	.	99	33
 	+	25	33
 	+	99	33
-
-> /opt/hadoop-2.7.2/etc/hadoop/core-site.xml
-	*	1622269599	0
-	"	21	27
-	^	21	37
-	.	21	36
-	+	19	0
-	+	23	16
-	+	28	11
-	+	21	36
-	+	23	0
-	+	30	15
-	+	29	0
-	+	21	36
 
 > /etc/profile.d/rds_start.sh
 	*	1622267894	0
@@ -1493,15 +1526,6 @@ $
 	+	2	33
 	+	1	22
 
-> ~/.git/config
-	*	1621679041	0
-	"	1	0
-	^	3	31
-	.	3	30
-	+	4	0
-	+	2	19
-	+	3	30
-
 > ~/hadoop-2.7.2/etc/hadoop/hadoop-env.sh
 	*	1621672929	0
 	"	1	0
@@ -1550,31 +1574,3 @@ $
 > /a.py
 	*	1621323751	0
 	"	1	0
-
-> ~/test.cpp
-	*	1621321387	0
-	"	27	14
-	^	27	15
-	.	25	0
-	+	31	0
-	+	21	12
-	+	27	17
-	+	27	12
-	+	28	11
-	+	27	23
-	+	21	20
-	+	22	3
-	+	27	5
-	+	23	4
-	+	27	0
-	+	27	23
-	+	28	0
-	+	23	24
-	+	27	0
-	+	24	11
-	+	29	2
-	+	24	15
-	+	25	10
-	+	26	0
-	+	25	10
-	+	25	0

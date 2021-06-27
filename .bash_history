@@ -1,365 +1,3 @@
-hadoop namenode -format 
-cd data/tmp/dfs/name/current/
-ls
-cat V
-cat VERSION 
-cdh
-sbin/hadoop-daemon.sh start namenode
-jps
-hostname
-sbin/hadoop-daemon.sh stop namenode
-vim /etc/hosts
-hadoop namenode -format 
-sbin/hadoop-daemon.sh start namenode
-jps
-starth
-hdfs -dfs -ls /
-hdfs dfs -ls /
-bin/hdfs dfs -mkdir -p /user/root/input
-bin/hdfs dfs -put ./wcinput/wc.input /user/root/input
-bin/hadoop jar share/hadoop/mapreduce/hadoop-mapreduce-examples-2.7.2.jar wordcout /user/root/input /user/root/output
-bin/hadoop jar share/hadoop/mapreduce/hadoop-mapreduce-examples-2.7.2.jar wordcount /user/root/input /user/root/output
-cd
-vim /etc/wsl.conf
-vim /etc/hosts
-vim /etc/wsl.conf
-vim /etc/hosts
-mv /etc/hosts ~
-vim /etc/hosts
-cp ~/hosts /etc
-vim /etc/hosts
-cd /etc/profile.d/
-ls
-vim rds_start.sh 
-cp rds_start.sh /etc/init.d/
-sysv-rc-conf rds_start.sh on
-vim /etc/hosts
-hostname
-cd /etc/profile.d/
-vim rds_start.sh 
-rds_start.sh 
-./rds_start.sh 
-vim rds_start.sh 
-./rds_start.sh 
-vim rds_start.sh 
-./rds_start.sh 
-vim rds_start.sh 
-./rds_start.sh 
-cp rds_start.sh /etc/init.d/
-sysv-rc-conf rds_start.sh on
-alias lc="ls"
-lc
-alias lc="echo "dui""
-lc
-starth
-hdfs dfs -ls /
-hdfs dfs -cat /user/root/output/p*
-stoph
-ip addr
-passwd
-java -version
-ls
-vim /etc/hosts
-cd /opt
-ls
-cd hadoop-2.7.2/
-ls'
-cd etc/hadoop/
-ls
-jps
-vim core-site.xml 
-clear
-vim hdfs-site.xml 
-vim hadoop-env.sh 
-echo $JAVA_HOME
-vim hadoop-env.sh 
-cd ../..
-sbin/start-dfs.sh 
-sbin/stop-dfs.sh
-jps
-sbin/hadoop-daemon.sh start namenode
-sbin/hadoop-daemon.sh start datanode
-jps
-clear
-hdfs dfs -mkdir /test
-ls
-cd etc/hadoop/
-ls
-vim yarn-site.xml 
-vim mapred-site.xml 
-cd ../..
-sbin/start-yarn.sh start resourcemanager
-jps
-sbin/mr-jobhistory-daemon.sh start historyserver
-jps
-clear
-hdfs dfs -mkdir -p /user/root/input0x00
-hdfs dfs -put etc/hadoop/* /user/root/input0x00
-hadoop jar share/
-hadoop jar share/hadoop/mapreduce/hadoop-mapreduce-examples-2.7.2.jar wordcount /user/root/input0x00 /user/root/output0x00
-clear
-hdfs dfs -cat /user/root/output0x00/part-r-00000
-ls
-cat /etc/hosts
-clear
-cd etc/hadoop/
-chd
-cdh
-ls
-cat ./etc/hadoop/yarn-site.xml 
-clear
-jps
-stoph
-clear
-passwd
-sh DESKTOP-TSQQRSN
-ssh DESKTOP-TSQQRSN 
-cdh
-cd etc/hadoop/
-ls
-cat hdfs-site.xml 
-cat yarn-site.xml 
-cat mapred-site.xml 
-vim mapred-site.xml 
-cdh
-starth
-cdh
-cat etc/hadoop/mapred-site.xml 
-jps
-stoph
-ls
-ps -e |grep ssh
-sudo apt-get install ssh
-cd /etc/init.d status
-/etc/init.d status
-cd /etc
-ls
-cd ssh
-cd ..
-cd .ssh
-cd ssh
-ls
-vi ssh_config
-cd
-cdh
-ls
-cd /etc/ssh
-ls
-vi sshd_config
-vi ssh_config
-ssh localhost
-ls
-cd bin/
-ls
-cat autoStartHadoop.sh 
-cat autoStopHadoop.sh 
-cat autorunc.sh 
-cat autorunpy.sh.sh 
-cat autorunpy.sh
-d
-cd
-sshd
-apt-get update
-apt-get upgrade
-ls
-cd
-clear
-history
-log
-apt-get update
-apt-get upgrade
-cd /opt
-ls
-java -version
-clear
-ls
-java
-java --version
-java -version
-clear
-ls
-hadoop
-hadoop -version
-hadoop --version
-hadoop version
-cdh
-clear
-ls
-mkdir input
-cp etc/hadoop/*.xml input
-bin/hadoop jar share/hadoop/mapreduce/hadoop-mapreduce-examples-2.7.2.jar grep input output 'dfs[a-z.]+'
-clear
-starth
-rmdir input
-rmdir -r input
-rmdir -rf input
-rm -rf input
-ls
-clear
-mkdir input
-cp etc/hadoop/*.xml input
-hadoop jar share/hadoop/mapreduce/hadoop-mapreduce-examples-2.7.2.jar grep input output 'dfs[a-z.]+'
-hadoop dfs -ls /
-hdfs dfs -ls /user/root
-hdfs dfs -rm -r output input
-hdfs dfs -ls /user/root
-hadoop jar share/hadoop/mapreduce/hadoop-mapreduce-examples-2.7.2.jar grep input output 'dfs[a-z.]+'
-hdfs dfs -put input /user/root
-hdfs dfs -ls /user/root
-hadoop jar share/hadoop/mapreduce/hadoop-mapreduce-examples-2.7.2.jar grep input output 'dfs[a-z.]+'
-hdfs dfs -ls /user/root
-hdfs dfs -d /user/root/output .
-hdfs dfs -get /user/root/output .
-ls
-clear
-ls
-cd output/
-ls
-cat p*
-cdh
-hdfs dfs -put wcinput /user/root
-hdfs dfs -ls /user/root
-cd
-cdh
-clear
-ls
-cat wcinput/wc.input 
-hadoop jar share/hadoop/mapreduce/hadoop-mapreduce-examples-2.7.2.jar wordcount wcinput wcoutput
-hdfs dfs -ls /user/root
-hdfs dfs -get /user/root/wcoutput .
-ls
-clear
-ls
-cd wcoutput/
-ls
-cat part-r-00000 
-clear
-cdh
-clear
-jps
-clear
-ls
-hdfs -dfs -rm -r input output
-hdfs dfs -rm -r input output
-clear
-ls
-hdfs dfs -put input /user/root
-hdfs dfs -ls /user/root
-hadoop jar share/hadoop/mapreduce/hadoop-mapreduce-examples-2.7.2.jar grep input output 'dfs[a-z.]+'
-hdfs dfs -ls /user/root
-hdfs dfs -ls /user/root/output
-hdfs dfs -cat /user/root/output/p*
-clear
-hdfs dfs -rm wcoutput/
-hdfs dfs -rm -r wcoutput/
-hdfs dfs -ls /user/root
-hdfs dfs -rm wcinput/
-hdfs dfs -rm -r wcinput/
-ls
-clear
-hdfs -dfs -put wcinput /user/root/
-clear
-hdfs dfs -put wcinput /user/root/
-hdfs dfs -ls /user/root
-hadoop jar share/hadoop/mapreduce/hadoop-mapreduce-examples-2.7.2.jar wordcount wcinput wcoutput
-hdfs dfs -ls /user/root
-hdfs dfs -ls /user/root/wcoutput
-hdfs dfs -cat /user/root/wcoutput/p*
-stoph
-cdh
-ls
-ll
-clear
-java -version
-cd
-ls
-cd /opt
-ls
-ad apache-maven-3.0.5/
-cd apache-maven-3.0.5/
-ls
-cd
-cd /etc/profile.d/
-ls
-vim maven.sh
-mvn -v
-cd ..
-ls
-. profile
-clear
-mvn -h
-mvn -v
-clear
-mvn -v
-cd /opt/apache-maven-3.0.5/
-ls
-cd conf
-ls
-vim settings.xml 
-vim ~/.bashrc 
-source ~/.bashrc 
-cd
-cda
-cdm
-clear
-cd
-ls
-cd code/
-ls
-mkdir java
-cd java/
-ls
-vim HelloWorld
-vim HelloWorld.java
-javac HelloWorld.java
-java HelloWorld
-cd
-ls
-cd bin
-ls
-vim autorunjava.sh
-cd
-vim .bashrc 
-source .bashrc 
-cd code/
-ls
-cd java/
-ls
-rm *.class
-ls
-runjava HelloWorld.java 
-cd
-cd bin/
-ls
-chmod +x autorunjava.sh 
-cd 
-cd code/
-ls
-cd java/
-runjava HelloWorld.java 
-ls
-runjava HelloWorld.java 
-java HelloWorld 
-cd 
-cd bin/
-vim autorunjava.sh 
-cd /code
-cd ~/code/
-ls
-cd java/
-ls
-runjava HelloWorld.
-runjava HelloWorld.java 
-ls
-cd ..
-mvn archetype:generate "-DgroupId=edu.nefu.hadoop" "-DartifactId=mavenTest" "-DarchetypeArtifactId=maven-archetype-quickstart" "-DinteractiveMode=false"
-ls
-cd java/
-ls
-mvn archetype:generate "-DgroupId=edu.nefu.hadoop" "-DartifactId=mavenTest" "-DarchetypeArtifactId=maven-archetype-quickstart" "-DinteractiveMode=false"
-ls
-cda
-cdm
 cd conf/
 ls
 vim settings.xml 
@@ -1998,3 +1636,365 @@ hadoop fs -mkdir /user
 java -cp target/hadoop-hdfs-code-1.0-SNAPSHOT-jar-with-dependencies.jar com.lab5.operation.Rename -s /pom.xml -d /user/pom.xml
 vim src/main/java/com/lab5/operation/Rename.java 
 stoph
+cd /opt
+git add .
+git commit -m "6.22" 
+git push origin master 
+git config --global http.sslverify false
+git config --global https.sslverify false
+git push origin master 
+git credential-manager uninstall
+git push origin master 
+cd
+git add .
+git commit -m "6.22"
+git push origin master 
+cd .git/
+ls
+cat config 
+vim config 
+cd
+git push origin master 
+git remote add origin https://github.com/AB-IN-lsy/NewUbantu.git
+git push origin master 
+cd .git/
+vim config 
+cd 
+git status
+git push origin master 
+git status 
+clear
+git push origin master 
+vim /etc/hosts
+ls
+vim hosts 
+reboot
+cat /etc/hosts
+vim hosts 
+cd /opt/
+git status
+git push origin master 
+apt-get update
+apt-get upgrade
+cdv
+git log
+git add .
+git commit -m "6.24"
+git push origin NEW 
+git status
+git log
+cd code/
+ls
+cd java/
+ls
+cd test/
+ls
+tree
+cd ..
+ls
+cd ..
+ls
+tree
+cd /opt/
+ls
+cd hadoop-2.7.2/
+cdm
+ls
+cd work_place/
+ls
+git clone https://github.com/lueyoung/2019-2020-2-hadoop.git
+ls
+ll
+cd 2019-2020-2-hadoop/
+ls
+ll
+rm .git/
+rm -r .git/
+ls
+ll
+cd hdfs/
+ll
+cd ..
+cd /opt/
+ll
+git add .
+git commit -m "luyang"
+git push origin master 
+ls
+cd
+git status
+git log
+cdv
+git push origin NEW 
+cdv
+git status
+git push origin NEW 
+ls
+git log
+cdm
+cdv
+cdh
+ll
+cdv
+cd examplefiles/
+ls
+./part1 t1.txt t1.obj 
+./printObjFile t1.obj 
+rm t2.obj 
+./part2 t2.asm t2.obj
+./printObjFile t2.obj 
+rm t3.obj 
+./part3 t3.asm t3.obj
+gcc -o part3 part3.c 
+./part3 t3.asm t3.obj
+./printObjFile t3.obj 
+cdh
+cd etc/hadoop/
+vim core-site.xml 
+cd
+jpa
+jps
+starth
+hdfs lsSnapshotableDir
+cdh
+hdfs lsSnapshotableDir
+stoph
+vim hosts 
+reboot
+cdm
+cd work_place/
+ls
+tree
+ls
+cdm
+cd work_place/
+git clone https://gitee.com/lueyoung/hadoop-mapreduce-code.git
+ls
+cd luyang/
+git clone https://gitee.com/lueyoung/hadoop-mapreduce-code.git
+cdm
+cd w
+cd work_place/
+ls
+rm -r Examples/
+ls
+cdm
+git add .
+cd work_place/luyang/hadoop-mapreduce-code/
+ls
+ll
+rm -r .git
+cdm
+clear
+git add .
+git commit -m "map-reduce-code"
+git push origin master 
+cdm
+cd w
+cd work_place/
+git push origin master 
+cdm
+git add .
+git commit -m "6.26tmp"
+git push origin master 
+vim ~/hosts 
+cdm
+git push origin master 
+cdm
+git push origin master 
+git config --global --unset http.proxy
+git config --global --unset https.proxy
+git push origin master 
+git config --global  --unset https.https://github.com.proxy 
+git config --global  --unset http.https://github.com.proxy 
+git push origin master 
+vim ~/hosts 
+cdm
+git push origin master 
+clear
+git status
+git add .
+git commit -m "6.26 2"
+git push origin master 
+cdm
+git push origin master 
+vim ~/hosts 
+cdm
+cd work_place/
+cd hadoop-mapreduce-code/
+ls
+tree
+cd target/
+ls
+cd ..
+cd src/main/java/edu/nefu/hadoop/
+cat WordcountDriver.java 
+cd /opt/apache-maven-3.0.5/work_place/hadoop-mapreduce-code
+clear
+tree
+mvn clean package
+cd
+cdm
+tree
+cdm
+cd work_place/
+cd hadoop-mapreduce-code/
+tree
+cd target/
+ll
+cd ..
+ls
+mvn clean package
+rm -r target
+tree
+java -cp target/
+clear
+tree
+rm -r target/
+mvn clean package
+ls
+mvn clean package
+ls
+cdm
+cd w
+cd work_place/
+ls
+cd hadoop-mapreduce-code/
+ls
+mvn clean package
+ls
+mkdir target
+rm -r target
+ll
+ls -a
+mkdir target
+rmdir target
+cdm
+cd work_place/
+ls
+cd hadoop-mapreduce-code/
+tree
+cd ..
+ls
+tree
+ls
+git clone https://gitee.com/lueyoung/hadoop-empirical-data.git
+starth
+java -cp hadoop-mapreduce-code-1.0-SNAPSHOT-jar-with-dependencies.jar edu.nefu.hadoop.Wordcount hadoop-empirical-data/fail2ban.log /output
+mv hadoop-mapreduce-code-1.0-SNAPSHOT-jar-with-dependencies.jar hadoop-mapreduce-code/
+ls
+cd hadoop-mapreduce-code/
+clear
+tree
+java -cp hadoop-mapreduce-code-1.0-SNAPSHOT-jar-with-dependencies.jar edu.nefu.hadoop.WordcountDriver ../hadoop-empirical-data/fail2ban.log /output
+vim src/main/resources/log4j.properties
+java -cp hadoop-mapreduce-code-1.0-SNAPSHOT-jar-with-dependencies.jar edu.nefu.hadoop.WordcountDriver ../hadoop-empirical-data/fail2ban.log /output
+ls
+ll target/
+java -cp hadoop-mapreduce-code-1.0-SNAPSHOT-jar-with-dependencies.jar edu.nefu.hadoop.WordcountDriver ../hadoop-empirical-data/fail2ban.log /0x00
+ls /
+cd /0x00/
+ls
+cat part-r-00000 
+ls
+cd /
+ls
+rm -r output/ 0x00/
+ls
+cd
+clear
+cdm
+cd work_place/
+ls
+cd hadoop-mapreduce-code/
+ls
+java hadoop-mapreduce-code-1.0-SNAPSHOT-jar-with-dependencies.jar edu.nefu.hadoop.WordcountDriver ../hadoop-empirical-data/fail2ban.log /output
+ls
+hadoop jar hadoop-mapreduce-code-1.0-SNAPSHOT-jar-with-dependencies.jar edu.nefu.hadoop.WordcountDriver ../hadoop-empirical-data/fail2ban.log /output
+ls
+mv hadoop-mapreduce-code-1.0-SNAPSHOT-jar-with-dependencies.jar $HADOOP_HOME$
+ls
+cdh
+ls
+$HADOOP_HOME$
+echo $HADOOP_HOME$
+tree
+clear
+ls
+bin/hadoop jar hadoop-mapreduce-code-1.0-SNAPSHOT-jar-with-dependencies.jar hadoop-empirical-data/fail2ban.log /output
+ls /
+mkdir input
+ls
+cd input/
+ls
+cd
+cdh
+rm -r input/
+ls
+mkdir input
+cp hadoop-empirical-data/fail2ban.log input/
+ls
+bin/hadoop jar hadoop-mapreduce-code-1.0-SNAPSHOT-jar-with-dependencies.jar edu.nefu.hadoop.WordcountDriver input /output
+hadoop fs -put input
+hadoop fs -put input /
+bin/hadoop jar hadoop-mapreduce-code-1.0-SNAPSHOT-jar-with-dependencies.jar edu.nefu.hadoop.WordcountDriver /input /output
+hadoop fs -cat /output/p*
+ls
+rm hadoop-mapreduce-code-1.0-SNAPSHOT-jar-with-dependencies.jar 
+ls
+cd output/
+ls
+ll
+cd ..
+rm -r output/
+ls
+mkdir input1
+cp hadoop-empirical-data/nums.txt input1/
+rm -r hadoop-empirical-data/
+ls
+cat input1/nums.txt 
+cdm
+ls
+cd work_place/
+ls
+cd luyang/
+ls
+git clone https://github.com/lueyoung/hadoop-mr-codes.git
+ls
+cd hadoop-mapreduce-code/
+ls
+cd ../hadoop-mr-codes/
+ls
+cd src/
+tree
+cd main/java/com/young/mr/sort/
+ls
+cd
+stoph
+ls
+cdm
+git push origin master 
+vim ~/hosts 
+cd work_place/
+cd luyang/
+ls
+cd hdfs/
+ls
+tree
+cat src/main/java/com/lab5/operation/Rename.java 
+cdm
+git push origin master 
+git push origin master 1
+git push origin master 
+starth
+apt-get update
+apt-get upgrade
+clear
+cdm
+cd ..
+git push origin master 
+cd /opt
+git push origin master 
+cd /opt
+jps
+git push origin master 
